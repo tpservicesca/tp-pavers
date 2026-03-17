@@ -1,26 +1,57 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-brand-orange: #ea580c;
+  --color-brand-orange-light: #fb923c;
+  --color-brand-orange-dark: #E16E1A;
+  --color-brand-orange-hover: #c2410c;
+  --color-brand-gold: #e7ac3c;
+  --color-brand-black: #1a1a1a;
+
+  --font-poppins: var(--font-poppins-var);
+  --font-oswald: var(--font-oswald-var);
+  --font-redhat: var(--font-redhat-var);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Gallery Modal animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease;
+}
+
+/* FAQ answer transition */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.faq-answer.open {
+  max-height: 300px;
+}
+
+/* Service features checkmark */
+.service-feature::before {
+  content: '\2713';
+  color: var(--color-brand-orange);
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 1.1rem;
+  flex-shrink: 0;
 }
