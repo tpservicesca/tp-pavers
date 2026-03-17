@@ -29,7 +29,11 @@ export const metadata: Metadata = {
   description:
     "Quality materials that stand the test of time. Professional pavers, retaining walls, and landscaping services in the San Francisco Bay Area.",
   icons: {
-    icon: "/images/cropped-TP-32x32.png",
+    icon: [
+      { url: "/images/cropped-TP-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/images/tp-pavers-logo-192.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: "/images/tp-pavers-logo-180.png",
   },
 };
 
