@@ -41,41 +41,4 @@ export const galleryData: Record<string, GalleryCategory> = {
       '/images/S4.png',
     ],
   },
-  L: {
-    name: 'Landscaping Projects',
-    images: [
-      '/images/L1.png',
-      '/images/L2.png',
-      '/images/L3.png',
-      '/images/L4.png',
-      '/images/L5.png',
-      '/images/L7.png',
-    ],
-  },
-  D: {
-    name: 'Drainage System',
-    images: [
-      '/images/D1.png',
-      '/images/D2.png',
-      '/images/D3.png',
-      '/images/D5.png',
-      '/images/D6.png',
-    ],
-  },
-  E: {
-    name: 'Demolition & Excavation',
-    images: [
-      '/images/E1.png',
-      '/images/E2.png',
-      '/images/E3.png',
-      '/images/E4.png',
-      '/images/E5.png',
-      '/images/E6.png',
-      '/images/E7.png',
-      '/images/E8.png',
-      '/images/E9.png',
-      '/images/E10.png',
-      '/images/E11.png',
-    ],
-  },
 };

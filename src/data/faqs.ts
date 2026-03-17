@@ -19,8 +19,8 @@ export const faqsColumn1: FAQ[] = [
     answer: 'Yes, we stand behind our work and materials. Warranty terms depend on the type of service and will be detailed in your estimate.',
   },
   {
-    question: 'Do you handle demolition and excavation of existing concrete, grass, or other surfaces?',
-    answer: 'Yes! We handle demolition and excavation for a variety of surfaces. Project scope and duration depend on site conditions.',
+    question: 'Do you handle removal of existing concrete, grass, or other surfaces?',
+    answer: 'Yes! We can remove and prepare existing surfaces before starting your new project. Scope and duration depend on site conditions.',
   },
   {
     question: 'Is synthetic turf safe for kids and pets?',
