@@ -55,7 +55,7 @@ export default function Header() {
           <div className="flex items-center">
             <a href="#">
               <Image
-                src="/images/Copia-de-Logo-TP-Dumpsters-10.png"
+                src="/images/tp-pavers-logo-192.png"
                 alt="TP Pavers Services California"
                 width={200}
                 height={70}
