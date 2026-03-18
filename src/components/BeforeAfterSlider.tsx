@@ -86,7 +86,9 @@ export default function BeforeAfterSlider({
         fill
         className="object-cover"
         sizes="100vw"
+        quality={95}
         priority
+        unoptimized
       />
 
       {/* Before image (clipped) */}
@@ -100,8 +102,10 @@ export default function BeforeAfterSlider({
           fill
           className="object-cover"
           sizes="100vw"
+          quality={95}
           style={{ minWidth: containerRef.current ? `${containerRef.current.offsetWidth}px` : "100vw" }}
           priority
+          unoptimized
         />
       </div>
 
