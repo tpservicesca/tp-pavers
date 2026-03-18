@@ -10,6 +10,8 @@ const BeforeAfterSlider = dynamic(() => import("./BeforeAfterSlider"), {
 interface Props {
   beforeSrc: string;
   afterSrc: string;
+  beforeSrcMobile?: string;
+  afterSrcMobile?: string;
   beforeAlt?: string;
   afterAlt?: string;
 }

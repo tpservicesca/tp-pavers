@@ -6,6 +6,8 @@ import Image from "next/image";
 interface Props {
   beforeSrc: string;
   afterSrc: string;
+  beforeSrcMobile?: string;
+  afterSrcMobile?: string;
   beforeAlt?: string;
   afterAlt?: string;
 }
@@ -13,12 +15,22 @@ interface Props {
 export default function BeforeAfterSlider({
   beforeSrc,
   afterSrc,
+  beforeSrcMobile,
+  afterSrcMobile,
   beforeAlt = "Before",
   afterAlt = "After",
 }: Props) {
   const [sliderPos, setSliderPos] = useState(25);
   const [isDragging, setIsDragging] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
 
   const updatePosition = useCallback((clientX: number) => {
     if (!containerRef.current) return;
@@ -81,12 +93,11 @@ export default function BeforeAfterSlider({
     >
       {/* After image (full background) */}
       <Image
-        src={afterSrc}
+        src={isMobile && afterSrcMobile ? afterSrcMobile : afterSrc}
         alt={afterAlt}
         fill
         className="object-cover"
         sizes="100vw"
-        quality={95}
         priority
         unoptimized
       />
@@ -97,12 +108,11 @@ export default function BeforeAfterSlider({
         style={{ width: `${sliderPos}%` }}
       >
         <Image
-          src={beforeSrc}
+          src={isMobile && beforeSrcMobile ? beforeSrcMobile : beforeSrc}
           alt={beforeAlt}
           fill
           className="object-cover"
           sizes="100vw"
-          quality={95}
           style={{ minWidth: containerRef.current ? `${containerRef.current.offsetWidth}px` : "100vw" }}
           priority
           unoptimized

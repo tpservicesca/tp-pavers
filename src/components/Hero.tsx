@@ -13,6 +13,8 @@ export default function Hero() {
         <DynamicBeforeAfterSlider
           beforeSrc="/images/hero-before.jpg"
           afterSrc="/images/hero-after.jpg"
+          beforeSrcMobile="/images/hero-before-mobile.jpg"
+          afterSrcMobile="/images/hero-after-mobile.jpg"
           beforeAlt="Backyard before paver installation - bare dirt and construction"
           afterAlt="Backyard after paver installation - beautiful patio with fire pit"
         />
