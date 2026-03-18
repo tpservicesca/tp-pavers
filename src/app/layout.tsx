@@ -25,15 +25,63 @@ const redHatDisplay = Red_Hat_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Pavers in California! - TP Services",
+  title: "Professional Paver Installation in California | TP Services",
   description:
-    "Quality materials that stand the test of time. Professional pavers, retaining walls, and landscaping services in the San Francisco Bay Area.",
+    "Expert paver installation, retaining walls, hardscape design & synthetic turf in the San Francisco Bay Area. 20+ years experience. 10-year warranty. Free estimates. Serving Contra Costa County & Tri-Valley.",
+  keywords: [
+    "paver installation California",
+    "Bay Area pavers",
+    "patio pavers San Francisco",
+    "retaining wall contractor",
+    "hardscape design",
+    "synthetic turf installation",
+    "driveway pavers",
+    "TP Services California",
+    "Contra Costa County pavers",
+    "San Ramon pavers",
+    "Dublin paver installation",
+    "Pleasanton hardscape",
+    "Danville patio installation",
+    "Livermore pavers",
+    "Alamo hardscape contractor",
+  ],
   icons: {
     icon: [
       { url: "/images/cropped-TP-32x32.png", sizes: "32x32", type: "image/png" },
       { url: "/images/tp-pavers-logo-192.png", sizes: "192x192", type: "image/png" },
     ],
     apple: "/images/tp-pavers-logo-180.png",
+  },
+  openGraph: {
+    title: "Professional Paver Installation | TP Services California",
+    description:
+      "Transform your outdoor space with expert paver installation, retaining walls & hardscape design. 20+ years experience in the Bay Area. Free estimates.",
+    url: "https://tppavers.com",
+    siteName: "TP Services California",
+    locale: "en_US",
+    type: "website",
+    images: [
+      {
+        url: "https://tppavers.com/images/P1.png",
+        width: 1200,
+        height: 630,
+        alt: "TP Services - Professional Paver Installation in California",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Professional Paver Installation | TP Services California",
+    description:
+      "Expert paver installation, retaining walls & hardscape design in the Bay Area. 20+ years experience. Free estimates.",
+    images: ["https://tppavers.com/images/P1.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://tppavers.com",
   },
 };
 
@@ -74,6 +122,112 @@ export default function RootLayout({
         </Script>
       </head>
       <body className="text-[#333] bg-white leading-[1.7] antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: "TP Services California",
+              description:
+                "Professional paver installation, retaining walls, hardscape design and synthetic turf in the San Francisco Bay Area. 20+ years experience with 10-year warranty.",
+              url: "https://tppavers.com",
+              telephone: "+1-510-650-2083",
+              email: "dumpster@tpservicesca.com",
+              image: "https://tppavers.com/images/P1.png",
+              logo: "https://tppavers.com/images/tp-pavers-logo-192.png",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "3201 Ramona Street",
+                addressLocality: "Pinole",
+                addressRegion: "CA",
+                postalCode: "94564",
+                addressCountry: "US",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: 38.004366,
+                longitude: -122.298858,
+              },
+              areaServed: [
+                "San Ramon",
+                "Dublin",
+                "Pleasanton",
+                "Livermore",
+                "Alamo",
+                "Danville",
+                "Walnut Creek",
+                "Concord",
+                "Pinole",
+                "Oakland",
+                "Berkeley",
+                "Richmond",
+              ],
+              priceRange: "$$",
+              openingHoursSpecification: {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                ],
+                opens: "07:00",
+                closes: "18:00",
+              },
+              hasOfferCatalog: {
+                "@type": "OfferCatalog",
+                name: "Paver & Hardscape Services",
+                itemListElement: [
+                  {
+                    "@type": "Offer",
+                    itemOffered: {
+                      "@type": "Service",
+                      name: "Paver Installation",
+                      description:
+                        "Custom paver installation for patios, driveways, walkways and outdoor spaces.",
+                    },
+                  },
+                  {
+                    "@type": "Offer",
+                    itemOffered: {
+                      "@type": "Service",
+                      name: "Retaining Walls",
+                      description:
+                        "Engineered retaining walls for stability, safety and landscape design.",
+                    },
+                  },
+                  {
+                    "@type": "Offer",
+                    itemOffered: {
+                      "@type": "Service",
+                      name: "Synthetic Turf Installation",
+                      description:
+                        "Premium artificial turf installation for lawns, pet areas and play spaces.",
+                    },
+                  },
+                  {
+                    "@type": "Offer",
+                    itemOffered: {
+                      "@type": "Service",
+                      name: "Concrete Work",
+                      description:
+                        "Professional concrete work including driveways, patios, walkways and foundations.",
+                    },
+                  },
+                ],
+              },
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "5",
+                reviewCount: "50",
+                bestRating: "5",
+              },
+            }),
+          }}
+        />
         {children}
       </body>
     </html>
