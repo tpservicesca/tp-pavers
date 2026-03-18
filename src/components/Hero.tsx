@@ -1,5 +1,3 @@
-import { FileText, Phone } from 'lucide-react';
-import { TrackLink } from './TrackLink';
 import DynamicBeforeAfterSlider from './DynamicBeforeAfterSlider';
 
 export default function Hero() {
@@ -34,26 +32,7 @@ export default function Hero() {
         <p className="text-xl text-white/90 mb-[35px] leading-[1.5] font-normal">
           Custom projects with professional<br />quality &amp; lifetime guarantee
         </p>
-        <div className="flex gap-[15px] justify-center flex-wrap max-[480px]:flex-col max-[480px]:w-full max-[480px]:max-w-[300px] pointer-events-auto">
-          <TrackLink
-            href="#contact"
-            event="get_quote_click"
-            category="Engagement"
-            label="Get a quote - Hero"
-            className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-full text-base font-semibold bg-brand-orange text-white hover:bg-brand-orange-hover hover:-translate-y-0.5 transition-all duration-300"
-          >
-            <FileText size={18} /> Get a quote
-          </TrackLink>
-          <TrackLink
-            href="tel:+15106502083"
-            event="phone_call"
-            category="Contact"
-            label="tel:+15106502083"
-            className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-full text-base font-semibold bg-brand-orange text-white hover:bg-brand-orange-hover hover:-translate-y-0.5 transition-all duration-300"
-          >
-            <Phone size={18} /> Call now
-          </TrackLink>
-        </div>
+
       </div>
 
       {/* Drag hint */}

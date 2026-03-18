@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import CallNowStrip from '@/components/CallNowStrip';
 import Services from '@/components/Services';
 import About from '@/components/About';
 import Gallery from '@/components/Gallery';
@@ -13,8 +14,7 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      {/* Orange Divider */}
-      <div className="h-[55px] bg-brand-orange-dark" />
+      <CallNowStrip />
       <Services />
       <About />
       <Gallery />
