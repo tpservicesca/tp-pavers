@@ -1,18 +1,28 @@
 import { FileText, Phone } from 'lucide-react';
 import { TrackLink } from './TrackLink';
+import DynamicBeforeAfterSlider from './DynamicBeforeAfterSlider';
 
 export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-[90vh] flex flex-col justify-center items-center bg-cover bg-center bg-no-repeat pt-[100px] px-5 pb-0 overflow-hidden"
-      style={{ backgroundImage: "url('/images/L1.png')" }}
+      className="relative min-h-[90vh] flex flex-col justify-center items-center pt-[100px] px-5 pb-0 overflow-hidden"
     >
-      {/* Dark overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/35 to-black/50 z-[1]" />
+      {/* Before/After Slider as background */}
+      <div className="absolute inset-0 z-0">
+        <DynamicBeforeAfterSlider
+          beforeSrc="/images/hero-before.jpg"
+          afterSrc="/images/hero-after.jpg"
+          beforeAlt="Backyard before paver installation - bare dirt and construction"
+          afterAlt="Backyard after paver installation - beautiful patio with fire pit"
+        />
+      </div>
+
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60 z-[1] pointer-events-none" />
 
       {/* Content */}
-      <div className="relative z-[2] text-center max-w-[900px] flex-grow flex flex-col justify-center items-center">
+      <div className="relative z-[2] text-center max-w-[900px] flex-grow flex flex-col justify-center items-center pointer-events-none">
         <div className="inline-block bg-[rgba(200,160,40,0.75)] text-white px-10 sm:px-40 py-[3px] rounded-[10px] text-lg font-semibold mb-[30px] tracking-[0.5px] backdrop-blur-[4px]">
           + 20 years of experience
         </div>
@@ -22,7 +32,7 @@ export default function Hero() {
         <p className="text-xl text-white/90 mb-[35px] leading-[1.5] font-normal">
           Custom projects with professional<br />quality &amp; lifetime guarantee
         </p>
-        <div className="flex gap-[15px] justify-center flex-wrap max-[480px]:flex-col max-[480px]:w-full max-[480px]:max-w-[300px]">
+        <div className="flex gap-[15px] justify-center flex-wrap max-[480px]:flex-col max-[480px]:w-full max-[480px]:max-w-[300px] pointer-events-auto">
           <TrackLink
             href="#contact"
             event="get_quote_click"
@@ -42,6 +52,11 @@ export default function Hero() {
             <Phone size={18} /> Call now
           </TrackLink>
         </div>
+      </div>
+
+      {/* Drag hint */}
+      <div className="relative z-[2] mb-4 text-white/70 text-sm font-medium animate-pulse pointer-events-none">
+        ← Drag to compare Before &amp; After →
       </div>
 
       {/* Features Bar */}
