@@ -6,12 +6,12 @@ export default function Services() {
     <section id="services" className="py-20 bg-slate-50">
       <div className="max-w-[1200px] mx-auto px-5">
         <div className="text-brand-gold text-sm font-bold uppercase tracking-[2px] mb-2 text-center font-redhat">
-          SERVICES
+          FEATURED SERVICES:
         </div>
         <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-[50px] leading-[1.2]">
-          Complete Outdoor Project Services
+          Expert Paver Installation for Patios, Driveways &amp; Outdoor Spaces
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[30px] max-w-[900px] mx-auto">
           {services.map((service) => (
             <div
               key={service.id}
