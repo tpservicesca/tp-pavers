@@ -37,9 +37,17 @@ export default function About() {
             <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-5 leading-[1.2]">
               Our History
             </h2>
-            <p className="text-slate-600 text-[0.95rem] leading-[1.8] mb-10">
-              TP Services California is a family-owned business with over 20 years of experience transforming outdoor spaces throughout the San Francisco Bay Area. Established in Pinole, California, we have worked alongside the most recognized companies in the industry such as MR. Pavers, System Pavers, and Black Diamond, which has allowed us to offer the same professional quality but with the personalized service of a family business and more affordable prices. We back our work with a 10-year warranty because we believe that a job well done should last forever.
-            </p>
+            <div className="text-slate-600 text-[0.95rem] leading-[1.8] mb-10 space-y-4">
+              <p>
+                TP Services California is a family-owned company with over 20 years of experience specializing in outdoor transformations across the San Francisco Bay Area. Based in Pinole, California, we provide high-quality paver installation, hardscape design, and landscaping services tailored to enhance residential and commercial properties.
+              </p>
+              <p>
+                Our team is committed to delivering durable, visually appealing outdoor spaces using premium materials and expert craftsmanship. We combine professional-grade results with personalized customer service and competitive pricing, making us a trusted choice for homeowners throughout the Bay Area.
+              </p>
+              <p>
+                At TP Services California, we stand behind our work with a 10-year warranty, ensuring long-lasting results and complete customer satisfaction.
+              </p>
+            </div>
             <CounterAnimation />
             <Reviews />
           </div>
