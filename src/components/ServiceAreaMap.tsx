@@ -3,6 +3,14 @@
 import { useEffect, useRef, useState } from 'react';
 import { MapPin } from 'lucide-react';
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+declare global {
+  interface Window {
+    google?: any;
+    initMap?: () => void;
+  }
+}
+
 interface CityInfo {
   name: string;
   lat: number;
@@ -73,21 +81,21 @@ export default function ServiceAreaMap() {
     script.async = true;
     script.defer = true;
 
-    (window as unknown as Record<string, () => void>).initMap = () => {
+    window.initMap = () => {
       setMapLoaded(true);
     };
 
     document.head.appendChild(script);
 
     return () => {
-      delete (window as unknown as Record<string, () => void>).initMap;
+      delete window.initMap;
     };
   }, []);
 
   useEffect(() => {
     if (!mapLoaded || !mapRef.current || !window.google?.maps) return;
 
-    const map = new google.maps.Map(mapRef.current, {
+    const map = new window.google.maps.Map(mapRef.current, {
       center: { lat: 37.7500, lng: -121.9500 },
       zoom: 11,
       styles: [
@@ -112,12 +120,12 @@ export default function ServiceAreaMap() {
     });
 
     cities.forEach((city) => {
-      const marker = new google.maps.Marker({
+      const marker = new window.google.maps.Marker({
         position: { lat: city.lat, lng: city.lng },
         map,
         title: city.name,
         icon: {
-          path: google.maps.SymbolPath.CIRCLE,
+          path: window.google.maps.SymbolPath.CIRCLE,
           scale: 12,
           fillColor: '#E8740C',
           fillOpacity: 1,
@@ -126,7 +134,7 @@ export default function ServiceAreaMap() {
         },
       });
 
-      const infoWindow = new google.maps.InfoWindow({
+      const infoWindow = new window.google.maps.InfoWindow({
         content: `
           <div style="padding: 8px; max-width: 220px; font-family: sans-serif;">
             <h3 style="margin: 0 0 6px 0; font-size: 16px; color: #1a1a1a;">${city.name}</h3>
