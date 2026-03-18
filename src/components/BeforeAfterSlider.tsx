@@ -111,18 +111,18 @@ export default function BeforeAfterSlider({
         style={{ left: `${sliderPos}%`, transform: "translateX(-50%)" }}
       >
         {/* Handle */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full shadow-lg flex items-center justify-center pointer-events-none">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" className="sm:w-6 sm:h-6">
             <path d="M8 4l-6 8 6 8M16 4l6 8-6 8" stroke="#333" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
       </div>
 
       {/* Labels */}
-      <div className="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-sm text-white text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">
+      <div className="absolute top-20 sm:top-4 left-4 z-10 bg-black/60 backdrop-blur-sm text-white text-[10px] sm:text-xs font-bold px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full uppercase tracking-wider">
         Before
       </div>
-      <div className="absolute top-4 right-4 z-10 bg-brand-orange/90 backdrop-blur-sm text-white text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">
+      <div className="absolute top-20 sm:top-4 right-4 z-10 bg-brand-orange/90 backdrop-blur-sm text-white text-[10px] sm:text-xs font-bold px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full uppercase tracking-wider">
         After
       </div>
     </div>

@@ -55,12 +55,12 @@ export default function Hero() {
       </div>
 
       {/* Drag hint */}
-      <div className="relative z-[2] mb-4 text-white/70 text-sm font-medium animate-pulse pointer-events-none">
+      <div className="relative z-[2] mb-2 sm:mb-4 text-white/70 text-xs sm:text-sm font-medium animate-pulse pointer-events-none">
         ← Drag to compare Before &amp; After →
       </div>
 
       {/* Features Bar */}
-      <div className="relative z-[2] flex flex-col lg:flex-row gap-5 lg:gap-10 bg-[rgba(50,50,50,0.25)] backdrop-blur-[8px] rounded-xl py-[35px] px-5 lg:px-[50px] mt-0.5 mb-10 max-w-[1000px] w-full">
+      <div className="relative z-[2] flex flex-col lg:flex-row gap-4 lg:gap-10 bg-[rgba(30,30,30,0.6)] backdrop-blur-[8px] rounded-xl py-5 sm:py-[35px] px-4 sm:px-5 lg:px-[50px] mt-0.5 mb-6 sm:mb-10 max-w-[1000px] w-full">
         <FeatureItem
           title="Durability"
           description="Quality materials that stand the test of time"
