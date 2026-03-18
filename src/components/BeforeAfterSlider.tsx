@@ -16,7 +16,7 @@ export default function BeforeAfterSlider({
   beforeAlt = "Before",
   afterAlt = "After",
 }: Props) {
-  const [sliderPos, setSliderPos] = useState(50);
+  const [sliderPos, setSliderPos] = useState(25);
   const [isDragging, setIsDragging] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
