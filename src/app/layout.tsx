@@ -80,6 +80,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  verification: {
+    google: "google562f2deb42b843bc",
+  },
   alternates: {
     canonical: "https://tppavers.com",
   },
