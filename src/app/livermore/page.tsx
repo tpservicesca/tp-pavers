@@ -3,7 +3,10 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CallNowStrip from '@/components/CallNowStrip';
 import ServiceAreaMap from '@/components/ServiceAreaMap';
-import { MapPin, Phone, CheckCircle, Star, ArrowRight, Shield, Clock, Hammer } from 'lucide-react';
+import DynamicBeforeAfterSlider from '@/components/DynamicBeforeAfterSlider';
+import Gallery from '@/components/Gallery';
+import { MapPin, Phone, CheckCircle, ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Paver Installation in Livermore, CA | TP Services California',
@@ -74,7 +77,6 @@ const jsonLd = {
   areaServed: {
     '@type': 'City',
     name: 'Livermore',
-    '@id': 'https://en.wikipedia.org/wiki/Livermore,_California',
   },
   priceRange: '$$',
   aggregateRating: {
@@ -87,22 +89,22 @@ const jsonLd = {
 
 const services = [
   {
-    icon: <Hammer size={28} />,
+    image: '/images/P1.webp',
     title: 'Paver Driveways',
     description: 'Custom interlocking paver driveways designed to enhance your Livermore home\'s curb appeal and withstand heavy use.',
   },
   {
-    icon: <Star size={28} />,
+    image: '/images/P2.webp',
     title: 'Patios & Walkways',
     description: 'Beautiful outdoor living spaces with premium pavers, perfect for Livermore\'s warm climate and wine country lifestyle.',
   },
   {
-    icon: <Shield size={28} />,
+    image: '/images/R2.webp',
     title: 'Retaining Walls',
     description: 'Engineered retaining walls for Livermore\'s varied terrain. Prevent erosion and create stunning tiered landscapes.',
   },
   {
-    icon: <Clock size={28} />,
+    image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description: 'Drought-resistant artificial turf installation. Save water and maintenance costs while keeping a green lawn year-round.',
   },
@@ -157,20 +159,39 @@ export default function LivermorePage() {
       />
       <Header />
 
-      {/* Hero */}
-      <section className="relative min-h-[60vh] flex items-center justify-center bg-gradient-to-br from-brand-black via-slate-800 to-brand-black pt-24 pb-16 px-5">
-        <div className="absolute inset-0 bg-[url('/images/P1.webp')] bg-cover bg-center opacity-20" />
-        <div className="relative z-10 text-center max-w-[900px]">
-          <div className="inline-flex items-center gap-2 bg-brand-orange/90 text-white px-6 py-2 rounded-full text-sm font-semibold mb-6">
+      {/* Hero with Before/After Slider */}
+      <section
+        id="home"
+        className="relative min-h-[85vh] flex flex-col justify-center items-center pt-[100px] px-5 pb-0 overflow-hidden"
+      >
+        {/* Before/After Slider as background */}
+        <div className="absolute inset-0 z-0">
+          <DynamicBeforeAfterSlider
+            beforeSrc="/images/hero-before.jpg"
+            afterSrc="/images/hero-after.jpg"
+            beforeSrcMobile="/images/hero-before-mobile.jpg"
+            afterSrcMobile="/images/hero-after-mobile.jpg"
+            beforeAlt="Backyard before paver installation in Livermore"
+            afterAlt="Backyard after paver installation in Livermore - beautiful patio"
+          />
+        </div>
+
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60 z-[1] pointer-events-none" />
+
+        {/* Content */}
+        <div className="relative z-[2] text-center max-w-[900px] flex-grow flex flex-col justify-center items-center pointer-events-none">
+          <div className="inline-flex items-center gap-2 bg-brand-orange/90 text-white px-6 py-2 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm">
             <MapPin size={16} /> Serving Livermore, CA
           </div>
-          <h1 className="font-oswald text-[2.2rem] sm:text-[3.5rem] lg:text-[4.5rem] font-bold text-white leading-[1.05] mb-5 uppercase tracking-[1px]">
-            Expert Paver Installation<br />in Livermore
+          <h1 className="font-oswald text-[2.2rem] sm:text-[3.5rem] lg:text-[5rem] font-bold text-white leading-[1.05] mb-5 uppercase tracking-[2px]">
+            EXPERT PAVER<br />INSTALLATION<br />IN LIVERMORE
           </h1>
-          <p className="text-lg sm:text-xl text-white/85 mb-8 leading-relaxed max-w-[700px] mx-auto">
-            Transform your outdoor spaces with premium paver installation. Driveways, patios, walkways & retaining walls. 20+ years of experience in the Tri-Valley.
+          <p className="text-lg sm:text-xl text-white/90 mb-8 leading-relaxed max-w-[700px] mx-auto">
+            Transform your outdoor spaces with premium paver installation.<br />
+            Driveways, patios, walkways &amp; retaining walls.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center pointer-events-auto">
             <a
               href="tel:+15106502083"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5"
@@ -185,11 +206,16 @@ export default function LivermorePage() {
             </a>
           </div>
         </div>
+
+        {/* Drag hint */}
+        <div className="relative z-[2] mb-4 text-white/70 text-xs sm:text-sm font-medium animate-pulse pointer-events-none">
+          ← Drag to compare Before &amp; After →
+        </div>
       </section>
 
       <CallNowStrip />
 
-      {/* Why Livermore Trusts Us */}
+      {/* Services with Images */}
       <section className="py-20 bg-white">
         <div className="max-w-[1100px] mx-auto px-5">
           <div className="text-brand-gold text-sm font-bold uppercase tracking-[2px] mb-2 text-center font-redhat">
@@ -206,13 +232,22 @@ export default function LivermorePage() {
             {services.map((service, i) => (
               <div
                 key={i}
-                className="flex gap-5 p-6 rounded-2xl bg-slate-50 hover:bg-brand-orange/5 transition-colors duration-300 border border-slate-100"
+                className="group rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-xl transition-all duration-300 border border-slate-100"
               >
-                <div className="flex-shrink-0 w-14 h-14 rounded-xl bg-brand-orange/10 text-brand-orange flex items-center justify-center">
-                  {service.icon}
+                <div className="relative h-[220px] overflow-hidden">
+                  <Image
+                    src={service.image}
+                    alt={`${service.title} in Livermore, CA`}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+                  <h3 className="absolute bottom-4 left-5 text-xl font-bold text-white drop-shadow-lg">
+                    {service.title}
+                  </h3>
                 </div>
-                <div>
-                  <h3 className="text-lg font-bold text-brand-black mb-2">{service.title}</h3>
+                <div className="p-5">
                   <p className="text-slate-600 text-sm leading-relaxed">{service.description}</p>
                 </div>
               </div>
@@ -243,8 +278,21 @@ export default function LivermorePage() {
         </div>
       </section>
 
-      {/* Neighborhoods */}
+      {/* Gallery */}
       <section className="py-20 bg-slate-50">
+        <div className="max-w-[1200px] mx-auto px-5">
+          <div className="text-brand-gold text-sm font-bold uppercase tracking-[2px] mb-2 text-center font-redhat">
+            OUR WORK
+          </div>
+          <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-10 leading-[1.2]">
+            Recent Projects in the Bay Area
+          </h2>
+          <Gallery />
+        </div>
+      </section>
+
+      {/* Neighborhoods */}
+      <section className="py-20 bg-white">
         <div className="max-w-[1100px] mx-auto px-5">
           <div className="text-brand-gold text-sm font-bold uppercase tracking-[2px] mb-2 text-center font-redhat">
             SERVICE AREA
@@ -256,7 +304,7 @@ export default function LivermorePage() {
             {neighborhoods.map((hood) => (
               <span
                 key={hood}
-                className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-white rounded-full text-sm font-semibold text-brand-black border border-slate-200 hover:border-brand-orange transition-colors"
+                className="inline-flex items-center gap-1.5 px-5 py-2.5 bg-slate-50 rounded-full text-sm font-semibold text-brand-black border border-slate-200 hover:border-brand-orange transition-colors"
               >
                 <MapPin size={14} className="text-brand-orange" /> {hood}
               </span>
@@ -264,13 +312,13 @@ export default function LivermorePage() {
           </div>
           <div className="text-center">
             <p className="text-slate-500 text-sm mb-2">ZIP Codes: {zipCodes.join(', ')}</p>
-            <p className="text-slate-500 text-sm">Also serving: Pleasanton, Dublin, San Ramon, Danville & surrounding Tri-Valley areas</p>
+            <p className="text-slate-500 text-sm">Also serving: Pleasanton, Dublin, San Ramon, Danville &amp; surrounding Tri-Valley areas</p>
           </div>
         </div>
       </section>
 
       {/* FAQs */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-slate-50">
         <div className="max-w-[900px] mx-auto px-5">
           <div className="text-brand-gold text-sm font-bold uppercase tracking-[2px] mb-2 text-center font-redhat">
             FAQ
@@ -287,7 +335,7 @@ export default function LivermorePage() {
               >
                 <summary className="flex items-center justify-between px-6 py-5 cursor-pointer bg-white hover:bg-slate-50 transition-colors font-semibold text-brand-black text-[15px]">
                   {faq.question}
-                  <CheckCircle size={18} className="text-brand-orange flex-shrink-0 ml-3 group-open:rotate-180 transition-transform" />
+                  <CheckCircle size={18} className="text-brand-orange flex-shrink-0 ml-3" />
                 </summary>
                 <div className="px-6 pb-5 text-slate-600 text-sm leading-relaxed">
                   {faq.answer}
