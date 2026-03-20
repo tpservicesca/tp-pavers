@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-[1200px] mx-auto px-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
         {/* Company Info */}
         <div>
-          <h3 className="text-brand-orange text-[1.15rem] font-bold mb-[18px]">TP Services California</h3>
+          <h3 className="text-brand-orange text-[1.15rem] font-bold mb-[18px]">TP Pavers</h3>
           <p className="mb-2 text-[0.9rem] leading-[1.6]">
             Professional pavers, retaining walls, and landscaping services in the San Francisco Bay Area.
           </p>
@@ -62,7 +62,7 @@ export default function Footer() {
 
       <div className="border-t border-slate-500 text-center py-5 mt-5">
         <p className="text-[0.85rem] text-white/60">
-          &copy; 2024 TP Services California. All rights reserved. Licensed &amp; Insured.
+          &copy; 2024 TP Pavers. All rights reserved. Licensed &amp; Insured.
         </p>
       </div>
     </footer>

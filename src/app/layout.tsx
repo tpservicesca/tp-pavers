@@ -25,7 +25,7 @@ const redHatDisplay = Red_Hat_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Professional Paver Installation in California | TP Services",
+  title: "Professional Paver Installation in California | TP Pavers",
   description:
     "Expert paver installation, retaining walls, hardscape design & synthetic turf in the San Francisco Bay Area. 20+ years experience. 10-year warranty. Free estimates. Serving Contra Costa County & Tri-Valley.",
   keywords: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     "hardscape design",
     "synthetic turf installation",
     "driveway pavers",
-    "TP Services California",
+    "TP Pavers",
     "Contra Costa County pavers",
     "San Ramon pavers",
     "Dublin paver installation",
@@ -53,11 +53,11 @@ export const metadata: Metadata = {
     apple: "/images/tp-pavers-logo-180.png",
   },
   openGraph: {
-    title: "Professional Paver Installation | TP Services California",
+    title: "Professional Paver Installation | TP Pavers",
     description:
       "Transform your outdoor space with expert paver installation, retaining walls & hardscape design. 20+ years experience in the Bay Area. Free estimates.",
     url: "https://tppavers.com",
-    siteName: "TP Services California",
+    siteName: "TP Pavers",
     locale: "en_US",
     type: "website",
     images: [
@@ -65,13 +65,13 @@ export const metadata: Metadata = {
         url: "https://tppavers.com/images/P1.png",
         width: 1200,
         height: 630,
-        alt: "TP Services - Professional Paver Installation in California",
+        alt: "TP Pavers - Professional Paver Installation in California",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Professional Paver Installation | TP Services California",
+    title: "Professional Paver Installation | TP Pavers",
     description:
       "Expert paver installation, retaining walls & hardscape design in the Bay Area. 20+ years experience. Free estimates.",
     images: ["https://tppavers.com/images/P1.png"],
@@ -148,7 +148,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              name: "TP Services California",
+              name: "TP Pavers",
               description:
                 "Professional paver installation, retaining walls, hardscape design and synthetic turf in the San Francisco Bay Area. 20+ years experience with 10-year warranty.",
               url: "https://tppavers.com",

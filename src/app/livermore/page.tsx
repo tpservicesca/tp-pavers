@@ -9,7 +9,7 @@ import { MapPin, Phone, CheckCircle, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Paver Installation in Livermore, CA | TP Services California',
+  title: 'Paver Installation in Livermore, CA | TP Pavers',
   description:
     'Professional paver installation in Livermore, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving Livermore and Tri-Valley.',
   keywords: [
@@ -25,11 +25,11 @@ export const metadata: Metadata = {
     'hardscape livermore ca',
   ],
   openGraph: {
-    title: 'Paver Installation in Livermore, CA | TP Services',
+    title: 'Paver Installation in Livermore, CA | TP Pavers',
     description:
       'Expert paver installation in Livermore. Driveways, patios, walkways & retaining walls. 20+ years experience. Free estimates.',
     url: 'https://tppavers.com/livermore',
-    siteName: 'TP Services California',
+    siteName: 'TP Pavers',
     locale: 'en_US',
     type: 'website',
     images: [
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Paver Installation in Livermore | TP Services',
+    title: 'Paver Installation in Livermore | TP Pavers',
     description: 'Expert paver installation in Livermore, CA. Free estimates. 10-year warranty.',
     images: ['https://tppavers.com/images/P1.webp'],
   },
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  name: 'TP Services California - Livermore',
+  name: 'TP Pavers - Livermore',
   description:
     'Professional paver installation, retaining walls, hardscape design and synthetic turf in Livermore, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/livermore',
@@ -222,7 +222,7 @@ export default function LivermorePage() {
             LIVERMORE PAVERS
           </div>
           <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-6 leading-[1.2]">
-            Why Livermore Homeowners Trust TP Services
+            Why Livermore Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
             Livermore is known for its beautiful wine country landscapes and warm Tri-Valley climate. Our team understands the unique needs of Livermore properties — from drought-resistant solutions to designs that complement the area&apos;s natural beauty.

@@ -39,13 +39,13 @@ export default function About() {
             </h2>
             <div className="text-slate-600 text-[0.95rem] leading-[1.8] mb-10 space-y-4">
               <p>
-                TP Services California is a family-owned company with over 20 years of experience specializing in outdoor transformations across the San Francisco Bay Area. Based in Pinole, California, we provide high-quality paver installation, hardscape design, and landscaping services tailored to enhance residential and commercial properties.
+                TP Pavers is a family-owned company with over 20 years of experience specializing in outdoor transformations across the San Francisco Bay Area. Based in Pinole, California, we provide high-quality paver installation, hardscape design, and landscaping services tailored to enhance residential and commercial properties.
               </p>
               <p>
                 Our team is committed to delivering durable, visually appealing outdoor spaces using premium materials and expert craftsmanship. We combine professional-grade results with personalized customer service and competitive pricing, making us a trusted choice for homeowners throughout the Bay Area.
               </p>
               <p>
-                At TP Services California, we stand behind our work with a 10-year warranty, ensuring long-lasting results and complete customer satisfaction.
+                At TP Pavers, we stand behind our work with a 10-year warranty, ensuring long-lasting results and complete customer satisfaction.
               </p>
             </div>
             <CounterAnimation />
