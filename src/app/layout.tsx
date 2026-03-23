@@ -118,19 +118,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-WYM186DG5B');
-            gtag('config', 'AW-17134217839');
           `}
         </Script>
-        {/* Event snippet for Page view conversion */}
+        {/* Google Ads conversion tag — add when Pavers campaigns go live
         <Script id="gtag-conversion" strategy="afterInteractive">
-          {`
+          {${'`'}
+            gtag('config', 'AW-XXXXXXXXXX');
             gtag('event', 'conversion', {
-              'send_to': 'AW-17134217839/EtBFCMDt_-EaEO_Uneo_',
+              'send_to': 'AW-XXXXXXXXXX/CONVERSION_LABEL',
               'value': 1.0,
               'currency': 'USD'
             });
-          `}
+          ${'`'}}
         </Script>
+        */}
       </head>
       <body className="text-[#333] bg-white leading-[1.7] antialiased">
         {/* Google Tag Manager (noscript) */}
