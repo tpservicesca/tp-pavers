@@ -9,28 +9,28 @@ import { MapPin, Phone, CheckCircle, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Paver Installation in San Lorenzo, CA | TP Pavers',
+  title: 'Paver Installation in Albany, CA | TP Pavers',
   description:
-    'Professional paver installation in San Lorenzo, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all San Lorenzo neighborhoods.',
+    'Professional paver installation in Albany, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Albany neighborhoods.',
   keywords: [
-    'pavers san lorenzo',
-    'san lorenzo pavers',
-    'paver installation san lorenzo',
-    'paver contractor san lorenzo',
-    'driveway pavers san lorenzo ca',
-    'patio pavers san lorenzo',
+    'pavers albany',
+    'albany pavers',
+    'paver installation albany',
+    'paver contractor albany',
+    'driveway pavers albany ca',
+    'patio pavers albany',
     'paver installation near me',
     'driveway pavers near me',
     'pavers patio',
-    'backyard pavers san lorenzo',
-    'retaining wall san lorenzo',
-    'hardscape san lorenzo ca',
+    'backyard pavers albany',
+    'retaining wall albany',
+    'hardscape albany ca',
   ],
   openGraph: {
-    title: 'Paver Installation in San Lorenzo, CA | TP Pavers',
+    title: 'Paver Installation in Albany, CA | TP Pavers',
     description:
-      'Expert paver installation in San Lorenzo. Driveways, patios, walkways & retaining walls. 20+ years experience. Free estimates.',
-    url: 'https://tppavers.com/san-lorenzo',
+      'Expert paver installation in Albany. Driveways, patios, walkways & retaining walls. 20+ years experience. Free estimates.',
+    url: 'https://tppavers.com/albany',
     siteName: 'TP Pavers',
     locale: 'en_US',
     type: 'website',
@@ -39,46 +39,46 @@ export const metadata: Metadata = {
         url: 'https://tppavers.com/images/P1.webp',
         width: 1200,
         height: 630,
-        alt: 'Professional Paver Installation in San Lorenzo, California',
+        alt: 'Professional Paver Installation in Albany, California',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Paver Installation in San Lorenzo | TP Pavers',
-    description: 'Expert paver installation in San Lorenzo, CA. Free estimates. 10-year warranty.',
+    title: 'Paver Installation in Albany | TP Pavers',
+    description: 'Expert paver installation in Albany, CA. Free estimates. 10-year warranty.',
     images: ['https://tppavers.com/images/P1.webp'],
   },
   alternates: {
-    canonical: 'https://tppavers.com/san-lorenzo',
+    canonical: 'https://tppavers.com/albany',
   },
 };
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  name: 'TP Pavers - San Lorenzo',
+  name: 'TP Pavers - Albany',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in San Lorenzo, California. 20+ years experience with 10-year warranty.',
-  url: 'https://tppavers.com/san-lorenzo',
+    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Albany, California. 20+ years experience with 10-year warranty.',
+  url: 'https://tppavers.com/albany',
   telephone: '+1-510-650-2083',
   email: 'dumpster@tpservicesca.com',
   image: 'https://tppavers.com/images/P1.webp',
   address: {
     '@type': 'PostalAddress',
-    addressLocality: 'San Lorenzo',
+    addressLocality: 'Albany',
     addressRegion: 'CA',
-    postalCode: '94580',
+    postalCode: '94706',
     addressCountry: 'US',
   },
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: 37.681,
-    longitude: -122.1244,
+    latitude: 37.8869,
+    longitude: -122.2978,
   },
   areaServed: {
     '@type': 'City',
-    name: 'San Lorenzo',
+    name: 'Albany',
   },
   priceRange: '$$',
   aggregateRating: {
@@ -94,71 +94,71 @@ const services = [
     image: '/images/projects/driveway-multicolor.webp',
     title: 'Paver Driveways',
     description:
-      'Upgrade your San Lorenzo home with a custom interlocking paver driveway. From the classic homes of San Lorenzo Village to the properties near Bohannon Manor, our driveways are built to handle daily traffic and elevate your curb appeal.',
+      'Upgrade your Albany home with a custom interlocking paver driveway. From the bustling Solano Avenue corridor to the residential streets near Albany Hill and Ocean View, our driveways add lasting beauty and enhance your property value.',
   },
   {
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      'Design the perfect outdoor living space for San Lorenzo\'s pleasant Bay Area climate. Whether you\'re in the Hillside area or near the Ashland border, we create beautiful backyard patios and front walkways that last decades.',
+      'Design the perfect outdoor living space for Albany\'s mild climate. Whether you\'re near Cerrito Creek or in the heart of this charming small city, we create beautiful patios and walkways that extend your living space year-round.',
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
     title: 'Retaining Walls',
     description:
-      'San Lorenzo\'s varied terrain, especially in the Hillside neighborhoods, benefits from expert structural solutions. Our retaining walls prevent erosion, create usable tiered landscapes, and add lasting value to your property.',
+      'Albany properties, especially near Albany Hill, benefit from expertly constructed retaining walls. We build structural and decorative walls that prevent erosion, add landscape tiers, and maximize usable outdoor space.',
   },
   {
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      'Save water and keep your San Lorenzo lawn green year-round. Our premium artificial turf is perfect for families and pets throughout Bohannon Manor and San Lorenzo Village, ideal for California\'s drought-conscious lifestyle.',
+      'Save water and enjoy a lush green lawn year-round in Albany. Our premium artificial turf is perfect for families and pets in this pedestrian-friendly community — an eco-friendly choice for sustainable Bay Area living.',
   },
 ];
 
 const faqs = [
   {
-    question: 'How much do pavers cost in San Lorenzo, CA?',
+    question: 'How much do pavers cost in Albany, CA?',
     answer:
-      'Paver installation costs in San Lorenzo depend on the project size, materials chosen, and site preparation needed. Whether it\'s a driveway in San Lorenzo Village or a patio in Bohannon Manor, we provide free on-site estimates with transparent pricing. Most San Lorenzo homeowners find pavers offer excellent long-term value compared to poured concrete.',
+      'Paver installation costs in Albany depend on the project size, materials chosen, and site preparation needed. We provide free on-site estimates with transparent pricing for driveways, patios, and walkways throughout Albany. Most homeowners find pavers an excellent investment in their property.',
   },
   {
-    question: 'What neighborhoods in San Lorenzo do you serve?',
+    question: 'What neighborhoods in Albany do you serve?',
     answer:
-      'We serve all of San Lorenzo including Bohannon Manor, Hillside, the Ashland border area, and San Lorenzo Village. We also cover neighboring cities like San Leandro, Hayward, and Castro Valley.',
+      'We serve all of Albany including Solano Avenue, Albany Hill, Ocean View, Cerrito Creek, and every residential neighborhood in this charming small city. We also cover neighboring cities like Berkeley, El Cerrito, Kensington, and Richmond.',
   },
   {
-    question: 'How long does a paver driveway installation take in San Lorenzo?',
+    question: 'How long does a paver patio installation take in Albany?',
     answer:
-      'Most residential paver projects in San Lorenzo — driveways, patios, or walkways — are completed in 1 to 2 weeks depending on size and complexity. We handle everything from demo to final sealing. A detailed timeline is provided after your free consultation.',
+      'Most residential paver projects in Albany — driveways, patios, or walkways — are completed in 1 to 2 weeks depending on size and complexity. We handle everything from demo to final sealing. A detailed timeline is provided after your free consultation.',
   },
   {
-    question: 'What paver materials work best for San Lorenzo\'s climate?',
+    question: 'Are pavers a good choice for Albany\'s walkable community?',
     answer:
-      'San Lorenzo enjoys a mild Mediterranean climate with warm, dry summers and cool, wet winters. Concrete pavers and natural stone are excellent choices — both are durable, slip-resistant when sealed, and low-maintenance. We help you select materials that perform beautifully in the East Bay climate.',
+      'Absolutely. Albany is a pedestrian-friendly community, and pavers create beautiful, durable walkways and driveways that complement the city\'s character. We offer a wide range of styles from classic to contemporary that enhance your home and neighborhood.',
   },
   {
-    question: 'Do you offer a warranty on San Lorenzo paver installations?',
+    question: 'Do you offer a warranty on Albany paver installations?',
     answer:
-      'Yes. Every paver installation in San Lorenzo comes with our 10-year warranty covering both labor and materials. We stand behind the quality of our work and use only premium-grade products for every project.',
+      'Yes. Every paver installation in Albany comes with our 10-year warranty covering both labor and materials. We stand behind the quality of our work and use only premium-grade products.',
   },
   {
-    question: 'Can you build retaining walls in San Lorenzo?',
+    question: 'Can you install pavers on Albany Hill properties?',
     answer:
-      'Absolutely. San Lorenzo\'s terrain — especially in the Hillside neighborhoods and areas bordering the eastern hills — can benefit from retaining walls. We design and build structural walls that prevent erosion, add usable yard space, and complement your landscape beautifully.',
+      'Yes, we specialize in hillside installations. Albany Hill and other sloped properties require expert foundation work and retaining walls. We have extensive experience working on Albany\'s varied terrain and deliver beautiful, lasting results.',
   },
 ];
 
 const neighborhoods = [
-  'Bohannon Manor',
-  'Hillside',
-  'Ashland border',
-  'San Lorenzo Village',
+  'Solano Avenue',
+  'Albany Hill',
+  'Ocean View',
+  'Cerrito Creek',
 ];
 
-const zipCodes = ['94580'];
+const zipCodes = ['94706'];
 
-export default function SanLorenzoPage() {
+export default function AlbanyPage() {
   return (
     <>
       <script
@@ -178,8 +178,8 @@ export default function SanLorenzoPage() {
             afterSrc="/images/hero-after.jpg"
             beforeSrcMobile="/images/hero-before-mobile.jpg"
             afterSrcMobile="/images/hero-after-mobile.jpg"
-            beforeAlt="Backyard before paver installation in San Lorenzo"
-            afterAlt="Backyard after paver installation in San Lorenzo - beautiful patio"
+            beforeAlt="Backyard before paver installation in Albany"
+            afterAlt="Backyard after paver installation in Albany - beautiful patio"
           />
         </div>
 
@@ -187,10 +187,10 @@ export default function SanLorenzoPage() {
 
         <div className="relative z-[2] text-center max-w-[900px] flex-grow flex flex-col justify-center items-center pointer-events-none">
           <div className="inline-flex items-center gap-2 bg-brand-orange/90 text-white px-6 py-2 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm">
-            <MapPin size={16} /> Serving San Lorenzo, CA
+            <MapPin size={16} /> Serving Albany, CA
           </div>
           <h1 className="font-oswald text-[2.2rem] sm:text-[3.5rem] lg:text-[5rem] font-bold text-white leading-[1.05] mb-5 uppercase tracking-[2px]">
-            EXPERT PAVER<br />INSTALLATION<br />IN SAN LORENZO
+            EXPERT PAVER<br />INSTALLATION<br />IN ALBANY
           </h1>
           <p className="text-lg sm:text-xl text-white/90 mb-8 leading-relaxed max-w-[700px] mx-auto">
             Transform your outdoor spaces with premium paver installation.<br />
@@ -223,13 +223,13 @@ export default function SanLorenzoPage() {
       <section className="py-20 bg-white">
         <div className="max-w-[1100px] mx-auto px-5">
           <div className="text-brand-gold text-sm font-bold uppercase tracking-[2px] mb-2 text-center font-redhat">
-            SAN LORENZO PAVERS
+            ALBANY PAVERS
           </div>
           <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-6 leading-[1.2]">
-            Why San Lorenzo Homeowners Trust TP Pavers
+            Why Albany Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            San Lorenzo is a welcoming unincorporated community in the heart of the East Bay, known for its tight-knit neighborhoods, affordable charm, and homeowners who take pride in their properties. From the well-maintained homes of San Lorenzo Village to the quiet streets of Bohannon Manor, we design hardscapes that complement your home and enhance your outdoor living.
+            Albany is a charming small city known for its walkable neighborhoods, vibrant Solano Avenue, and strong community spirit. From the bustling commercial district to quiet residential streets near Albany Hill, we design hardscapes that enhance your property and fit seamlessly into this welcoming community.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -241,7 +241,7 @@ export default function SanLorenzoPage() {
                 <div className="relative h-[220px] overflow-hidden">
                   <Image
                     src={service.image}
-                    alt={`${service.title} in San Lorenzo, CA`}
+                    alt={`${service.title} in Albany, CA`}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, 50vw"
@@ -322,7 +322,7 @@ export default function SanLorenzoPage() {
             SERVICE AREA
           </div>
           <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-10 leading-[1.2]">
-            San Lorenzo Neighborhoods We Serve
+            Albany Neighborhoods We Serve
           </h2>
           <div className="flex flex-wrap justify-center gap-3 mb-8">
             {neighborhoods.map((hood) => (
@@ -337,7 +337,7 @@ export default function SanLorenzoPage() {
           <div className="text-center">
             <p className="text-slate-500 text-sm mb-2">ZIP Codes: {zipCodes.join(', ')}</p>
             <p className="text-slate-500 text-sm">
-              Also serving: San Leandro, Hayward, Castro Valley &amp; surrounding East Bay areas
+              Also serving: Berkeley, El Cerrito, Kensington, Richmond &amp; surrounding areas
             </p>
           </div>
         </div>
@@ -353,7 +353,7 @@ export default function SanLorenzoPage() {
             FAQ
           </div>
           <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-10 leading-[1.2]">
-            Paver Installation in San Lorenzo — Common Questions
+            Paver Installation in Albany — Common Questions
           </h2>
           <div className="flex flex-col gap-4">
             {faqs.map((faq, i) => (
@@ -379,7 +379,7 @@ export default function SanLorenzoPage() {
       <section className="py-16 bg-brand-black">
         <div className="max-w-[800px] mx-auto px-5 text-center">
           <h2 className="text-[1.8rem] md:text-[2.2rem] font-bold text-white mb-4">
-            Ready to Transform Your San Lorenzo Home?
+            Ready to Transform Your Albany Home?
           </h2>
           <p className="text-white/70 mb-8 text-lg">
             Get a free on-site estimate today. No obligation, no pressure.

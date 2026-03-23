@@ -68,23 +68,22 @@ const CITIES_WITH_PAGES = [
   { name: 'Livermore', slug: 'livermore', tagline: 'Wine Country' },
   { name: 'Dublin', slug: 'dublin', tagline: 'Tri-Valley' },
   { name: 'Pleasanton', slug: 'pleasanton', tagline: 'Tri-Valley' },
+  { name: 'Oakland', slug: 'oakland', tagline: 'County Seat' },
+  { name: 'Berkeley', slug: 'berkeley', tagline: 'University City' },
+  { name: 'Fremont', slug: 'fremont', tagline: 'South County' },
+  { name: 'Hayward', slug: 'hayward', tagline: 'Heart of the Bay' },
+  { name: 'Alameda', slug: 'alameda', tagline: 'Island City' },
+  { name: 'San Leandro', slug: 'san-leandro', tagline: 'Cherry City' },
+  { name: 'Union City', slug: 'union-city', tagline: 'South County' },
+  { name: 'Newark', slug: 'newark', tagline: 'South County' },
+  { name: 'Castro Valley', slug: 'castro-valley', tagline: 'Unincorporated' },
+  { name: 'San Lorenzo', slug: 'san-lorenzo', tagline: 'Central County' },
+  { name: 'Emeryville', slug: 'emeryville', tagline: 'East Bay Hub' },
+  { name: 'Piedmont', slug: 'piedmont', tagline: 'Enclave City' },
+  { name: 'Albany', slug: 'albany', tagline: 'North County' },
 ];
 
-const CITIES_WITHOUT_PAGES = [
-  { name: 'Oakland', tagline: 'County Seat' },
-  { name: 'Berkeley', tagline: 'University City' },
-  { name: 'Fremont', tagline: 'South County' },
-  { name: 'Hayward', tagline: 'Heart of the Bay' },
-  { name: 'Alameda', tagline: 'Island City' },
-  { name: 'San Leandro', tagline: 'Cherry City' },
-  { name: 'Union City', tagline: 'South County' },
-  { name: 'Newark', tagline: 'South County' },
-  { name: 'Castro Valley', tagline: 'Unincorporated' },
-  { name: 'San Lorenzo', tagline: 'Central County' },
-  { name: 'Emeryville', tagline: 'East Bay Hub' },
-  { name: 'Piedmont', tagline: 'Enclave City' },
-  { name: 'Albany', tagline: 'North County' },
-];
+const CITIES_WITHOUT_PAGES: { name: string; tagline: string }[] = [];
 
 const ALL_CITIES = [
   ...CITIES_WITH_PAGES.map((c) => c.name),

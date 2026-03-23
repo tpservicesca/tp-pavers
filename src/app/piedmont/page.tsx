@@ -9,28 +9,28 @@ import { MapPin, Phone, CheckCircle, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Paver Installation in San Lorenzo, CA | TP Pavers',
+  title: 'Paver Installation in Piedmont, CA | TP Pavers',
   description:
-    'Professional paver installation in San Lorenzo, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all San Lorenzo neighborhoods.',
+    'Professional paver installation in Piedmont, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Piedmont neighborhoods.',
   keywords: [
-    'pavers san lorenzo',
-    'san lorenzo pavers',
-    'paver installation san lorenzo',
-    'paver contractor san lorenzo',
-    'driveway pavers san lorenzo ca',
-    'patio pavers san lorenzo',
+    'pavers piedmont',
+    'piedmont pavers',
+    'paver installation piedmont',
+    'paver contractor piedmont',
+    'driveway pavers piedmont ca',
+    'patio pavers piedmont',
     'paver installation near me',
     'driveway pavers near me',
     'pavers patio',
-    'backyard pavers san lorenzo',
-    'retaining wall san lorenzo',
-    'hardscape san lorenzo ca',
+    'backyard pavers piedmont',
+    'retaining wall piedmont',
+    'hardscape piedmont ca',
   ],
   openGraph: {
-    title: 'Paver Installation in San Lorenzo, CA | TP Pavers',
+    title: 'Paver Installation in Piedmont, CA | TP Pavers',
     description:
-      'Expert paver installation in San Lorenzo. Driveways, patios, walkways & retaining walls. 20+ years experience. Free estimates.',
-    url: 'https://tppavers.com/san-lorenzo',
+      'Expert paver installation in Piedmont. Driveways, patios, walkways & retaining walls. 20+ years experience. Free estimates.',
+    url: 'https://tppavers.com/piedmont',
     siteName: 'TP Pavers',
     locale: 'en_US',
     type: 'website',
@@ -39,46 +39,46 @@ export const metadata: Metadata = {
         url: 'https://tppavers.com/images/P1.webp',
         width: 1200,
         height: 630,
-        alt: 'Professional Paver Installation in San Lorenzo, California',
+        alt: 'Professional Paver Installation in Piedmont, California',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Paver Installation in San Lorenzo | TP Pavers',
-    description: 'Expert paver installation in San Lorenzo, CA. Free estimates. 10-year warranty.',
+    title: 'Paver Installation in Piedmont | TP Pavers',
+    description: 'Expert paver installation in Piedmont, CA. Free estimates. 10-year warranty.',
     images: ['https://tppavers.com/images/P1.webp'],
   },
   alternates: {
-    canonical: 'https://tppavers.com/san-lorenzo',
+    canonical: 'https://tppavers.com/piedmont',
   },
 };
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  name: 'TP Pavers - San Lorenzo',
+  name: 'TP Pavers - Piedmont',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in San Lorenzo, California. 20+ years experience with 10-year warranty.',
-  url: 'https://tppavers.com/san-lorenzo',
+    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Piedmont, California. 20+ years experience with 10-year warranty.',
+  url: 'https://tppavers.com/piedmont',
   telephone: '+1-510-650-2083',
   email: 'dumpster@tpservicesca.com',
   image: 'https://tppavers.com/images/P1.webp',
   address: {
     '@type': 'PostalAddress',
-    addressLocality: 'San Lorenzo',
+    addressLocality: 'Piedmont',
     addressRegion: 'CA',
-    postalCode: '94580',
+    postalCode: '94611',
     addressCountry: 'US',
   },
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: 37.681,
-    longitude: -122.1244,
+    latitude: 37.8244,
+    longitude: -122.2317,
   },
   areaServed: {
     '@type': 'City',
-    name: 'San Lorenzo',
+    name: 'Piedmont',
   },
   priceRange: '$$',
   aggregateRating: {
@@ -94,71 +94,71 @@ const services = [
     image: '/images/projects/driveway-multicolor.webp',
     title: 'Paver Driveways',
     description:
-      'Upgrade your San Lorenzo home with a custom interlocking paver driveway. From the classic homes of San Lorenzo Village to the properties near Bohannon Manor, our driveways are built to handle daily traffic and elevate your curb appeal.',
+      'Upgrade your Piedmont estate with a custom interlocking paver driveway. From the elegant hillside properties of Piedmont Hills to Highland Avenue and Dracena Park, our driveways complement your home\'s architectural distinction with lasting beauty.',
   },
   {
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      'Design the perfect outdoor living space for San Lorenzo\'s pleasant Bay Area climate. Whether you\'re in the Hillside area or near the Ashland border, we create beautiful backyard patios and front walkways that last decades.',
+      'Design the perfect outdoor living space for Piedmont\'s refined lifestyle. We create stunning patios and walkways that honor your property\'s elegance while providing exceptional functionality and timeless appeal.',
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
     title: 'Retaining Walls',
     description:
-      'San Lorenzo\'s varied terrain, especially in the Hillside neighborhoods, benefits from expert structural solutions. Our retaining walls prevent erosion, create usable tiered landscapes, and add lasting value to your property.',
+      'Piedmont\'s dramatic hillside terrain demands expert retaining wall solutions. We build structural walls that prevent erosion, create usable terraced landscapes, and add sophisticated architectural detail to your estate grounds.',
   },
   {
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      'Save water and keep your San Lorenzo lawn green year-round. Our premium artificial turf is perfect for families and pets throughout Bohannon Manor and San Lorenzo Village, ideal for California\'s drought-conscious lifestyle.',
+      'Maintain a pristine green lawn year-round in Piedmont. Our premium artificial turf is ideal for hillside properties and high-end estates — a sophisticated, low-maintenance solution that conserves water without compromising beauty.',
   },
 ];
 
 const faqs = [
   {
-    question: 'How much do pavers cost in San Lorenzo, CA?',
+    question: 'How much do pavers cost in Piedmont, CA?',
     answer:
-      'Paver installation costs in San Lorenzo depend on the project size, materials chosen, and site preparation needed. Whether it\'s a driveway in San Lorenzo Village or a patio in Bohannon Manor, we provide free on-site estimates with transparent pricing. Most San Lorenzo homeowners find pavers offer excellent long-term value compared to poured concrete.',
+      'Paver installation costs in Piedmont depend on the project size, materials chosen, and site preparation needed. We provide free on-site estimates with transparent pricing tailored to Piedmont\'s high standards. Most Piedmont homeowners find pavers an excellent investment that enhances both beauty and property value.',
   },
   {
-    question: 'What neighborhoods in San Lorenzo do you serve?',
+    question: 'What neighborhoods in Piedmont do you serve?',
     answer:
-      'We serve all of San Lorenzo including Bohannon Manor, Hillside, the Ashland border area, and San Lorenzo Village. We also cover neighboring cities like San Leandro, Hayward, and Castro Valley.',
+      'We serve all of Piedmont including Piedmont Hills, the Crocker Highlands border area, Highland Avenue, and Dracena Park. We also cover neighboring areas in Oakland, Berkeley, and Montclair.',
   },
   {
-    question: 'How long does a paver driveway installation take in San Lorenzo?',
+    question: 'How long does a paver driveway installation take in Piedmont?',
     answer:
-      'Most residential paver projects in San Lorenzo — driveways, patios, or walkways — are completed in 1 to 2 weeks depending on size and complexity. We handle everything from demo to final sealing. A detailed timeline is provided after your free consultation.',
+      'Most residential paver projects in Piedmont — driveways, patios, or walkways — are completed in 1 to 2 weeks depending on size and complexity. We handle everything from demo to final sealing with meticulous attention to detail. A detailed timeline is provided after your consultation.',
   },
   {
-    question: 'What paver materials work best for San Lorenzo\'s climate?',
+    question: 'Can you match pavers to Piedmont\'s historic architecture?',
     answer:
-      'San Lorenzo enjoys a mild Mediterranean climate with warm, dry summers and cool, wet winters. Concrete pavers and natural stone are excellent choices — both are durable, slip-resistant when sealed, and low-maintenance. We help you select materials that perform beautifully in the East Bay climate.',
+      'Absolutely. Piedmont\'s elegant estates and historic homes deserve hardscapes that complement their architectural character. We offer classic brick, natural stone, and heritage-style pavers that beautifully enhance Mediterranean villas, Tudors, Craftsman estates, and modern homes alike.',
   },
   {
-    question: 'Do you offer a warranty on San Lorenzo paver installations?',
+    question: 'Do you offer a warranty on Piedmont paver installations?',
     answer:
-      'Yes. Every paver installation in San Lorenzo comes with our 10-year warranty covering both labor and materials. We stand behind the quality of our work and use only premium-grade products for every project.',
+      'Yes. Every paver installation in Piedmont comes with our 10-year warranty covering both labor and materials. We stand behind the quality of our work and use only premium-grade products befitting Piedmont\'s standards.',
   },
   {
-    question: 'Can you build retaining walls in San Lorenzo?',
+    question: 'Can you build retaining walls on Piedmont\'s steep hillside properties?',
     answer:
-      'Absolutely. San Lorenzo\'s terrain — especially in the Hillside neighborhoods and areas bordering the eastern hills — can benefit from retaining walls. We design and build structural walls that prevent erosion, add usable yard space, and complement your landscape beautifully.',
+      'Absolutely. Piedmont\'s dramatic hillside terrain is our specialty. We design and engineer retaining walls that are both structurally sound and aesthetically beautiful, maximizing usable yard space while complementing your estate\'s landscape architecture.',
   },
 ];
 
 const neighborhoods = [
-  'Bohannon Manor',
-  'Hillside',
-  'Ashland border',
-  'San Lorenzo Village',
+  'Piedmont Hills',
+  'Crocker Highlands border',
+  'Highland Avenue',
+  'Dracena Park',
 ];
 
-const zipCodes = ['94580'];
+const zipCodes = ['94611'];
 
-export default function SanLorenzoPage() {
+export default function PiedmontPage() {
   return (
     <>
       <script
@@ -178,8 +178,8 @@ export default function SanLorenzoPage() {
             afterSrc="/images/hero-after.jpg"
             beforeSrcMobile="/images/hero-before-mobile.jpg"
             afterSrcMobile="/images/hero-after-mobile.jpg"
-            beforeAlt="Backyard before paver installation in San Lorenzo"
-            afterAlt="Backyard after paver installation in San Lorenzo - beautiful patio"
+            beforeAlt="Backyard before paver installation in Piedmont"
+            afterAlt="Backyard after paver installation in Piedmont - beautiful patio"
           />
         </div>
 
@@ -187,10 +187,10 @@ export default function SanLorenzoPage() {
 
         <div className="relative z-[2] text-center max-w-[900px] flex-grow flex flex-col justify-center items-center pointer-events-none">
           <div className="inline-flex items-center gap-2 bg-brand-orange/90 text-white px-6 py-2 rounded-full text-sm font-semibold mb-6 backdrop-blur-sm">
-            <MapPin size={16} /> Serving San Lorenzo, CA
+            <MapPin size={16} /> Serving Piedmont, CA
           </div>
           <h1 className="font-oswald text-[2.2rem] sm:text-[3.5rem] lg:text-[5rem] font-bold text-white leading-[1.05] mb-5 uppercase tracking-[2px]">
-            EXPERT PAVER<br />INSTALLATION<br />IN SAN LORENZO
+            EXPERT PAVER<br />INSTALLATION<br />IN PIEDMONT
           </h1>
           <p className="text-lg sm:text-xl text-white/90 mb-8 leading-relaxed max-w-[700px] mx-auto">
             Transform your outdoor spaces with premium paver installation.<br />
@@ -223,13 +223,13 @@ export default function SanLorenzoPage() {
       <section className="py-20 bg-white">
         <div className="max-w-[1100px] mx-auto px-5">
           <div className="text-brand-gold text-sm font-bold uppercase tracking-[2px] mb-2 text-center font-redhat">
-            SAN LORENZO PAVERS
+            PIEDMONT PAVERS
           </div>
           <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-6 leading-[1.2]">
-            Why San Lorenzo Homeowners Trust TP Pavers
+            Why Piedmont Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            San Lorenzo is a welcoming unincorporated community in the heart of the East Bay, known for its tight-knit neighborhoods, affordable charm, and homeowners who take pride in their properties. From the well-maintained homes of San Lorenzo Village to the quiet streets of Bohannon Manor, we design hardscapes that complement your home and enhance your outdoor living.
+            Piedmont is an exclusive enclave city known for elegant estates, tree-lined streets, and stunning hillside views. We design hardscapes that honor the architectural distinction of this prestigious community, creating outdoor spaces that are as refined and beautiful as the homes they complement.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -241,7 +241,7 @@ export default function SanLorenzoPage() {
                 <div className="relative h-[220px] overflow-hidden">
                   <Image
                     src={service.image}
-                    alt={`${service.title} in San Lorenzo, CA`}
+                    alt={`${service.title} in Piedmont, CA`}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, 50vw"
@@ -322,7 +322,7 @@ export default function SanLorenzoPage() {
             SERVICE AREA
           </div>
           <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-10 leading-[1.2]">
-            San Lorenzo Neighborhoods We Serve
+            Piedmont Neighborhoods We Serve
           </h2>
           <div className="flex flex-wrap justify-center gap-3 mb-8">
             {neighborhoods.map((hood) => (
@@ -337,7 +337,7 @@ export default function SanLorenzoPage() {
           <div className="text-center">
             <p className="text-slate-500 text-sm mb-2">ZIP Codes: {zipCodes.join(', ')}</p>
             <p className="text-slate-500 text-sm">
-              Also serving: San Leandro, Hayward, Castro Valley &amp; surrounding East Bay areas
+              Also serving: Oakland, Berkeley, Montclair &amp; surrounding East Bay areas
             </p>
           </div>
         </div>
@@ -353,7 +353,7 @@ export default function SanLorenzoPage() {
             FAQ
           </div>
           <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-10 leading-[1.2]">
-            Paver Installation in San Lorenzo — Common Questions
+            Paver Installation in Piedmont — Common Questions
           </h2>
           <div className="flex flex-col gap-4">
             {faqs.map((faq, i) => (
@@ -379,7 +379,7 @@ export default function SanLorenzoPage() {
       <section className="py-16 bg-brand-black">
         <div className="max-w-[800px] mx-auto px-5 text-center">
           <h2 className="text-[1.8rem] md:text-[2.2rem] font-bold text-white mb-4">
-            Ready to Transform Your San Lorenzo Home?
+            Ready to Transform Your Piedmont Estate?
           </h2>
           <p className="text-white/70 mb-8 text-lg">
             Get a free on-site estimate today. No obligation, no pressure.
