@@ -83,6 +83,7 @@ const cities = [
   'novato',
   'mill-valley',
   'sausalito',
+  'san-francisco',
   'tiburon',
   'corte-madera',
   'larkspur',
