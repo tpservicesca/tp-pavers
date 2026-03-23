@@ -3,9 +3,9 @@ import Hero from '@/components/Hero';
 import CallNowStrip from '@/components/CallNowStrip';
 import Services from '@/components/Services';
 import About from '@/components/About';
-import Gallery from '@/components/Gallery';
+import DynamicGallery from '@/components/DynamicGallery';
 import FAQ from '@/components/FAQ';
-import ServiceAreaMap from '@/components/ServiceAreaMap';
+import DynamicServiceAreaMap from '@/components/DynamicServiceAreaMap';
 import ContactForm from '@/components/ContactForm';
 import Footer from '@/components/Footer';
 
@@ -17,9 +17,9 @@ export default function Home() {
       <CallNowStrip />
       <Services />
       <About />
-      <Gallery />
+      <DynamicGallery />
       <FAQ />
-      <ServiceAreaMap />
+      <DynamicServiceAreaMap />
       <ContactForm />
       <Footer />
     </>

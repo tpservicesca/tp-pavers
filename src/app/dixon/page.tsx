@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CallNowStrip from '@/components/CallNowStrip';
-import ServiceAreaMap from '@/components/ServiceAreaMap';
+import DynamicServiceAreaMap from '@/components/DynamicServiceAreaMap';
 import DynamicBeforeAfterSlider from '@/components/DynamicBeforeAfterSlider';
-import Gallery from '@/components/Gallery';
+import DynamicGallery from '@/components/DynamicGallery';
 import { MapPin, Phone, CheckCircle, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 
@@ -347,7 +347,7 @@ export default function DixonPage() {
       </section>
 
       {/* Gallery */}
-      <Gallery />
+      <DynamicGallery />
 
       {/* FAQs */}
       <section className="py-20 bg-slate-50">
@@ -396,7 +396,7 @@ export default function DixonPage() {
         </div>
       </section>
 
-      <ServiceAreaMap />
+      <DynamicServiceAreaMap />
       <Footer />
     </>
   );

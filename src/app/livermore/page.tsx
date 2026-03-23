@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CallNowStrip from '@/components/CallNowStrip';
-import ServiceAreaMap from '@/components/ServiceAreaMap';
+import DynamicServiceAreaMap from '@/components/DynamicServiceAreaMap';
 import DynamicBeforeAfterSlider from '@/components/DynamicBeforeAfterSlider';
-import Gallery from '@/components/Gallery';
+import DynamicGallery from '@/components/DynamicGallery';
 import { MapPin, Phone, CheckCircle, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 
@@ -287,7 +287,7 @@ export default function LivermorePage() {
           <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-10 leading-[1.2]">
             Recent Projects in the Bay Area
           </h2>
-          <Gallery />
+          <DynamicGallery />
         </div>
       </section>
 
@@ -364,7 +364,7 @@ export default function LivermorePage() {
         </div>
       </section>
 
-      <ServiceAreaMap />
+      <DynamicServiceAreaMap />
       <Footer />
     </>
   );

@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CallNowStrip from '@/components/CallNowStrip';
-import ServiceAreaMap from '@/components/ServiceAreaMap';
-import Gallery from '@/components/Gallery';
+import DynamicServiceAreaMap from '@/components/DynamicServiceAreaMap';
+import DynamicGallery from '@/components/DynamicGallery';
 import { MapPin, Phone, CheckCircle, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -285,7 +285,7 @@ export default function SantaClaraCountyPage() {
       </section>
 
       {/* ═══ INTERACTIVE MAP ═══ */}
-      <ServiceAreaMap />
+      <DynamicServiceAreaMap />
 
       {/* ═══ SERVICES ═══ */}
       <section className="py-20 bg-white">
@@ -384,7 +384,7 @@ export default function SantaClaraCountyPage() {
       </section>
 
       {/* ═══ GALLERY ═══ */}
-      <Gallery />
+      <DynamicGallery />
 
       {/* ═══ FAQs ═══ */}
       <section className="py-20 bg-slate-50">
