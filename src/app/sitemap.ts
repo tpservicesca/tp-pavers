@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 
-const cities = ['livermore', 'concord', 'pleasanton', 'san-ramon', 'dublin', 'danville', 'alamo', 'walnut-creek', 'contra-costa-county'];
+const cities = ['livermore', 'concord', 'pleasanton', 'san-ramon', 'dublin', 'danville', 'alamo', 'walnut-creek', 'contra-costa-county', 'alameda-county'];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://tppavers.com';
