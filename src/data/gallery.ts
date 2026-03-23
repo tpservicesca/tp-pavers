@@ -7,29 +7,25 @@ export const galleryData: Record<string, GalleryCategory> = {
   P: {
     name: 'Pavers',
     images: [
+      '/images/projects/driveway-multicolor.webp',
+      '/images/projects/walkway-brick-curved.webp',
+      '/images/projects/walkway-brick-wide.webp',
+      '/images/projects/walkway-herringbone.webp',
+      '/images/projects/patio-curved-seatwall.webp',
       '/images/P1.webp',
       '/images/P2.webp',
-      '/images/P3.webp',
       '/images/P5.webp',
-      '/images/P6.webp',
-      '/images/P8.webp',
-      '/images/P9.webp',
-      '/images/P10.webp',
     ],
   },
   R: {
     name: 'Retaining Walls',
     images: [
-      '/images/R1.png',
+      '/images/projects/patio-retaining-wall.webp',
+      '/images/projects/patio-raised-house.webp',
       '/images/R2.webp',
-      '/images/R3.webp',
       '/images/R4.webp',
       '/images/R5.webp',
       '/images/R6.webp',
-      '/images/R7.webp',
-      '/images/R8.webp',
-      '/images/R9.webp',
-      '/images/R10.webp',
     ],
   },
   S: {
@@ -39,6 +35,12 @@ export const galleryData: Record<string, GalleryCategory> = {
       '/images/S2.webp',
       '/images/S3.webp',
       '/images/S4.webp',
+    ],
+  },
+  T: {
+    name: 'Our Team',
+    images: [
+      '/images/projects/team-working.webp',
     ],
   },
 };

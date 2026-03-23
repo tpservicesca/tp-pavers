@@ -319,19 +319,6 @@ export default function ConcordPage() {
         </div>
       </section>
 
-      {/* Gallery */}
-      <section className="py-20 bg-white">
-        <div className="max-w-[1200px] mx-auto px-5">
-          <div className="text-brand-gold text-sm font-bold uppercase tracking-[2px] mb-2 text-center font-redhat">
-            MORE PROJECTS
-          </div>
-          <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-10 leading-[1.2]">
-            Gallery
-          </h2>
-          <Gallery />
-        </div>
-      </section>
-
       {/* Neighborhoods */}
       <section className="py-20 bg-white">
         <div className="max-w-[1100px] mx-auto px-5">
@@ -359,6 +346,9 @@ export default function ConcordPage() {
           </div>
         </div>
       </section>
+
+      {/* Gallery */}
+      <Gallery />
 
       {/* FAQs */}
       <section className="py-20 bg-slate-50">
