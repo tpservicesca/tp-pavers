@@ -1,6 +1,37 @@
 import type { MetadataRoute } from 'next';
 
-const cities = ['livermore', 'concord', 'pleasanton', 'san-ramon', 'dublin', 'danville', 'alamo', 'walnut-creek', 'contra-costa-county', 'alameda-county'];
+const cities = [
+  'livermore',
+  'concord',
+  'pleasanton',
+  'san-ramon',
+  'dublin',
+  'danville',
+  'alamo',
+  'walnut-creek',
+  'contra-costa-county',
+  'pleasant-hill',
+  'martinez',
+  'pittsburg',
+  'antioch',
+  'brentwood',
+  'oakley',
+  'clayton',
+  'lafayette',
+  'orinda',
+  'moraga',
+  'el-cerrito',
+  'richmond',
+  'san-pablo',
+  'pinole',
+  'hercules',
+  'el-sobrante',
+  'bay-point',
+  'discovery-bay',
+  'rodeo',
+  'crockett',
+  'kensington',
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://tppavers.com';
