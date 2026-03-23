@@ -31,6 +31,15 @@ const cities = [
   'rodeo',
   'crockett',
   'kensington',
+  // Solano County
+  'solano-county',
+  'vallejo',
+  'benicia',
+  'american-canyon',
+  'fairfield',
+  'vacaville',
+  'suisun-city',
+  'dixon',
   // San Mateo County
   'san-mateo-county',
   'redwood-city',
