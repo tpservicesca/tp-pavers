@@ -89,12 +89,12 @@ const jsonLd = {
 
 const services = [
   {
-    image: '/images/P1.webp',
+    image: '/images/projects/driveway-multicolor.webp',
     title: 'Paver Driveways',
     description: 'Custom interlocking paver driveways designed to enhance your Livermore home\'s curb appeal and withstand heavy use.',
   },
   {
-    image: '/images/P2.webp',
+    image: '/images/projects/patio-curved-seatwall.webp',
     title: 'Patios & Walkways',
     description: 'Beautiful outdoor living spaces with premium pavers, perfect for Livermore\'s warm climate and wine country lifestyle.',
   },
