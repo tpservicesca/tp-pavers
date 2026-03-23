@@ -23,7 +23,7 @@ export default function About() {
                     <rect x="46" y="26" width="14" height="14" rx="1" transform="rotate(45 53 33)" fill="#1a1a1a" />
                   </svg>
                   <span className="font-oswald text-[1.5rem] font-semibold text-brand-black leading-none">PAVERS</span>
-                  <span className="text-[0.55rem] text-slate-500 tracking-[2px] uppercase">BY TP SERVICES</span>
+                  <span className="text-[0.55rem] text-slate-500 tracking-[2px] uppercase">CALIFORNIA</span>
                 </div>
               </div>
             </div>
