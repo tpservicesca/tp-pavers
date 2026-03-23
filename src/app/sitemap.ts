@@ -62,6 +62,17 @@ const cities = [
   'cupertino',
   'campbell',
   'los-gatos',
+  // Marin County
+  'marin-county',
+  'san-rafael',
+  'novato',
+  'mill-valley',
+  'sausalito',
+  'tiburon',
+  'corte-madera',
+  'larkspur',
+  'san-anselmo',
+  'fairfax',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
