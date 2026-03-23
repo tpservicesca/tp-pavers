@@ -10,9 +10,27 @@ import { notFound } from 'next/navigation';
 
 /* ───── blog content registry ───── */
 import RetainingWallIdeas from '../_articles/retaining-wall-ideas';
+import PermeablePaversGuide from '../_articles/permeable-pavers-guide';
+import BackyardPatioIdeas from '../_articles/backyard-patio-ideas';
+import PaverSealerGuide from '../_articles/paver-sealer-guide';
+import PaverPatioDesignIdeas from '../_articles/paver-patio-design-ideas';
+import DrivewayIdeasCurbAppeal from '../_articles/driveway-ideas-curb-appeal';
+import CurbAppealIdeas from '../_articles/curb-appeal-ideas';
+import PaversVsConcrete from '../_articles/pavers-vs-concrete';
+import PaverMaintenanceGuide from '../_articles/paver-maintenance-guide';
+import HowMuchDoPaversCost from '../_articles/how-much-do-pavers-cost';
 
 const articleComponents: Record<string, React.ComponentType> = {
   'retaining-wall-ideas': RetainingWallIdeas,
+  'permeable-pavers-guide': PermeablePaversGuide,
+  'backyard-patio-ideas': BackyardPatioIdeas,
+  'paver-sealer-guide': PaverSealerGuide,
+  'paver-patio-design-ideas': PaverPatioDesignIdeas,
+  'driveway-ideas-curb-appeal': DrivewayIdeasCurbAppeal,
+  'curb-appeal-ideas': CurbAppealIdeas,
+  'pavers-vs-concrete': PaversVsConcrete,
+  'paver-maintenance-guide': PaverMaintenanceGuide,
+  'how-much-do-pavers-cost': HowMuchDoPaversCost,
 };
 
 /* ───── CTA components ───── */
