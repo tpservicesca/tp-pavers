@@ -94,25 +94,25 @@ const services = [
     image: '/images/projects/driveway-multicolor.webp',
     title: 'Paver Driveways',
     description:
-      'Upgrade your Albany home with a custom interlocking paver driveway. From the bustling Solano Avenue corridor to the residential streets near Albany Hill and Ocean View, our driveways add lasting beauty and enhance your property value.',
+      'Upgrade your Albany home with a custom interlocking paver driveway. From the charming bungalows along Solano Avenue to the hillside homes near Albany Hill, our driveways are built to handle daily traffic and elevate your curb appeal.',
   },
   {
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      'Design the perfect outdoor living space for Albany\'s mild climate. Whether you\'re near Cerrito Creek or in the heart of this charming small city, we create beautiful patios and walkways that extend your living space year-round.',
+      'Design the perfect outdoor living space for Albany\'s mild Bay Area climate. Whether you\'re in the Ocean View neighborhood or near Cerrito Creek, we create beautiful backyard patios and front walkways that last decades.',
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
     title: 'Retaining Walls',
     description:
-      'Albany properties, especially near Albany Hill, benefit from expertly constructed retaining walls. We build structural and decorative walls that prevent erosion, add landscape tiers, and maximize usable outdoor space.',
+      'Albany\'s varied terrain, especially around Albany Hill, benefits from expert structural solutions. Our retaining walls prevent erosion, create usable tiered landscapes, and add lasting value to your property.',
   },
   {
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      'Save water and enjoy a lush green lawn year-round in Albany. Our premium artificial turf is perfect for families and pets in this pedestrian-friendly community — an eco-friendly choice for sustainable Bay Area living.',
+      'Save water and keep your Albany lawn green year-round. Our premium artificial turf is perfect for families and pets throughout Albany\'s residential neighborhoods, ideal for California\'s drought-conscious lifestyle.',
   },
 ];
 
@@ -120,32 +120,32 @@ const faqs = [
   {
     question: 'How much do pavers cost in Albany, CA?',
     answer:
-      'Paver installation costs in Albany depend on the project size, materials chosen, and site preparation needed. We provide free on-site estimates with transparent pricing for driveways, patios, and walkways throughout Albany. Most homeowners find pavers an excellent investment in their property.',
+      'Paver installation costs in Albany depend on the project size, materials chosen, and site preparation needed. Whether it\'s a driveway near Solano Avenue or a patio in Ocean View, we provide free on-site estimates with transparent pricing. Most Albany homeowners find pavers offer excellent long-term value compared to poured concrete.',
   },
   {
     question: 'What neighborhoods in Albany do you serve?',
     answer:
-      'We serve all of Albany including Solano Avenue, Albany Hill, Ocean View, Cerrito Creek, and every residential neighborhood in this charming small city. We also cover neighboring cities like Berkeley, El Cerrito, Kensington, and Richmond.',
+      'We serve all of Albany including the Solano Avenue corridor, Albany Hill, Ocean View, and the Cerrito Creek area. We also cover neighboring cities like Berkeley, El Cerrito, Kensington, and Richmond.',
   },
   {
-    question: 'How long does a paver patio installation take in Albany?',
+    question: 'How long does a paver driveway installation take in Albany?',
     answer:
       'Most residential paver projects in Albany — driveways, patios, or walkways — are completed in 1 to 2 weeks depending on size and complexity. We handle everything from demo to final sealing. A detailed timeline is provided after your free consultation.',
   },
   {
-    question: 'Are pavers a good choice for Albany\'s walkable community?',
+    question: 'What paver materials work best for Albany\'s climate?',
     answer:
-      'Absolutely. Albany is a pedestrian-friendly community, and pavers create beautiful, durable walkways and driveways that complement the city\'s character. We offer a wide range of styles from classic to contemporary that enhance your home and neighborhood.',
+      'Albany enjoys a mild Mediterranean climate with warm, dry summers and cool, wet winters influenced by the Bay. Concrete pavers and natural stone are excellent choices — both are durable, slip-resistant when sealed, and low-maintenance. We help you select materials that perform beautifully in the Bay Area climate.',
   },
   {
     question: 'Do you offer a warranty on Albany paver installations?',
     answer:
-      'Yes. Every paver installation in Albany comes with our 10-year warranty covering both labor and materials. We stand behind the quality of our work and use only premium-grade products.',
+      'Yes. Every paver installation in Albany comes with our 10-year warranty covering both labor and materials. We stand behind the quality of our work and use only premium-grade products for every project.',
   },
   {
-    question: 'Can you install pavers on Albany Hill properties?',
+    question: 'Can you build retaining walls on Albany\'s hillside properties?',
     answer:
-      'Yes, we specialize in hillside installations. Albany Hill and other sloped properties require expert foundation work and retaining walls. We have extensive experience working on Albany\'s varied terrain and deliver beautiful, lasting results.',
+      'Absolutely. Albany\'s terrain — especially around Albany Hill and the areas with grade changes — benefits from retaining walls. We design and build structural walls that prevent erosion, add usable yard space, and complement your landscape beautifully.',
   },
 ];
 
@@ -229,7 +229,7 @@ export default function AlbanyPage() {
             Why Albany Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            Albany is a charming small city known for its walkable neighborhoods, vibrant Solano Avenue, and strong community spirit. From the bustling commercial district to quiet residential streets near Albany Hill, we design hardscapes that enhance your property and fit seamlessly into this welcoming community.
+            Albany is a small, vibrant city tucked between Berkeley and El Cerrito, known for its walkable Solano Avenue district, excellent schools, and tight-knit community. From the cozy craftsman homes near Solano to the Bay-view properties on Albany Hill, we design hardscapes that complement your home and enhance your outdoor living.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -337,7 +337,7 @@ export default function AlbanyPage() {
           <div className="text-center">
             <p className="text-slate-500 text-sm mb-2">ZIP Codes: {zipCodes.join(', ')}</p>
             <p className="text-slate-500 text-sm">
-              Also serving: Berkeley, El Cerrito, Kensington, Richmond &amp; surrounding areas
+              Also serving: Berkeley, El Cerrito, Kensington, Richmond &amp; surrounding East Bay areas
             </p>
           </div>
         </div>

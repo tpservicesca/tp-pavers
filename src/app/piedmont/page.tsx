@@ -94,25 +94,25 @@ const services = [
     image: '/images/projects/driveway-multicolor.webp',
     title: 'Paver Driveways',
     description:
-      'Upgrade your Piedmont estate with a custom interlocking paver driveway. From the elegant hillside properties of Piedmont Hills to Highland Avenue and Dracena Park, our driveways complement your home\'s architectural distinction with lasting beauty.',
+      'Upgrade your Piedmont home with a custom interlocking paver driveway. From the stately residences of Piedmont Hills to the elegant properties along Highland Avenue, our driveways are built to match the refined character of this distinguished community.',
   },
   {
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      'Design the perfect outdoor living space for Piedmont\'s refined lifestyle. We create stunning patios and walkways that honor your property\'s elegance while providing exceptional functionality and timeless appeal.',
+      'Design the perfect outdoor living space for Piedmont\'s mild Mediterranean climate. Whether you\'re near Dracena Park or bordering Crocker Highlands, we create beautiful backyard patios and front walkways that last decades.',
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
     title: 'Retaining Walls',
     description:
-      'Piedmont\'s dramatic hillside terrain demands expert retaining wall solutions. We build structural walls that prevent erosion, create usable terraced landscapes, and add sophisticated architectural detail to your estate grounds.',
+      'Piedmont\'s hilly terrain and elevated properties demand expert structural solutions. Our retaining walls prevent erosion, create usable tiered gardens, and add lasting value to your distinguished Piedmont property.',
   },
   {
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      'Maintain a pristine green lawn year-round in Piedmont. Our premium artificial turf is ideal for hillside properties and high-end estates — a sophisticated, low-maintenance solution that conserves water without compromising beauty.',
+      'Save water and keep your Piedmont lawn green year-round. Our premium artificial turf is perfect for families and pets, ideal for California\'s drought-conscious lifestyle while maintaining the manicured look Piedmont homeowners expect.',
   },
 ];
 
@@ -120,32 +120,32 @@ const faqs = [
   {
     question: 'How much do pavers cost in Piedmont, CA?',
     answer:
-      'Paver installation costs in Piedmont depend on the project size, materials chosen, and site preparation needed. We provide free on-site estimates with transparent pricing tailored to Piedmont\'s high standards. Most Piedmont homeowners find pavers an excellent investment that enhances both beauty and property value.',
+      'Paver installation costs in Piedmont depend on the project size, materials chosen, and site preparation needed. Whether it\'s a driveway on Highland Avenue or a patio in Piedmont Hills, we provide free on-site estimates with transparent pricing. Most Piedmont homeowners choose premium materials that match the architectural character of their homes.',
   },
   {
     question: 'What neighborhoods in Piedmont do you serve?',
     answer:
-      'We serve all of Piedmont including Piedmont Hills, the Crocker Highlands border area, Highland Avenue, and Dracena Park. We also cover neighboring areas in Oakland, Berkeley, and Montclair.',
+      'We serve all of Piedmont including Piedmont Hills, the Crocker Highlands border, Highland Avenue, and the Dracena Park area. We also cover neighboring cities like Oakland, Berkeley, and Montclair.',
   },
   {
     question: 'How long does a paver driveway installation take in Piedmont?',
     answer:
-      'Most residential paver projects in Piedmont — driveways, patios, or walkways — are completed in 1 to 2 weeks depending on size and complexity. We handle everything from demo to final sealing with meticulous attention to detail. A detailed timeline is provided after your consultation.',
+      'Most residential paver projects in Piedmont — driveways, patios, or walkways — are completed in 1 to 2 weeks depending on size and complexity. We handle everything from demo to final sealing. A detailed timeline is provided after your free consultation.',
   },
   {
-    question: 'Can you match pavers to Piedmont\'s historic architecture?',
+    question: 'What paver materials work best for Piedmont\'s climate?',
     answer:
-      'Absolutely. Piedmont\'s elegant estates and historic homes deserve hardscapes that complement their architectural character. We offer classic brick, natural stone, and heritage-style pavers that beautifully enhance Mediterranean villas, Tudors, Craftsman estates, and modern homes alike.',
+      'Piedmont enjoys a mild Mediterranean climate with warm, dry summers and cool, wet winters. Concrete pavers and natural stone are excellent choices — both are durable, slip-resistant when sealed, and low-maintenance. We help you select premium materials that complement Piedmont\'s classic architectural styles.',
   },
   {
     question: 'Do you offer a warranty on Piedmont paver installations?',
     answer:
-      'Yes. Every paver installation in Piedmont comes with our 10-year warranty covering both labor and materials. We stand behind the quality of our work and use only premium-grade products befitting Piedmont\'s standards.',
+      'Yes. Every paver installation in Piedmont comes with our 10-year warranty covering both labor and materials. We stand behind the quality of our work and use only premium-grade products for every project.',
   },
   {
-    question: 'Can you build retaining walls on Piedmont\'s steep hillside properties?',
+    question: 'Can you build retaining walls on Piedmont\'s hillside properties?',
     answer:
-      'Absolutely. Piedmont\'s dramatic hillside terrain is our specialty. We design and engineer retaining walls that are both structurally sound and aesthetically beautiful, maximizing usable yard space while complementing your estate\'s landscape architecture.',
+      'Absolutely. Piedmont\'s elevated terrain and hillside lots frequently require retaining walls. We design and build structural walls that prevent erosion, create beautiful tiered gardens, and complement Piedmont\'s distinguished landscape aesthetics.',
   },
 ];
 
@@ -229,7 +229,7 @@ export default function PiedmontPage() {
             Why Piedmont Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            Piedmont is an exclusive enclave city known for elegant estates, tree-lined streets, and stunning hillside views. We design hardscapes that honor the architectural distinction of this prestigious community, creating outdoor spaces that are as refined and beautiful as the homes they complement.
+            Piedmont is an exclusive residential city surrounded by Oakland, known for its tree-lined streets, distinguished homes, top-rated schools, and homeowners with impeccable taste. From the grand estates of Piedmont Hills to the charming properties near Dracena Park, we design hardscapes that meet the highest standards of quality and aesthetics.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -379,7 +379,7 @@ export default function PiedmontPage() {
       <section className="py-16 bg-brand-black">
         <div className="max-w-[800px] mx-auto px-5 text-center">
           <h2 className="text-[1.8rem] md:text-[2.2rem] font-bold text-white mb-4">
-            Ready to Transform Your Piedmont Estate?
+            Ready to Transform Your Piedmont Home?
           </h2>
           <p className="text-white/70 mb-8 text-lg">
             Get a free on-site estimate today. No obligation, no pressure.

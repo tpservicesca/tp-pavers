@@ -94,25 +94,25 @@ const services = [
     image: '/images/projects/driveway-multicolor.webp',
     title: 'Paver Driveways',
     description:
-      'Upgrade your Emeryville home with a custom interlocking paver driveway. From the Triangle district to Park Avenue and the Bay Street area, our driveways add lasting beauty and complement this vibrant small city\'s modern character.',
+      'Upgrade your Emeryville home with a custom interlocking paver driveway. From the modern residences near Bay Street to the charming homes in the Triangle district, our driveways are built to handle daily traffic and elevate your curb appeal.',
   },
   {
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      'Design the perfect outdoor living space for Emeryville\'s waterfront lifestyle. Whether you\'re in Doyle-Hollis or near the marina, we create beautiful patios and walkways that maximize your outdoor enjoyment year-round.',
+      'Design the perfect outdoor living space for Emeryville\'s mild Bay Area climate. Whether you\'re in the Doyle-Hollis neighborhood or along Park Avenue, we create beautiful backyard patios and front walkways that last decades.',
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
     title: 'Retaining Walls',
     description:
-      'Emeryville properties benefit from well-designed retaining walls that define spaces and add landscape structure. We build both functional and decorative walls that enhance your property and outdoor living areas.',
+      'Emeryville\'s compact urban landscape benefits from thoughtful structural solutions. Our retaining walls maximize usable outdoor space, add visual appeal, and provide lasting value for your property.',
   },
   {
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      'Save water and keep your Emeryville lawn green year-round. Our premium artificial turf is perfect for compact urban yards and waterfront properties — an ideal solution for sustainable, low-maintenance Bay Area living.',
+      'Save water and keep your Emeryville lawn green year-round. Our premium artificial turf is perfect for families and pets in this vibrant city, ideal for California\'s drought-conscious lifestyle and Emeryville\'s compact yards.',
   },
 ];
 
@@ -120,7 +120,7 @@ const faqs = [
   {
     question: 'How much do pavers cost in Emeryville, CA?',
     answer:
-      'Paver installation costs in Emeryville depend on the project size, materials chosen, and site preparation needed. We provide free on-site estimates with transparent pricing for driveways, patios, and walkways throughout Emeryville. Most homeowners find pavers an excellent investment in this thriving East Bay city.',
+      'Paver installation costs in Emeryville depend on the project size, materials chosen, and site preparation needed. Whether it\'s a driveway in the Triangle or a patio near Park Avenue, we provide free on-site estimates with transparent pricing. Most Emeryville homeowners find pavers offer excellent long-term value compared to poured concrete.',
   },
   {
     question: 'What neighborhoods in Emeryville do you serve?',
@@ -133,19 +133,19 @@ const faqs = [
       'Most residential paver projects in Emeryville — driveways, patios, or walkways — are completed in 1 to 2 weeks depending on size and complexity. We handle everything from demo to final sealing. A detailed timeline is provided after your free consultation.',
   },
   {
-    question: 'What paver materials work best for Emeryville\'s waterfront climate?',
+    question: 'What paver materials work best for Emeryville\'s climate?',
     answer:
-      'Emeryville\'s proximity to the San Francisco Bay means mild temperatures and some humidity. Concrete pavers and natural stone are excellent choices — both are durable, slip-resistant, and low-maintenance. We help you select materials that perform beautifully in the waterfront environment.',
+      'Emeryville enjoys a mild Mediterranean climate with warm, dry summers and cool, wet winters. Concrete pavers and natural stone are excellent choices — both are durable, slip-resistant when sealed, and low-maintenance. We help you select materials that perform beautifully in the Bay Area climate.',
   },
   {
     question: 'Do you offer a warranty on Emeryville paver installations?',
     answer:
-      'Yes. Every paver installation in Emeryville comes with our 10-year warranty covering both labor and materials. We stand behind the quality of our work and use only premium-grade products.',
+      'Yes. Every paver installation in Emeryville comes with our 10-year warranty covering both labor and materials. We stand behind the quality of our work and use only premium-grade products for every project.',
   },
   {
-    question: 'Can you work on small urban lots in Emeryville?',
+    question: 'Can you work with Emeryville\'s compact lot sizes?',
     answer:
-      'Absolutely. Emeryville\'s compact urban environment is no challenge for us. We specialize in maximizing outdoor spaces with creative hardscape solutions — whether it\'s a small patio, walkway, or courtyard. We deliver beautiful results for properties of all sizes.',
+      'Absolutely. Emeryville is known for its smaller, urban lots. We specialize in maximizing outdoor space with smart hardscape designs — from space-efficient patios to elegant walkways. Our team is experienced with the unique challenges of compact Bay Area properties.',
   },
 ];
 
@@ -229,7 +229,7 @@ export default function EmeryvillePage() {
             Why Emeryville Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            Emeryville is a small, vibrant city on the San Francisco Bay with a thriving waterfront and urban character. From residential neighborhoods to modern developments, we design hardscapes that enhance your property and create inviting outdoor spaces that maximize every square foot.
+            Emeryville is a dynamic, compact city at the crossroads of Oakland and Berkeley, known for its modern development, creative energy, and Bay views. From the loft-style residences near Bay Street to the established homes in the Triangle district, we design hardscapes that complement your home and maximize your outdoor space.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
