@@ -91,14 +91,29 @@ const cities = [
   'fairfax',
 ];
 
+const servicePages = [
+  'paver-driveways',
+  'paver-patios',
+  'retaining-walls',
+  'synthetic-turf',
+  'paver-walkways',
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://tppavers.com';
 
-  const cityPages = cities.map((city) => ({
+  const cityEntries = cities.map((city) => ({
     url: `${baseUrl}/${city}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.9,
+  }));
+
+  const serviceEntries = servicePages.map((page) => ({
+    url: `${baseUrl}/${page}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.95,
   }));
 
   return [
@@ -108,6 +123,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 1,
     },
-    ...cityPages,
+    ...serviceEntries,
+    ...cityEntries,
   ];
 }
