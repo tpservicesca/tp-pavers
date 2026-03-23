@@ -100,7 +100,7 @@ const services = [
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      'Design the perfect outdoor living space for Clayton's charming downtown and scenic foothill properties. From backyard pavers to front walkways, we create durable patio paver designs for every Clayton home.',
+      'Design the perfect outdoor living space for Clayton\'s charming downtown and scenic foothill properties. From backyard pavers to front walkways, we create durable patio paver designs for every Clayton home.',
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
@@ -112,7 +112,7 @@ const services = [
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      'Save water and keep your Clayton lawn green year-round. Our premium artificial turf is perfect for families, pets, and Clayton's Mediterranean climate with warm summers moderated by mountain breezes.',
+      'Save water and keep your Clayton lawn green year-round. Our premium artificial turf is perfect for families, pets, and Clayton\'s Mediterranean climate with warm summers moderated by mountain breezes.',
   },
 ];
 
@@ -135,7 +135,7 @@ const faqs = [
   {
     question: 'What paver materials work best for Clayton\'s climate?',
     answer:
-      'Clayton's Mediterranean climate with warm summers moderated by mountain breezes makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
+      'Clayton\'s Mediterranean climate with warm summers moderated by mountain breezes makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
   },
   {
     question: 'Do you offer a warranty on Clayton paver installations?',
@@ -145,7 +145,7 @@ const faqs = [
   {
     question: 'Can you replace my old concrete driveway with pavers in Clayton?',
     answer:
-      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Clayton's rocky foothill soil near Mt. Diablo.',
+      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Clayton\'s rocky foothill soil near Mt. Diablo.',
   },
 ];
 
@@ -228,7 +228,7 @@ export default function ClaytonPage() {
             Why Clayton Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            Clayton is a picturesque small town nestled at the base of Mount Diablo. Whether you're looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Oakhurst to Clayton Valley.
+            Clayton is a picturesque small town nestled at the base of Mount Diablo. Whether you\'re looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Oakhurst to Clayton Valley.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

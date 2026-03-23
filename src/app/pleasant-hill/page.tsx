@@ -100,7 +100,7 @@ const services = [
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      'Design the perfect outdoor living space for Pleasant Hill's tree-lined streets and welcoming suburban neighborhoods. From backyard pavers to front walkways, we create durable patio paver designs for every Pleasant Hill home.',
+      'Design the perfect outdoor living space for Pleasant Hill\'s tree-lined streets and welcoming suburban neighborhoods. From backyard pavers to front walkways, we create durable patio paver designs for every Pleasant Hill home.',
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
@@ -112,7 +112,7 @@ const services = [
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      'Save water and keep your Pleasant Hill lawn green year-round. Our premium artificial turf is perfect for families, pets, and Pleasant Hill's Mediterranean climate with warm summers and mild winters.',
+      'Save water and keep your Pleasant Hill lawn green year-round. Our premium artificial turf is perfect for families, pets, and Pleasant Hill\'s Mediterranean climate with warm summers and mild winters.',
   },
 ];
 
@@ -125,7 +125,7 @@ const faqs = [
   {
     question: 'What neighborhoods in Pleasant Hill do you serve?',
     answer:
-      'We serve all of Pleasant Hill including Gregory Gardens, Grayson, Poet's Corner, Contra Costa Centre, Sun Valley. We also cover neighboring cities like Walnut Creek, Concord, Martinez, Lafayette and surrounding East Bay areas.',
+      'We serve all of Pleasant Hill including Gregory Gardens, Grayson, Poet\'s Corner, Contra Costa Centre, Sun Valley. We also cover neighboring cities like Walnut Creek, Concord, Martinez, Lafayette and surrounding East Bay areas.',
   },
   {
     question: 'How long does a paver driveway installation take in Pleasant Hill?',
@@ -135,7 +135,7 @@ const faqs = [
   {
     question: 'What paver materials work best for Pleasant Hill\'s climate?',
     answer:
-      'Pleasant Hill's Mediterranean climate with warm summers and mild winters makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
+      'Pleasant Hill\'s Mediterranean climate with warm summers and mild winters makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
   },
   {
     question: 'Do you offer a warranty on Pleasant Hill paver installations?',
@@ -145,7 +145,7 @@ const faqs = [
   {
     question: 'Can you replace my old concrete driveway with pavers in Pleasant Hill?',
     answer:
-      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Pleasant Hill's clay-heavy soil conditions.',
+      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Pleasant Hill\'s clay-heavy soil conditions.',
   },
 ];
 
@@ -230,7 +230,7 @@ export default function PleasantHillPage() {
             Why Pleasant Hill Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            Pleasant Hill is a charming city known for its excellent schools and family-friendly neighborhoods. Whether you're looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Gregory Gardens to Contra Costa Centre.
+            Pleasant Hill is a charming city known for its excellent schools and family-friendly neighborhoods. Whether you\'re looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Gregory Gardens to Contra Costa Centre.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

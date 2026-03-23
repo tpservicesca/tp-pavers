@@ -100,19 +100,19 @@ const services = [
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      "Design the perfect outdoor living space for San Bruno's beautiful weather. From backyard patios to front walkways, we create durable and beautiful hardscapes for every home.",
+      "Design the perfect outdoor living space for San Bruno\'s beautiful weather. From backyard patios to front walkways, we create durable and beautiful hardscapes for every home.",
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
     title: 'Retaining Walls',
     description:
-      "San Bruno's varied terrain often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to properties throughout Rollingwood and beyond.",
+      "San Bruno\'s varied terrain often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to properties throughout Rollingwood and beyond.",
   },
   {
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      "Save water and keep your San Bruno lawn green year-round. Our premium artificial turf is perfect for families, pets, and California's drought-conscious lifestyle.",
+      "Save water and keep your San Bruno lawn green year-round. Our premium artificial turf is perfect for families, pets, and California\'s drought-conscious lifestyle.",
   },
 ];
 
@@ -120,7 +120,7 @@ const faqs = [
   {
     question: "How much do pavers cost in San Bruno, CA?",
     answer:
-      "Paver installation costs in San Bruno depend on the project size, materials chosen, and site preparation needed. Whether it's a driveway, patio, or walkway, we provide free on-site estimates with transparent pricing. Most San Bruno homeowners are pleasantly surprised by the value compared to plain concrete.",
+      "Paver installation costs in San Bruno depend on the project size, materials chosen, and site preparation needed. Whether it\'s a driveway, patio, or walkway, we provide free on-site estimates with transparent pricing. Most San Bruno homeowners are pleasantly surprised by the value compared to plain concrete.",
   },
   {
     question: "What neighborhoods in San Bruno do you serve?",
@@ -133,7 +133,7 @@ const faqs = [
       "Most residential paver projects in San Bruno — driveways, patios, or walkways — are completed in 1 to 2 weeks depending on size and complexity. We handle everything from demo to final sealing. A detailed timeline is provided after your free consultation.",
   },
   {
-    question: "What paver materials work best for San Bruno's climate?",
+    question: "What paver materials work best for San Bruno\'s climate?",
     answer:
       "San Bruno enjoys a mild Mediterranean climate, making concrete pavers and natural stone excellent choices. Both are durable, weather-resistant, and low-maintenance. We help you select materials that look great and last decades in the Bay Area climate.",
   },

@@ -100,7 +100,7 @@ const services = [
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      'Design the perfect outdoor living space for Pittsburg's expanding neighborhoods and waterfront development areas. From backyard pavers to front walkways, we create durable patio paver designs for every Pittsburg home.',
+      'Design the perfect outdoor living space for Pittsburg\'s expanding neighborhoods and waterfront development areas. From backyard pavers to front walkways, we create durable patio paver designs for every Pittsburg home.',
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
@@ -112,7 +112,7 @@ const services = [
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      'Save water and keep your Pittsburg lawn green year-round. Our premium artificial turf is perfect for families, pets, and Pittsburg's warm inland climate with hot summers perfect for outdoor living.',
+      'Save water and keep your Pittsburg lawn green year-round. Our premium artificial turf is perfect for families, pets, and Pittsburg\'s warm inland climate with hot summers perfect for outdoor living.',
   },
 ];
 
@@ -135,7 +135,7 @@ const faqs = [
   {
     question: 'What paver materials work best for Pittsburg\'s climate?',
     answer:
-      'Pittsburg's warm inland climate with hot summers perfect for outdoor living makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
+      'Pittsburg\'s warm inland climate with hot summers perfect for outdoor living makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
   },
   {
     question: 'Do you offer a warranty on Pittsburg paver installations?',
@@ -145,7 +145,7 @@ const faqs = [
   {
     question: 'Can you replace my old concrete driveway with pavers in Pittsburg?',
     answer:
-      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Pittsburg's Delta-influenced soil conditions.',
+      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Pittsburg\'s Delta-influenced soil conditions.',
   },
 ];
 
@@ -229,7 +229,7 @@ export default function PittsburgPage() {
             Why Pittsburg Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            Pittsburg is a revitalized Delta city with a thriving waterfront and growing residential communities. Whether you're looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Highlands Ranch to Los Medanos.
+            Pittsburg is a revitalized Delta city with a thriving waterfront and growing residential communities. Whether you\'re looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Highlands Ranch to Los Medanos.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

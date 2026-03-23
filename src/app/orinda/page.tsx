@@ -100,7 +100,7 @@ const services = [
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      'Design the perfect outdoor living space for Orinda's prestigious estates, wooded hillsides, and scenic country club areas. From backyard pavers to front walkways, we create durable patio paver designs for every Orinda home.',
+      'Design the perfect outdoor living space for Orinda\'s prestigious estates, wooded hillsides, and scenic country club areas. From backyard pavers to front walkways, we create durable patio paver designs for every Orinda home.',
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
@@ -112,7 +112,7 @@ const services = [
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      'Save water and keep your Orinda lawn green year-round. Our premium artificial turf is perfect for families, pets, and Orinda's sheltered microclimate with warm summers and mild winters.',
+      'Save water and keep your Orinda lawn green year-round. Our premium artificial turf is perfect for families, pets, and Orinda\'s sheltered microclimate with warm summers and mild winters.',
   },
 ];
 
@@ -135,7 +135,7 @@ const faqs = [
   {
     question: 'What paver materials work best for Orinda\'s climate?',
     answer:
-      'Orinda's sheltered microclimate with warm summers and mild winters makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
+      'Orinda\'s sheltered microclimate with warm summers and mild winters makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
   },
   {
     question: 'Do you offer a warranty on Orinda paver installations?',
@@ -145,7 +145,7 @@ const faqs = [
   {
     question: 'Can you replace my old concrete driveway with pavers in Orinda?',
     answer:
-      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Orinda's steep hillside soil and clay composition.',
+      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Orinda\'s steep hillside soil and clay composition.',
   },
 ];
 
@@ -229,7 +229,7 @@ export default function OrindaPage() {
             Why Orinda Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            Orinda is an exclusive Lamorinda community with stunning hillside properties and top-rated schools. Whether you're looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Sleepy Hollow to Orinda Village.
+            Orinda is an exclusive Lamorinda community with stunning hillside properties and top-rated schools. Whether you\'re looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Sleepy Hollow to Orinda Village.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

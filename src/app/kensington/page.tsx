@@ -100,7 +100,7 @@ const services = [
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      'Design the perfect outdoor living space for Kensington's exclusive hillside homes with sweeping Golden Gate and bay views. From backyard pavers to front walkways, we create durable patio paver designs for every Kensington home.',
+      'Design the perfect outdoor living space for Kensington\'s exclusive hillside homes with sweeping Golden Gate and bay views. From backyard pavers to front walkways, we create durable patio paver designs for every Kensington home.',
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
@@ -112,7 +112,7 @@ const services = [
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      'Save water and keep your Kensington lawn green year-round. Our premium artificial turf is perfect for families, pets, and Kensington's mild, fog-moderated climate with comfortable year-round temperatures.',
+      'Save water and keep your Kensington lawn green year-round. Our premium artificial turf is perfect for families, pets, and Kensington\'s mild, fog-moderated climate with comfortable year-round temperatures.',
   },
 ];
 
@@ -135,7 +135,7 @@ const faqs = [
   {
     question: 'What paver materials work best for Kensington\'s climate?',
     answer:
-      'Kensington's mild, fog-moderated climate with comfortable year-round temperatures makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
+      'Kensington\'s mild, fog-moderated climate with comfortable year-round temperatures makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
   },
   {
     question: 'Do you offer a warranty on Kensington paver installations?',
@@ -145,7 +145,7 @@ const faqs = [
   {
     question: 'Can you replace my old concrete driveway with pavers in Kensington?',
     answer:
-      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Kensington's steep hillside clay soil.',
+      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Kensington\'s steep hillside clay soil.',
   },
 ];
 
@@ -228,7 +228,7 @@ export default function KensingtonPage() {
             Why Kensington Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            Kensington is an upscale hillside community with panoramic bay views and a village atmosphere. Whether you're looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Kensington Park to Arlington.
+            Kensington is an upscale hillside community with panoramic bay views and a village atmosphere. Whether you\'re looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Kensington Park to Arlington.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

@@ -100,19 +100,19 @@ const services = [
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      "Design the perfect outdoor living space for Cupertino's beautiful weather. From backyard patios to front walkways, we create durable and beautiful hardscapes for every home.",
+      "Design the perfect outdoor living space for Cupertino\'s beautiful weather. From backyard patios to front walkways, we create durable and beautiful hardscapes for every home.",
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
     title: 'Retaining Walls',
     description:
-      "Cupertino's varied terrain often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to properties throughout Garden Gate and beyond.",
+      "Cupertino\'s varied terrain often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to properties throughout Garden Gate and beyond.",
   },
   {
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      "Save water and keep your Cupertino lawn green year-round. Our premium artificial turf is perfect for families, pets, and California's drought-conscious lifestyle.",
+      "Save water and keep your Cupertino lawn green year-round. Our premium artificial turf is perfect for families, pets, and California\'s drought-conscious lifestyle.",
   },
 ];
 
@@ -120,7 +120,7 @@ const faqs = [
   {
     question: "How much do pavers cost in Cupertino, CA?",
     answer:
-      "Paver installation costs in Cupertino depend on the project size, materials chosen, and site preparation needed. Whether it's a driveway, patio, or walkway, we provide free on-site estimates with transparent pricing. Most Cupertino homeowners are pleasantly surprised by the value compared to plain concrete.",
+      "Paver installation costs in Cupertino depend on the project size, materials chosen, and site preparation needed. Whether it\'s a driveway, patio, or walkway, we provide free on-site estimates with transparent pricing. Most Cupertino homeowners are pleasantly surprised by the value compared to plain concrete.",
   },
   {
     question: "What neighborhoods in Cupertino do you serve?",
@@ -133,7 +133,7 @@ const faqs = [
       "Most residential paver projects in Cupertino — driveways, patios, or walkways — are completed in 1 to 2 weeks depending on size and complexity. We handle everything from demo to final sealing. A detailed timeline is provided after your free consultation.",
   },
   {
-    question: "What paver materials work best for Cupertino's climate?",
+    question: "What paver materials work best for Cupertino\'s climate?",
     answer:
       "Cupertino enjoys a mild Mediterranean climate, making concrete pavers and natural stone excellent choices. Both are durable, weather-resistant, and low-maintenance. We help you select materials that look great and last decades in the Bay Area climate.",
   },
@@ -224,7 +224,7 @@ export default function CupertinoPage() {
             Why Cupertino Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            Cupertino is one of Silicon Valley's most prestigious communities — known for its top-rated schools, tech campus neighbors, and beautifully maintained homes. From the Eichler homes of Rancho Rinconada to the hillside properties of Monta Vista, we create hardscapes that meet the high standards of Cupertino homeowners.
+            Cupertino is one of Silicon Valley\'s most prestigious communities — known for its top-rated schools, tech campus neighbors, and beautifully maintained homes. From the Eichler homes of Rancho Rinconada to the hillside properties of Monta Vista, we create hardscapes that meet the high standards of Cupertino homeowners.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

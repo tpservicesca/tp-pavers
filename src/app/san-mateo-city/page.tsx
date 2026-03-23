@@ -100,19 +100,19 @@ const services = [
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      "Design the perfect outdoor living space for San Mateo's beautiful weather. From backyard patios to front walkways, we create durable and beautiful hardscapes for every home.",
+      "Design the perfect outdoor living space for San Mateo\'s beautiful weather. From backyard patios to front walkways, we create durable and beautiful hardscapes for every home.",
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
     title: 'Retaining Walls',
     description:
-      "San Mateo's varied terrain often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to properties throughout Fiesta Gardens and beyond.",
+      "San Mateo\'s varied terrain often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to properties throughout Fiesta Gardens and beyond.",
   },
   {
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      "Save water and keep your San Mateo lawn green year-round. Our premium artificial turf is perfect for families, pets, and California's drought-conscious lifestyle.",
+      "Save water and keep your San Mateo lawn green year-round. Our premium artificial turf is perfect for families, pets, and California\'s drought-conscious lifestyle.",
   },
 ];
 
@@ -120,7 +120,7 @@ const faqs = [
   {
     question: "How much do pavers cost in San Mateo, CA?",
     answer:
-      "Paver installation costs in San Mateo depend on the project size, materials chosen, and site preparation needed. Whether it's a driveway, patio, or walkway, we provide free on-site estimates with transparent pricing. Most San Mateo homeowners are pleasantly surprised by the value compared to plain concrete.",
+      "Paver installation costs in San Mateo depend on the project size, materials chosen, and site preparation needed. Whether it\'s a driveway, patio, or walkway, we provide free on-site estimates with transparent pricing. Most San Mateo homeowners are pleasantly surprised by the value compared to plain concrete.",
   },
   {
     question: "What neighborhoods in San Mateo do you serve?",
@@ -133,7 +133,7 @@ const faqs = [
       "Most residential paver projects in San Mateo — driveways, patios, or walkways — are completed in 1 to 2 weeks depending on size and complexity. We handle everything from demo to final sealing. A detailed timeline is provided after your free consultation.",
   },
   {
-    question: "What paver materials work best for San Mateo's climate?",
+    question: "What paver materials work best for San Mateo\'s climate?",
     answer:
       "San Mateo enjoys a mild Mediterranean climate, making concrete pavers and natural stone excellent choices. Both are durable, weather-resistant, and low-maintenance. We help you select materials that look great and last decades in the Bay Area climate.",
   },

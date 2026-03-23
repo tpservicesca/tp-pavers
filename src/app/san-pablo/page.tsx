@@ -100,7 +100,7 @@ const services = [
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      'Design the perfect outdoor living space for San Pablo's established residential neighborhoods and community-oriented streets. From backyard pavers to front walkways, we create durable patio paver designs for every San Pablo home.',
+      'Design the perfect outdoor living space for San Pablo\'s established residential neighborhoods and community-oriented streets. From backyard pavers to front walkways, we create durable patio paver designs for every San Pablo home.',
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
@@ -112,7 +112,7 @@ const services = [
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      'Save water and keep your San Pablo lawn green year-round. Our premium artificial turf is perfect for families, pets, and San Pablo's mild year-round climate influenced by the nearby bay.',
+      'Save water and keep your San Pablo lawn green year-round. Our premium artificial turf is perfect for families, pets, and San Pablo\'s mild year-round climate influenced by the nearby bay.',
   },
 ];
 
@@ -135,7 +135,7 @@ const faqs = [
   {
     question: 'What paver materials work best for San Pablo\'s climate?',
     answer:
-      'San Pablo's mild year-round climate influenced by the nearby bay makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
+      'San Pablo\'s mild year-round climate influenced by the nearby bay makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
   },
   {
     question: 'Do you offer a warranty on San Pablo paver installations?',
@@ -145,7 +145,7 @@ const faqs = [
   {
     question: 'Can you replace my old concrete driveway with pavers in San Pablo?',
     answer:
-      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with San Pablo's clay-based soil.',
+      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with San Pablo\'s clay-based soil.',
   },
 ];
 
@@ -229,7 +229,7 @@ export default function SanPabloPage() {
             Why San Pablo Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            San Pablo is a close-knit community in West Contra Costa with convenient access to the entire Bay Area. Whether you're looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Rumrill to Rollingwood.
+            San Pablo is a close-knit community in West Contra Costa with convenient access to the entire Bay Area. Whether you\'re looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Rumrill to Rollingwood.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

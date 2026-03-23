@@ -155,7 +155,7 @@ const faqs = [
 const neighborhoods = [
   'Southtown',
   'Leisure Town',
-  "Brown's Valley",
+  "Brown\'s Valley",
   'Alamo Creek',
   'Meadowlands',
 ];

@@ -100,19 +100,19 @@ const services = [
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      "Design the perfect outdoor living space for Burlingame's beautiful weather. From backyard patios to front walkways, we create durable and beautiful hardscapes for every home.",
+      "Design the perfect outdoor living space for Burlingame\'s beautiful weather. From backyard patios to front walkways, we create durable and beautiful hardscapes for every home.",
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
     title: 'Retaining Walls',
     description:
-      "Burlingame's varied terrain often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to properties throughout Easton Addition and beyond.",
+      "Burlingame\'s varied terrain often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to properties throughout Easton Addition and beyond.",
   },
   {
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      "Save water and keep your Burlingame lawn green year-round. Our premium artificial turf is perfect for families, pets, and California's drought-conscious lifestyle.",
+      "Save water and keep your Burlingame lawn green year-round. Our premium artificial turf is perfect for families, pets, and California\'s drought-conscious lifestyle.",
   },
 ];
 
@@ -120,7 +120,7 @@ const faqs = [
   {
     question: "How much do pavers cost in Burlingame, CA?",
     answer:
-      "Paver installation costs in Burlingame depend on the project size, materials chosen, and site preparation needed. Whether it's a driveway, patio, or walkway, we provide free on-site estimates with transparent pricing. Most Burlingame homeowners are pleasantly surprised by the value compared to plain concrete.",
+      "Paver installation costs in Burlingame depend on the project size, materials chosen, and site preparation needed. Whether it\'s a driveway, patio, or walkway, we provide free on-site estimates with transparent pricing. Most Burlingame homeowners are pleasantly surprised by the value compared to plain concrete.",
   },
   {
     question: "What neighborhoods in Burlingame do you serve?",
@@ -133,7 +133,7 @@ const faqs = [
       "Most residential paver projects in Burlingame — driveways, patios, or walkways — are completed in 1 to 2 weeks depending on size and complexity. We handle everything from demo to final sealing. A detailed timeline is provided after your free consultation.",
   },
   {
-    question: "What paver materials work best for Burlingame's climate?",
+    question: "What paver materials work best for Burlingame\'s climate?",
     answer:
       "Burlingame enjoys a mild Mediterranean climate, making concrete pavers and natural stone excellent choices. Both are durable, weather-resistant, and low-maintenance. We help you select materials that look great and last decades in the Bay Area climate.",
   },
@@ -224,7 +224,7 @@ export default function BurlingamePage() {
             Why Burlingame Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            Burlingame — the 'City of Trees' — is one of the Peninsula's most sought-after communities, known for its charming downtown, beautiful tree-lined avenues, and elegant homes. From the grand properties of Burlingame Hills to the classic bungalows of Easton Addition, we design hardscapes worthy of this distinguished neighborhood.
+            Burlingame — the 'City of Trees' — is one of the Peninsula\'s most sought-after communities, known for its charming downtown, beautiful tree-lined avenues, and elegant homes. From the grand properties of Burlingame Hills to the classic bungalows of Easton Addition, we design hardscapes worthy of this distinguished neighborhood.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

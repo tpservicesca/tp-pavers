@@ -100,7 +100,7 @@ const services = [
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      'Design the perfect outdoor living space for Antioch's diverse neighborhoods from established communities to new developments. From backyard pavers to front walkways, we create durable patio paver designs for every Antioch home.',
+      'Design the perfect outdoor living space for Antioch\'s diverse neighborhoods from established communities to new developments. From backyard pavers to front walkways, we create durable patio paver designs for every Antioch home.',
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
@@ -112,7 +112,7 @@ const services = [
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      'Save water and keep your Antioch lawn green year-round. Our premium artificial turf is perfect for families, pets, and Antioch's warm inland climate with plenty of sunshine year-round.',
+      'Save water and keep your Antioch lawn green year-round. Our premium artificial turf is perfect for families, pets, and Antioch\'s warm inland climate with plenty of sunshine year-round.',
   },
 ];
 
@@ -135,7 +135,7 @@ const faqs = [
   {
     question: 'What paver materials work best for Antioch\'s climate?',
     answer:
-      'Antioch's warm inland climate with plenty of sunshine year-round makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
+      'Antioch\'s warm inland climate with plenty of sunshine year-round makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
   },
   {
     question: 'Do you offer a warranty on Antioch paver installations?',
@@ -145,7 +145,7 @@ const faqs = [
   {
     question: 'Can you replace my old concrete driveway with pavers in Antioch?',
     answer:
-      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Antioch's sandy and clay soil mix.',
+      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Antioch\'s sandy and clay soil mix.',
   },
 ];
 
@@ -230,7 +230,7 @@ export default function AntiochPage() {
             Why Antioch Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            Antioch is one of East Contra Costa County's largest and fastest-growing cities. Whether you're looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Sand Creek to Deer Valley.
+            Antioch is one of East Contra Costa County\'s largest and fastest-growing cities. Whether you\'re looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Sand Creek to Deer Valley.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

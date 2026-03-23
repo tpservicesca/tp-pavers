@@ -100,7 +100,7 @@ const services = [
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      'Design the perfect outdoor living space for Discovery Bay's waterfront homes, private docks, and resort-style community. From backyard pavers to front walkways, we create durable patio paver designs for every Discovery Bay home.',
+      'Design the perfect outdoor living space for Discovery Bay\'s waterfront homes, private docks, and resort-style community. From backyard pavers to front walkways, we create durable patio paver designs for every Discovery Bay home.',
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
@@ -112,7 +112,7 @@ const services = [
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      'Save water and keep your Discovery Bay lawn green year-round. Our premium artificial turf is perfect for families, pets, and Discovery Bay's warm Delta climate with hot summers and cool Delta breezes.',
+      'Save water and keep your Discovery Bay lawn green year-round. Our premium artificial turf is perfect for families, pets, and Discovery Bay\'s warm Delta climate with hot summers and cool Delta breezes.',
   },
 ];
 
@@ -135,7 +135,7 @@ const faqs = [
   {
     question: 'What paver materials work best for Discovery Bay\'s climate?',
     answer:
-      'Discovery Bay's warm Delta climate with hot summers and cool Delta breezes makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
+      'Discovery Bay\'s warm Delta climate with hot summers and cool Delta breezes makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
   },
   {
     question: 'Do you offer a warranty on Discovery Bay paver installations?',
@@ -145,7 +145,7 @@ const faqs = [
   {
     question: 'Can you replace my old concrete driveway with pavers in Discovery Bay?',
     answer:
-      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Discovery Bay's Delta peat and sandy soil conditions.',
+      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Discovery Bay\'s Delta peat and sandy soil conditions.',
   },
 ];
 
@@ -229,7 +229,7 @@ export default function DiscoveryBayPage() {
             Why Discovery Bay Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            Discovery Bay is a waterfront Delta community with resort-style living and private docks. Whether you're looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Newport to Windsweep.
+            Discovery Bay is a waterfront Delta community with resort-style living and private docks. Whether you\'re looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Newport to Windsweep.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

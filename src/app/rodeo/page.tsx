@@ -100,7 +100,7 @@ const services = [
     image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
-      'Design the perfect outdoor living space for Rodeo's charming small-town neighborhoods and scenic strait-side properties. From backyard pavers to front walkways, we create durable patio paver designs for every Rodeo home.',
+      'Design the perfect outdoor living space for Rodeo\'s charming small-town neighborhoods and scenic strait-side properties. From backyard pavers to front walkways, we create durable patio paver designs for every Rodeo home.',
   },
   {
     image: '/images/projects/patio-retaining-wall.webp',
@@ -112,7 +112,7 @@ const services = [
     image: '/images/S1.webp',
     title: 'Synthetic Turf',
     description:
-      'Save water and keep your Rodeo lawn green year-round. Our premium artificial turf is perfect for families, pets, and Rodeo's mild bayside climate with cooling strait breezes.',
+      'Save water and keep your Rodeo lawn green year-round. Our premium artificial turf is perfect for families, pets, and Rodeo\'s mild bayside climate with cooling strait breezes.',
   },
 ];
 
@@ -135,7 +135,7 @@ const faqs = [
   {
     question: 'What paver materials work best for Rodeo\'s climate?',
     answer:
-      'Rodeo's mild bayside climate with cooling strait breezes makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
+      'Rodeo\'s mild bayside climate with cooling strait breezes makes concrete pavers and natural stone excellent choices. Both are heat-resistant, durable, and low-maintenance. We help you select materials that look great and last decades in the Contra Costa County climate.',
   },
   {
     question: 'Do you offer a warranty on Rodeo paver installations?',
@@ -145,7 +145,7 @@ const faqs = [
   {
     question: 'Can you replace my old concrete driveway with pavers in Rodeo?',
     answer:
-      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Rodeo's hillside and waterfront soil conditions.',
+      'Absolutely. We handle full demolition and removal of existing concrete, asphalt, or old surfaces. Proper base preparation is key to a lasting install, and we never cut corners — especially with Rodeo\'s hillside and waterfront soil conditions.',
   },
 ];
 
@@ -228,7 +228,7 @@ export default function RodeoPage() {
             Why Rodeo Homeowners Trust TP Pavers
           </h2>
           <p className="text-slate-600 text-center max-w-[750px] mx-auto mb-12 leading-relaxed">
-            Rodeo is a small, tight-knit waterfront community with scenic Carquinez Strait views. Whether you're looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Rodeo Hills to Pacific Avenue.
+            Rodeo is a small, tight-knit waterfront community with scenic Carquinez Strait views. Whether you\'re looking for driveway pavers near me or exploring patio paver designs, we create hardscapes that match your home and lifestyle — from Rodeo Hills to Pacific Avenue.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
