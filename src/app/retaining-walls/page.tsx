@@ -191,7 +191,7 @@ export default function RetainingWallsPage() {
       <section className="relative min-h-[70vh] flex flex-col justify-center items-center pt-[100px] px-5 pb-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/projects/patio-retaining-wall.webp"
+            src="/images/R2.webp"
             alt="Professional retaining wall construction in California"
             fill
             className="object-cover"
