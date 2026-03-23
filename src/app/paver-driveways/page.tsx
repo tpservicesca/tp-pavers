@@ -118,7 +118,7 @@ const processSteps = [
 const faqs = [
   {
     question: 'How much does a paver driveway installation cost?',
-    answer: 'Paver driveway costs vary based on size, material choice, and site preparation needs. Interlocking concrete pavers typically start from $15–$25 per square foot installed, while natural stone can range from $25–$50+ per square foot. We provide free, detailed estimates for every project so you know exactly what to expect.',
+    answer: 'Paver driveway costs vary based on size, material choice, and site preparation needs. The cost depends on your project size, material selection, and site conditions. We provide free, detailed on-site estimates for every project so you know exactly what to expect.',
   },
   {
     question: 'Are paver driveways better than concrete driveways?',
@@ -332,9 +332,9 @@ export default function PaverDrivewaysPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             {[
-              { material: 'Interlocking Concrete Pavers', range: 'Starting from $15/sq ft', note: 'Most popular — great value and durability' },
-              { material: 'Brick Pavers', range: 'Starting from $18/sq ft', note: 'Classic look with lifetime color' },
-              { material: 'Natural Stone Pavers', range: 'Starting from $25/sq ft', note: 'Premium luxury — travertine, bluestone, granite' },
+              { material: 'Interlocking Concrete Pavers', range: 'Contact for pricing', note: 'Most popular — great value and durability' },
+              { material: 'Brick Pavers', range: 'Contact for pricing', note: 'Classic look with lifetime color' },
+              { material: 'Natural Stone Pavers', range: 'Contact for pricing', note: 'Premium luxury — travertine, bluestone, granite' },
             ].map((item, i) => (
               <div key={i} className="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100">
                 <h3 className="text-lg font-bold text-brand-black mb-2">{item.material}</h3>

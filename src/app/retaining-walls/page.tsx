@@ -137,7 +137,7 @@ const processSteps = [
 const faqs = [
   {
     question: 'How much does retaining wall installation cost?',
-    answer: 'Retaining wall costs depend on height, length, materials, and site conditions. Basic segmental block walls start from $25–$40 per square face foot. Natural stone walls range from $35–$60+. Taller walls requiring engineering cost more. We provide free estimates with transparent pricing.',
+    answer: 'Retaining wall costs depend on height, length, materials, and site conditions. Every project is different — cost depends on wall height, length, materials, and site conditions. We provide free on-site estimates with transparent pricing.',
   },
   {
     question: 'Do I need a permit for a retaining wall?',

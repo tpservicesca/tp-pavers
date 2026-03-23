@@ -136,7 +136,7 @@ const processSteps = [
 const faqs = [
   {
     question: 'How much does paver walkway installation cost?',
-    answer: 'Paver walkway costs typically range from $15–$30 per square foot installed, depending on materials and complexity. A typical 100 sq ft front walkway costs $1,500–$3,000. Curved designs and premium materials (natural stone) are at the higher end. We provide free estimates with no obligation.',
+    answer: 'Every walkway project is unique — cost depends on length, materials, and design complexity. We provide free on-site estimates with no obligation.',
   },
   {
     question: 'What are the best paver walkway designs?',

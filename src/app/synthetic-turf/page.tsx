@@ -86,7 +86,7 @@ const jsonLd = {
 const benefits = [
   {
     title: 'Save Thousands on Water',
-    description: 'California homeowners spend $100–$300/month watering natural grass. Artificial turf eliminates water costs entirely, saving you $1,200–$3,600+ per year. It pays for itself in just a few years.',
+    description: 'California homeowners spend significant amounts watering natural grass. Artificial turf eliminates water costs entirely, saving you thousands per year. It pays for itself in just a few years.',
     icon: <Droplets size={28} className="text-brand-orange" />,
   },
   {
@@ -139,18 +139,18 @@ const processSteps = [
 ];
 
 const costComparison = [
-  { category: 'Monthly Water Bill', natural: '$100–$300', artificial: '$0' },
-  { category: 'Mowing (monthly)', natural: '$80–$200', artificial: '$0' },
-  { category: 'Fertilizer & Weed Control', natural: '$30–$80/month', artificial: '$0' },
-  { category: 'Pest Treatment', natural: '$50–$100/quarter', artificial: '$0' },
-  { category: 'Annual Reseeding/Sod', natural: '$200–$500', artificial: '$0' },
-  { category: '10-Year Total Cost', natural: '$15,000–$40,000+', artificial: '$5,000–$15,000 (one-time install)' },
+  { category: 'Monthly Water Bill', natural: 'High', artificial: '$0' },
+  { category: 'Mowing (monthly)', natural: 'Recurring', artificial: '$0' },
+  { category: 'Fertilizer & Weed Control', natural: 'Recurring', artificial: '$0' },
+  { category: 'Pest Treatment', natural: 'Recurring', artificial: '$0' },
+  { category: 'Annual Reseeding/Sod', natural: 'Annual cost', artificial: '$0' },
+  { category: '10-Year Total Cost', natural: 'Significant over time', artificial: 'One-time investment' },
 ];
 
 const faqs = [
   {
     question: 'How much does artificial turf installation cost?',
-    answer: 'Artificial turf installation typically costs $8–$15 per square foot installed, depending on the turf product, base preparation needed, and project complexity. A typical 500 sq ft lawn costs $4,000–$7,500. When you factor in the elimination of water bills, mowing, and maintenance, most homeowners break even within 3–5 years.',
+    answer: 'The cost depends on the turf product, project size, and base preparation needed. When you factor in the elimination of water bills, mowing, and maintenance, most homeowners break even within 3–5 years.',
   },
   {
     question: 'How long does artificial turf last?',
@@ -174,7 +174,7 @@ const faqs = [
   },
   {
     question: 'Does artificial turf save water?',
-    answer: 'Yes — dramatically. The average California lawn uses 44,000+ gallons of water per year. Artificial turf eliminates that entirely. Many California water districts even offer rebates of $1–$3 per square foot for replacing natural grass with synthetic turf.',
+    answer: 'Yes — dramatically. The average California lawn uses 44,000+ gallons of water per year. Artificial turf eliminates that entirely. Many California water districts even offer rebates per square foot for replacing natural grass with synthetic turf.',
   },
   {
     question: 'Where do you install artificial turf in California?',

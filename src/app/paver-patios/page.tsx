@@ -136,7 +136,7 @@ const processSteps = [
 const faqs = [
   {
     question: 'How much does a paver patio installation cost?',
-    answer: 'Paver patio costs vary by size, material, and complexity. Most paver patios start from $15–$30 per square foot installed, depending on the material chosen. A typical 300 sq ft patio ranges from $4,500 to $9,000+. We provide free, detailed estimates for every project.',
+    answer: 'Paver patio costs vary by size, material, and complexity. Every project is unique — cost depends on size, materials, and design complexity. We provide free, detailed on-site estimates for every project.',
   },
   {
     question: 'What are the best patio paver ideas for backyards?',
