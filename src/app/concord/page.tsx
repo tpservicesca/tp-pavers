@@ -91,19 +91,19 @@ const jsonLd = {
 
 const services = [
   {
-    image: '/images/P1.webp',
+    image: '/images/projects/driveway-multicolor.webp',
     title: 'Paver Driveways',
     description:
       'Upgrade your Concord home with a custom interlocking paver driveway. Built to handle daily traffic and enhance curb appeal in neighborhoods like Dana Estates and Crystal Ranch.',
   },
   {
-    image: '/images/P2.webp',
+    image: '/images/projects/patio-raised-house.webp',
     title: 'Patios & Walkways',
     description:
       'Design the perfect outdoor living space for Concord\'s warm summers. From backyard patios to front walkways, we create durable and beautiful hardscapes for every home.',
   },
   {
-    image: '/images/R2.webp',
+    image: '/images/projects/patio-retaining-wall.webp',
     title: 'Retaining Walls',
     description:
       'Concord\'s rolling terrain near Lime Ridge and Mt. Diablo foothills often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers.',
@@ -286,14 +286,47 @@ export default function ConcordPage() {
         </div>
       </section>
 
-      {/* Gallery */}
+      {/* Project Photos */}
       <section className="py-20 bg-slate-50">
         <div className="max-w-[1200px] mx-auto px-5">
           <div className="text-brand-gold text-sm font-bold uppercase tracking-[2px] mb-2 text-center font-redhat">
             OUR WORK
           </div>
           <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-10 leading-[1.2]">
-            Recent Projects in the Bay Area
+            Recent Paver Projects
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { src: '/images/projects/walkway-brick-curved.webp', alt: 'Curved red brick paver walkway' },
+              { src: '/images/projects/walkway-brick-wide.webp', alt: 'Red brick walkway with landscaping' },
+              { src: '/images/projects/patio-retaining-wall.webp', alt: 'Paver patio with retaining wall' },
+              { src: '/images/projects/patio-raised-house.webp', alt: 'Raised paver patio with seat wall' },
+              { src: '/images/projects/walkway-herringbone.webp', alt: 'Herringbone pattern paver walkway' },
+              { src: '/images/projects/team-working.webp', alt: 'TP Pavers team at work' },
+            ].map((photo, i) => (
+              <div key={i} className="relative h-[280px] rounded-xl overflow-hidden group">
+                <Image
+                  src={photo.src}
+                  alt={photo.alt}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Gallery */}
+      <section className="py-20 bg-white">
+        <div className="max-w-[1200px] mx-auto px-5">
+          <div className="text-brand-gold text-sm font-bold uppercase tracking-[2px] mb-2 text-center font-redhat">
+            MORE PROJECTS
+          </div>
+          <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-10 leading-[1.2]">
+            Gallery
           </h2>
           <Gallery />
         </div>
