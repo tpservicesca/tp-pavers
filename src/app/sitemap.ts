@@ -31,6 +31,28 @@ const cities = [
   'rodeo',
   'crockett',
   'kensington',
+  // San Mateo County
+  'san-mateo-county',
+  'redwood-city',
+  'san-mateo-city',
+  'daly-city',
+  'south-san-francisco',
+  'san-bruno',
+  'burlingame',
+  'san-carlos',
+  'foster-city',
+  'pacifica',
+  'half-moon-bay',
+  // Santa Clara County
+  'santa-clara-county',
+  'san-jose',
+  'sunnyvale',
+  'santa-clara-city',
+  'mountain-view',
+  'milpitas',
+  'cupertino',
+  'campbell',
+  'los-gatos',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
