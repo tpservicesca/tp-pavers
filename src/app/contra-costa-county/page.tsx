@@ -225,44 +225,10 @@ const jsonLd = {
   },
 };
 
-// ── Map pins for Google Maps embed ──────────────────────────────────────────
-const cityCoords: Record<string, { lat: number; lng: number }> = {
-  'Concord': { lat: 37.978, lng: -122.031 },
-  'Danville': { lat: 37.822, lng: -121.999 },
-  'Alamo': { lat: 37.850, lng: -122.032 },
-  'Walnut Creek': { lat: 37.906, lng: -122.065 },
-  'San Ramon': { lat: 37.780, lng: -121.978 },
-  'Pleasant Hill': { lat: 37.948, lng: -122.060 },
-  'Martinez': { lat: 38.019, lng: -122.134 },
-  'Pittsburg': { lat: 38.028, lng: -121.884 },
-  'Antioch': { lat: 38.005, lng: -121.806 },
-  'Brentwood': { lat: 37.932, lng: -121.696 },
-  'Oakley': { lat: 37.997, lng: -121.712 },
-  'Clayton': { lat: 37.941, lng: -121.936 },
-  'Lafayette': { lat: 37.886, lng: -122.118 },
-  'Orinda': { lat: 37.877, lng: -122.180 },
-  'Moraga': { lat: 37.835, lng: -122.130 },
-  'El Cerrito': { lat: 37.916, lng: -122.311 },
-  'Richmond': { lat: 37.936, lng: -122.348 },
-  'San Pablo': { lat: 37.962, lng: -122.346 },
-  'Pinole': { lat: 37.993, lng: -122.299 },
-  'Hercules': { lat: 38.017, lng: -122.289 },
-  'El Sobrante': { lat: 37.977, lng: -122.295 },
-  'Bay Point': { lat: 38.029, lng: -121.961 },
-  'Pacheco': { lat: 37.983, lng: -122.075 },
-  'Discovery Bay': { lat: 37.908, lng: -121.601 },
-  'Rodeo': { lat: 38.033, lng: -122.267 },
-  'Crockett': { lat: 38.053, lng: -122.213 },
-  'Port Costa': { lat: 38.047, lng: -122.186 },
-  'Kensington': { lat: 37.910, lng: -122.280 },
-};
+
 
 // ── Page Component ──────────────────────────────────────────────────────────
 export default function ContraCostaCountyPage() {
-  const mapMarkers = Object.entries(cityCoords)
-    .map(([city, { lat, lng }]) => `markers=color:orange%7Clabel:${city[0]}%7C${lat},${lng}`)
-    .join('&');
-
   return (
     <>
       <script
@@ -317,8 +283,8 @@ export default function ContraCostaCountyPage() {
 
       <CallNowStrip />
 
-      {/* ═══ CITIES GRID ═══ */}
-      <section className="py-20 bg-white">
+      {/* ═══ CITIES GRID (desktop only) ═══ */}
+      <section className="hidden md:block py-20 bg-white">
         <div className="max-w-[1200px] mx-auto px-5">
           <div className="text-brand-gold text-sm font-bold uppercase tracking-[2px] mb-2 text-center font-redhat">
             SERVICE AREAS
@@ -359,32 +325,8 @@ export default function ContraCostaCountyPage() {
         </div>
       </section>
 
-      {/* ═══ INTERACTIVE MAP ═══ */}
-      <section className="py-20 bg-slate-50">
-        <div className="max-w-[1100px] mx-auto px-5">
-          <div className="text-brand-gold text-sm font-bold uppercase tracking-[2px] mb-2 text-center font-redhat">
-            COVERAGE MAP
-          </div>
-          <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-10 leading-[1.2]">
-            Our Contra Costa County Service Area
-          </h2>
-          <div className="rounded-2xl overflow-hidden shadow-lg border border-slate-200">
-            <iframe
-              src={`https://www.google.com/maps/embed/v1/view?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&center=37.9,-122.0&zoom=10&maptype=roadmap`}
-              width="100%"
-              height="500"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="TP Pavers service area in Contra Costa County"
-            />
-          </div>
-          <p className="text-slate-500 text-sm text-center mt-4">
-            We serve all cities and communities across Contra Costa County, CA
-          </p>
-        </div>
-      </section>
+      {/* ═══ INTERACTIVE MAP (existing component) ═══ */}
+      <ServiceAreaMap />
 
       {/* ═══ SERVICES ═══ */}
       <section className="py-20 bg-white">
@@ -532,7 +474,6 @@ export default function ContraCostaCountyPage() {
         </div>
       </section>
 
-      <ServiceAreaMap />
       <Footer />
     </>
   );
