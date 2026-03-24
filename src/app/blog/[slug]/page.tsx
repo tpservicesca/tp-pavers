@@ -1,12 +1,12 @@
 'use client';
 
+import { use } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Phone, ArrowLeft, Clock, Calendar, ChevronRight, Star, Shield, CheckCircle } from 'lucide-react';
 import { blogPosts } from '@/data/blog-posts';
-import { notFound } from 'next/navigation';
 
 /* ───── blog content registry ───── */
 import RetainingWallIdeas from '../_articles/retaining-wall-ideas';
@@ -145,11 +145,12 @@ function RelatedPosts({ currentSlug }: { currentSlug: string }) {
 }
 
 /* ───── main page ───── */
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = blogPosts.find((p) => p.slug === params.slug);
-  if (!post) return notFound();
+export default function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = use(params);
+  const post = blogPosts.find((p) => p.slug === slug);
+  if (!post) return null;
 
-  const ArticleContent = articleComponents[params.slug];
+  const ArticleContent = articleComponents[slug];
 
   return (
     <>
@@ -208,7 +209,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
             {/* Bottom CTA */}
             <InlineCTA variant="primary" />
             {/* Related posts */}
-            <RelatedPosts currentSlug={params.slug} />
+            <RelatedPosts currentSlug={slug} />
           </>
         )}
       </article>
