@@ -159,7 +159,7 @@ export default function BlogPostPage({ params }: { params: Promise<{ slug: strin
       {/* Hero */}
       <section className="relative min-h-[50vh] md:min-h-[60vh] flex items-end pt-[100px]">
         <div className="absolute inset-0 z-0">
-          <Image src={post.image} alt={post.title} fill className="object-cover" priority />
+          <Image src={post.image} alt={post.title} fill className="object-cover object-center" sizes="100vw" priority />
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20 z-[1]" />
         <div className="relative z-[2] w-full max-w-[900px] mx-auto px-5 pb-10 md:pb-16">
@@ -215,10 +215,7 @@ export default function BlogPostPage({ params }: { params: Promise<{ slug: strin
 
         </div>
         {ArticleContent && (
-          <>
-            <InlineCTA variant="primary" />
-            <RelatedPosts currentSlug={slug} />
-          </>
+          <RelatedPosts currentSlug={slug} />
         )}
       </article>
 
