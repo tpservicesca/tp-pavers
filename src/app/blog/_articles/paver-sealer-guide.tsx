@@ -148,7 +148,7 @@ export default function PaverSealerGuide() {
         </p>
       </div>
 
-      <InlineCTA variant="primary" />
+      {/* CTA handled by page wrapper */}
 
       <h2>Why Trust TP Pavers for Paver Sealing</h2>
 

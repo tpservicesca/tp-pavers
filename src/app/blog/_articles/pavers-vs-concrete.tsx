@@ -147,7 +147,7 @@ export default function PaversVsConcrete() {
         </p>
       </div>
 
-      <InlineCTA variant="primary" />
+      {/* CTA handled by page wrapper */}
 
       <h2>The Verdict: Why Pavers Win</h2>
 

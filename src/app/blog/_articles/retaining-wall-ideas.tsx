@@ -80,7 +80,7 @@ export default function RetainingWallIdeas() {
         <li><strong>Style:</strong> Contemporary, traditional, any home style</li>
       </ul>
 
-      <InlineCTA variant="secondary" />
+      {/* CTA handled by page wrapper */}
 
       <h2>3. Tiered Retaining Walls with Planting Beds</h2>
 
@@ -142,7 +142,7 @@ export default function RetainingWallIdeas() {
         drainage, the retaining wall, and the paver installation — so you have one team, one warranty, and one stunning result.
       </p>
 
-      <InlineCTA variant="primary" />
+      {/* Single mid-article CTA removed — final CTA is in the page wrapper */}
 
       <h2>6. Modern Smooth-Face Retaining Walls</h2>
 
@@ -218,31 +218,7 @@ export default function RetainingWallIdeas() {
         <Link href="/san-jose">San Jose</Link>.
       </p>
 
-      <div className="bg-gray-900 text-white rounded-2xl p-6 md:p-8 my-10 not-prose">
-        <div className="text-center">
-          <p className="font-oswald text-2xl md:text-3xl font-bold mb-2">
-            Free Retaining Wall Estimate
-          </p>
-          <p className="text-gray-300 mb-5 max-w-lg mx-auto">
-            Tell us about your project and we&apos;ll provide a detailed, no-obligation estimate.
-            We&apos;ll visit your property, assess the site, and design the perfect solution.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a
-              href="tel:+15106500080"
-              className="inline-flex items-center justify-center gap-2 bg-brand-orange text-white font-bold px-6 py-3.5 rounded-full hover:bg-brand-orange-dark transition-all text-lg"
-            >
-              <Phone size={20} /> (510) 650-0080
-            </a>
-            <Link
-              href="/#contact"
-              className="inline-flex items-center justify-center gap-2 bg-white text-gray-900 font-bold px-6 py-3.5 rounded-full hover:bg-gray-100 transition-all text-lg"
-            >
-              Request Quote Online <ChevronRight size={18} />
-            </Link>
-          </div>
-        </div>
-      </div>
+      {/* Final CTA handled by page wrapper */}
     </div>
   );
 }

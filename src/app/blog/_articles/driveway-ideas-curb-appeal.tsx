@@ -140,7 +140,7 @@ export default function DrivewayIdeasCurbAppeal() {
         </p>
       </div>
 
-      <InlineCTA variant="primary" />
+      {/* CTA handled by page wrapper */}
 
       <h2>Why Bay Area Homeowners Trust TP Pavers</h2>
 

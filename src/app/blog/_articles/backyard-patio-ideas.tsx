@@ -120,7 +120,7 @@ export default function BackyardPatioIdeas() {
         </p>
       </div>
 
-      <InlineCTA variant="primary" />
+      {/* CTA handled by page wrapper */}
 
       <h2>Patio Design Tips for California Homes</h2>
 

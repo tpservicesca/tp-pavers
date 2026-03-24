@@ -146,7 +146,7 @@ export default function HowMuchDoPaversCost() {
         </p>
       </div>
 
-      <InlineCTA variant="primary" />
+      {/* CTA handled by page wrapper */}
 
       <h2>The ROI of Paver Installation</h2>
 

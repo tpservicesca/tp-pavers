@@ -141,7 +141,7 @@ export default function PaverPatioDesignIdeas() {
         </p>
       </div>
 
-      <InlineCTA variant="primary" />
+      {/* CTA handled by page wrapper */}
 
       <h2>Integrating Your Patio with the Landscape</h2>
 

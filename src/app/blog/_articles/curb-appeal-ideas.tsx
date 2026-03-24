@@ -124,7 +124,7 @@ export default function CurbAppealIdeas() {
         </p>
       </div>
 
-      <InlineCTA variant="primary" />
+      {/* CTA handled by page wrapper */}
 
       <h2>Putting It All Together: A Curb Appeal Action Plan</h2>
 

@@ -139,7 +139,7 @@ export default function PermeablePaversGuide() {
         </p>
       </div>
 
-      <InlineCTA variant="primary" />
+      {/* CTA handled by page wrapper */}
 
       <h2>Are Permeable Pavers Right for Your Property?</h2>
 

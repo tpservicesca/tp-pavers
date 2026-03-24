@@ -147,7 +147,7 @@ export default function PaverMaintenanceGuide() {
         </p>
       </div>
 
-      <InlineCTA variant="primary" />
+      {/* CTA handled by page wrapper */}
 
       <h2>When to Call a Professional</h2>
 
