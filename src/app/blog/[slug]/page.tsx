@@ -189,7 +189,16 @@ export default function BlogPostPage({ params }: { params: Promise<{ slug: strin
       </section>
 
       {/* Article body */}
-      <article className="max-w-[900px] mx-auto px-5 py-12 md:py-16">
+      <article className="max-w-[800px] mx-auto px-6 py-14 md:py-20">
+        <div className="prose prose-lg max-w-none
+          prose-headings:font-oswald prose-headings:text-gray-900 prose-headings:font-bold
+          prose-h2:text-2xl prose-h2:md:text-3xl prose-h2:mt-12 prose-h2:mb-5
+          prose-p:text-gray-700 prose-p:leading-[1.8] prose-p:text-base prose-p:md:text-lg prose-p:mb-5
+          prose-li:text-gray-700 prose-li:text-base prose-li:md:text-lg prose-li:leading-[1.8]
+          prose-strong:text-gray-900
+          prose-a:text-brand-orange prose-a:no-underline hover:prose-a:underline
+          prose-img:rounded-2xl prose-img:shadow-lg
+        ">
         {ArticleContent ? (
           <ArticleContent />
         ) : (
@@ -204,18 +213,14 @@ export default function BlogPostPage({ params }: { params: Promise<{ slug: strin
           </div>
         )}
 
+        </div>
         {ArticleContent && (
           <>
-            {/* Bottom CTA */}
             <InlineCTA variant="primary" />
-            {/* Related posts */}
             <RelatedPosts currentSlug={slug} />
           </>
         )}
       </article>
-
-      {/* Mobile call button */}
-      <CallNowMobile />
 
       <div className="pb-16 md:pb-0">
         <Footer />
