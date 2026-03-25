@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'TP Pavers - Fairfax',
   description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in Fairfax, California. 20+ years experience with 10-year warranty.',
-  url: 'https://tppavers.com/fairfax', telephone: '+1-510-650-2083', email: 'dumpster@tpservicesca.com', image: 'https://tppavers.com/images/P1.webp',
+  url: 'https://tppavers.com/fairfax', telephone: '+1-510-650-2083', email: 'contac@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'Fairfax', addressRegion: 'CA', postalCode: '94930', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 37.9871, longitude: -122.5889 },
   areaServed: { '@type': 'City', name: 'Fairfax' }, priceRange: '$$',

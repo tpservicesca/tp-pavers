@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'TP Pavers - San Anselmo',
   description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in San Anselmo, California. 20+ years experience with 10-year warranty.',
-  url: 'https://tppavers.com/san-anselmo', telephone: '+1-510-650-2083', email: 'dumpster@tpservicesca.com', image: 'https://tppavers.com/images/P1.webp',
+  url: 'https://tppavers.com/san-anselmo', telephone: '+1-510-650-2083', email: 'contac@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'San Anselmo', addressRegion: 'CA', postalCode: '94960', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 37.9746, longitude: -122.5614 },
   areaServed: { '@type': 'City', name: 'San Anselmo' }, priceRange: '$$',

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'TP Pavers - Sausalito',
   description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in Sausalito, California. 20+ years experience with 10-year warranty.',
-  url: 'https://tppavers.com/sausalito', telephone: '+1-510-650-2083', email: 'dumpster@tpservicesca.com', image: 'https://tppavers.com/images/P1.webp',
+  url: 'https://tppavers.com/sausalito', telephone: '+1-510-650-2083', email: 'contac@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'Sausalito', addressRegion: 'CA', postalCode: '94965', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 37.8591, longitude: -122.4852 },
   areaServed: { '@type': 'City', name: 'Sausalito' }, priceRange: '$$',

@@ -62,7 +62,7 @@ const jsonLd = {
     'Professional paver installation, retaining walls, hardscape design and synthetic turf in Union City, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/union-city',
   telephone: '+1-510-650-2083',
-  email: 'dumpster@tpservicesca.com',
+  email: 'contac@tppavers.com',
   image: 'https://tppavers.com/images/P1.webp',
   address: {
     '@type': 'PostalAddress',

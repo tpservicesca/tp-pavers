@@ -149,7 +149,7 @@ const jsonLd = {
     'Professional paver installation across 7 cities in Solano County. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience.',
   url: 'https://tppavers.com/solano-county',
   telephone: '+1-510-650-2083',
-  email: 'dumpster@tpservicesca.com',
+  email: 'contac@tppavers.com',
   image: 'https://tppavers.com/images/P1.webp',
   logo: 'https://tppavers.com/images/P1.webp',
   address: {
