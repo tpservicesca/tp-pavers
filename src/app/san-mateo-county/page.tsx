@@ -73,6 +73,9 @@ const CITIES_WITH_PAGES = [
   { name: 'Foster City', slug: 'foster-city', tagline: 'Planned Community' },
   { name: 'Pacifica', slug: 'pacifica', tagline: 'Coastal Charm' },
   { name: 'Half Moon Bay', slug: 'half-moon-bay', tagline: 'Coastside Living' },
+  { name: 'Belmont', slug: 'belmont', tagline: 'Hillside Living' },
+  { name: 'Menlo Park', slug: 'menlo-park', tagline: 'Venture Capital Hub' },
+  { name: 'Millbrae', slug: 'millbrae', tagline: 'Transit Gateway' },
 ];
 
 const ALL_CITIES = CITIES_WITH_PAGES.map((c) => c.name);

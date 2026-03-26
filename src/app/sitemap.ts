@@ -68,6 +68,9 @@ const cities = [
   'foster-city',
   'pacifica',
   'half-moon-bay',
+  'belmont',
+  'menlo-park',
+  'millbrae',
   // Santa Clara County
   'santa-clara-county',
   'san-jose',
@@ -78,6 +81,10 @@ const cities = [
   'cupertino',
   'campbell',
   'los-gatos',
+  'palo-alto',
+  'saratoga',
+  'morgan-hill',
+  'gilroy',
   // Marin County
   'marin-county',
   'san-rafael',

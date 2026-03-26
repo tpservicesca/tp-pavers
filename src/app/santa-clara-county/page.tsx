@@ -74,6 +74,10 @@ const CITIES_WITH_PAGES = [
   { name: 'Cupertino', slug: 'cupertino', tagline: 'Top-Rated Schools' },
   { name: 'Campbell', slug: 'campbell', tagline: 'Downtown Charm' },
   { name: 'Los Gatos', slug: 'los-gatos', tagline: 'Hillside Luxury' },
+  { name: 'Palo Alto', slug: 'palo-alto', tagline: 'Birthplace of Silicon Valley' },
+  { name: 'Saratoga', slug: 'saratoga', tagline: 'Wine Country Estates' },
+  { name: 'Morgan Hill', slug: 'morgan-hill', tagline: 'South Valley Charm' },
+  { name: 'Gilroy', slug: 'gilroy', tagline: 'Garlic Capital' },
 ];
 
 const ALL_CITIES = CITIES_WITH_PAGES.map((c) => c.name);
