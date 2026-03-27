@@ -12,10 +12,10 @@ export default function CallNowStrip() {
 
         {/* Mobile: Call Now */}
         <TrackLink
-          href="tel:+15106502083"
+          href="tel:+15106500080"
           event="phone_call"
           category="Contact"
-          label="tel:+15106502083 - Paver Strip"
+          label="tel:+15106500080 - Paver Strip"
           className="sm:hidden inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-full text-sm font-bold bg-white text-brand-orange-dark hover:bg-gray-100 hover:-translate-y-0.5 transition-all duration-300 shadow-lg"
         >
           <Phone size={18} /> Call now

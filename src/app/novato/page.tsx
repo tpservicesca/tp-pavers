@@ -51,7 +51,7 @@ const jsonLd = {
   name: 'TP Pavers - Novato',
   description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in Novato, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/novato',
-  telephone: '+1-510-650-2083',
+  telephone: '+1-510-650-0080',
   email: 'contac@tppavers.com',
   image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'Novato', addressRegion: 'CA', postalCode: '94945', addressCountry: 'US' },
@@ -103,7 +103,7 @@ export default function NovatoPage() {
             Driveways, patios, walkways &amp; retaining walls.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center pointer-events-auto">
-            <a href="tel:+15106502083" className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5">
+            <a href="tel:+15106500080" className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5">
               <Phone size={20} /> Call for Free Estimate
             </a>
             <a href="#contact" className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-lg font-bold bg-white/10 text-white border-2 border-white/30 hover:bg-white/20 transition-all duration-300 backdrop-blur-sm">
@@ -211,8 +211,8 @@ export default function NovatoPage() {
         <div className="max-w-[800px] mx-auto px-5 text-center">
           <h2 className="text-[1.8rem] md:text-[2.2rem] font-bold text-white mb-4">Ready to Transform Your Novato Home?</h2>
           <p className="text-white/70 mb-8 text-lg">Get a free on-site estimate today. No obligation, no pressure.</p>
-          <a href="tel:+15106502083" className="inline-flex items-center justify-center gap-2 px-10 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5">
-            <Phone size={20} /> (510) 650-2083
+          <a href="tel:+15106500080" className="inline-flex items-center justify-center gap-2 px-10 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5">
+            <Phone size={20} /> (510) 650-0080
           </a>
         </div>
       </section>

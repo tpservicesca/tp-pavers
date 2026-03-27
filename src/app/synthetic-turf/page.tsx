@@ -63,7 +63,7 @@ const jsonLd = {
   provider: {
     '@type': 'LocalBusiness',
     name: 'TP Pavers',
-    telephone: '+1-510-650-2083',
+    telephone: '+1-510-650-0080',
     url: 'https://tppavers.com',
     image: 'https://tppavers.com/images/S1.webp',
     aggregateRating: {
@@ -178,7 +178,7 @@ const faqs = [
   },
   {
     question: 'Where do you install artificial turf in California?',
-    answer: 'TP Pavers installs artificial turf throughout the Bay Area and surrounding counties including Contra Costa, Alameda, Solano, Marin, San Mateo, and Santa Clara counties. Call (510) 650-2083 for a free estimate at your location.',
+    answer: 'TP Pavers installs artificial turf throughout the Bay Area and surrounding counties including Contra Costa, Alameda, Solano, Marin, San Mateo, and Santa Clara counties. Call (510) 650-0080 for a free estimate at your location.',
   },
 ];
 
@@ -224,7 +224,7 @@ export default function SyntheticTurfPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+15106502083"
+              href="tel:+15106500080"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5"
             >
               <Phone size={20} /> Call for Free Estimate
@@ -451,10 +451,10 @@ export default function SyntheticTurfPage() {
             Get a free estimate for artificial turf installation. Start saving water and time today.
           </p>
           <a
-            href="tel:+15106502083"
+            href="tel:+15106500080"
             className="inline-flex items-center justify-center gap-2 px-10 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5"
           >
-            <Phone size={20} /> (510) 650-2083
+            <Phone size={20} /> (510) 650-0080
           </a>
         </div>
       </section>

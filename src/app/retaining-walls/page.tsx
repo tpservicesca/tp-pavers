@@ -63,7 +63,7 @@ const jsonLd = {
   provider: {
     '@type': 'LocalBusiness',
     name: 'TP Pavers',
-    telephone: '+1-510-650-2083',
+    telephone: '+1-510-650-0080',
     url: 'https://tppavers.com',
     image: 'https://tppavers.com/images/projects/patio-retaining-wall.webp',
     aggregateRating: {
@@ -165,7 +165,7 @@ const faqs = [
   },
   {
     question: 'Where can I find a retaining wall contractor near me?',
-    answer: 'TP Pavers builds retaining walls throughout the Bay Area and California. We serve Contra Costa, Alameda, Solano, Marin, San Mateo, and Santa Clara counties. Call (510) 650-2083 for a free consultation.',
+    answer: 'TP Pavers builds retaining walls throughout the Bay Area and California. We serve Contra Costa, Alameda, Solano, Marin, San Mateo, and Santa Clara counties. Call (510) 650-0080 for a free consultation.',
   },
 ];
 
@@ -211,7 +211,7 @@ export default function RetainingWallsPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+15106502083"
+              href="tel:+15106500080"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5"
             >
               <Phone size={20} /> Call for Free Estimate
@@ -397,10 +397,10 @@ export default function RetainingWallsPage() {
             Get a free site assessment and estimate. We&apos;ll design the perfect retaining wall for your property.
           </p>
           <a
-            href="tel:+15106502083"
+            href="tel:+15106500080"
             className="inline-flex items-center justify-center gap-2 px-10 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5"
           >
-            <Phone size={20} /> (510) 650-2083
+            <Phone size={20} /> (510) 650-0080
           </a>
         </div>
       </section>

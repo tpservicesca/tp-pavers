@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'TP Pavers - San Anselmo',
   description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in San Anselmo, California. 20+ years experience with 10-year warranty.',
-  url: 'https://tppavers.com/san-anselmo', telephone: '+1-510-650-2083', email: 'contac@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
+  url: 'https://tppavers.com/san-anselmo', telephone: '+1-510-650-0080', email: 'contac@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'San Anselmo', addressRegion: 'CA', postalCode: '94960', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 37.9746, longitude: -122.5614 },
   areaServed: { '@type': 'City', name: 'San Anselmo' }, priceRange: '$$',
@@ -62,7 +62,7 @@ export default function SanAnselmoPage() {
           <h1 className="font-oswald text-[2.2rem] sm:text-[3.5rem] lg:text-[5rem] font-bold text-white leading-[1.05] mb-5 uppercase tracking-[2px]">EXPERT PAVER<br />INSTALLATION<br />IN SAN ANSELMO</h1>
           <p className="text-lg sm:text-xl text-white/90 mb-8 leading-relaxed max-w-[700px] mx-auto">Transform your outdoor spaces with premium paver installation.<br />Driveways, patios, walkways &amp; retaining walls.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center pointer-events-auto">
-            <a href="tel:+15106502083" className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5"><Phone size={20} /> Call for Free Estimate</a>
+            <a href="tel:+15106500080" className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5"><Phone size={20} /> Call for Free Estimate</a>
             <a href="#contact" className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-lg font-bold bg-white/10 text-white border-2 border-white/30 hover:bg-white/20 transition-all duration-300 backdrop-blur-sm">Request a Quote <ArrowRight size={20} /></a>
           </div>
         </div>
@@ -159,7 +159,7 @@ export default function SanAnselmoPage() {
         <div className="max-w-[800px] mx-auto px-5 text-center">
           <h2 className="text-[1.8rem] md:text-[2.2rem] font-bold text-white mb-4">Ready to Transform Your San Anselmo Home?</h2>
           <p className="text-white/70 mb-8 text-lg">Get a free on-site estimate today. No obligation, no pressure.</p>
-          <a href="tel:+15106502083" className="inline-flex items-center justify-center gap-2 px-10 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5"><Phone size={20} /> (510) 650-2083</a>
+          <a href="tel:+15106500080" className="inline-flex items-center justify-center gap-2 px-10 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5"><Phone size={20} /> (510) 650-0080</a>
         </div>
       </section>
 

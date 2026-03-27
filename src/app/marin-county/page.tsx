@@ -12,7 +12,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Paver Installation in Marin County, CA | TP Pavers',
   description:
-    'Professional paver installation across 9+ cities in Marin County. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience, 10-year warranty. Serving San Rafael, Novato, Mill Valley, Sausalito & more. Call (510) 650-2083.',
+    'Professional paver installation across 9+ cities in Marin County. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience, 10-year warranty. Serving San Rafael, Novato, Mill Valley, Sausalito & more. Call (510) 650-0080.',
   keywords: [
     'pavers marin county',
     'paver contractor marin county',
@@ -152,7 +152,7 @@ const jsonLd = {
   description:
     'Professional paver installation across 9+ cities in Marin County. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience.',
   url: 'https://tppavers.com/marin-county',
-  telephone: '+1-510-650-2083',
+  telephone: '+1-510-650-0080',
   email: 'contac@tppavers.com',
   image: 'https://tppavers.com/images/P1.webp',
   logo: 'https://tppavers.com/images/P1.webp',
@@ -243,7 +243,7 @@ export default function MarinCountyPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+15106502083"
+              href="tel:+15106500080"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5"
             >
               <Phone size={20} /> Call for Free Estimate
@@ -433,10 +433,10 @@ export default function MarinCountyPage() {
             Get a free on-site estimate anywhere in Marin County. No obligation, no pressure.
           </p>
           <a
-            href="tel:+15106502083"
+            href="tel:+15106500080"
             className="inline-flex items-center justify-center gap-2 px-10 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5"
           >
-            <Phone size={20} /> (510) 650-2083
+            <Phone size={20} /> (510) 650-0080
           </a>
         </div>
       </section>

@@ -26,10 +26,10 @@ export default function FAQ() {
               <FAQItem key={idx} faq={faq} />
             ))}
             <TrackLink
-              href="tel:+15106502083"
+              href="tel:+15106500080"
               event="phone_call"
               category="Contact"
-              label="tel:+15106502083"
+              label="tel:+15106500080"
               className="flex justify-center items-center gap-2 bg-gradient-to-br from-brand-orange to-brand-orange-light text-white py-4 px-[30px] rounded-[10px] text-[1.05rem] font-bold text-center transition-all duration-300 shadow-[0_4px_15px_rgba(234,88,12,0.25)] hover:-translate-y-[3px] hover:shadow-[0_6px_20px_rgba(234,88,12,0.35)]"
             >
               &#x1F4DE; Call now
