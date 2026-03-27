@@ -7,6 +7,7 @@ import DynamicGallery from '@/components/DynamicGallery';
 import FAQ from '@/components/FAQ';
 import DynamicServiceAreaMap from '@/components/DynamicServiceAreaMap';
 import ContactForm from '@/components/ContactForm';
+import FloatingButtons from '@/components/FloatingButtons';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <FAQ />
       <DynamicServiceAreaMap />
       <ContactForm />
+      <FloatingButtons />
       <Footer />
     </>
   );
