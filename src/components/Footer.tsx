@@ -37,13 +37,13 @@ export default function Footer() {
             &#x1F4DE; (510) 650-0080
           </TrackLink>
           <TrackLink
-            href="mailto:contac@tppavers.com"
+            href="mailto:contact@tppavers.com"
             event="email_click"
             category="Contact"
-            label="mailto:contac@tppavers.com"
+            label="mailto:contact@tppavers.com"
             className="block mb-2 text-[0.9rem] text-white/80 hover:text-brand-orange transition-colors"
           >
-            &#x2709; contac@tppavers.com
+            &#x2709; contact@tppavers.com
           </TrackLink>
           <p className="mb-2 text-[0.9rem] leading-[1.6]">
             &#x1F4CD; 3201 Ramona Street<br />Pinole, CA 94564

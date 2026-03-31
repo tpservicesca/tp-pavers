@@ -62,7 +62,7 @@ const jsonLd = {
     'Professional paver installation, retaining walls, hardscape design and synthetic turf in Saratoga, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/saratoga',
   telephone: '+1-510-650-2083',
-  email: 'contac@tppavers.com',
+  email: 'contact@tppavers.com',
   image: 'https://tppavers.com/images/P1.webp',
   address: {
     '@type': 'PostalAddress',

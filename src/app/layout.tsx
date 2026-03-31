@@ -154,7 +154,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 "Professional paver installation, retaining walls, hardscape design and synthetic turf in the San Francisco Bay Area. 20+ years experience with 10-year warranty.",
               url: "https://tppavers.com",
               telephone: "+1-510-650-0080",
-              email: "contac@tppavers.com",
+              email: "contact@tppavers.com",
               image: "https://tppavers.com/images/P1.png",
               logo: "https://tppavers.com/images/tp-pavers-logo-192.png",
               address: {

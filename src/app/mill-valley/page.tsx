@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'TP Pavers - Mill Valley',
   description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in Mill Valley, California. 20+ years experience with 10-year warranty.',
-  url: 'https://tppavers.com/mill-valley', telephone: '+1-510-650-0080', email: 'contac@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
+  url: 'https://tppavers.com/mill-valley', telephone: '+1-510-650-0080', email: 'contact@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'Mill Valley', addressRegion: 'CA', postalCode: '94941', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 37.9060, longitude: -122.5450 },
   areaServed: { '@type': 'City', name: 'Mill Valley' }, priceRange: '$$',

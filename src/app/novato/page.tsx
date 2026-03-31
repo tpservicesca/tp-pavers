@@ -52,7 +52,7 @@ const jsonLd = {
   description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in Novato, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/novato',
   telephone: '+1-510-650-0080',
-  email: 'contac@tppavers.com',
+  email: 'contact@tppavers.com',
   image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'Novato', addressRegion: 'CA', postalCode: '94945', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 38.1074, longitude: -122.5697 },

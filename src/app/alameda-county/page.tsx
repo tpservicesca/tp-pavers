@@ -161,7 +161,7 @@ const jsonLd = {
     'Professional paver installation across 15+ cities in Alameda County. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience.',
   url: 'https://tppavers.com/alameda-county',
   telephone: '+1-510-650-0080',
-  email: 'contac@tppavers.com',
+  email: 'contact@tppavers.com',
   image: 'https://tppavers.com/images/P1.webp',
   logo: 'https://tppavers.com/images/P1.webp',
   address: {

@@ -62,7 +62,7 @@ const jsonLd = {
     'Professional paver installation, retaining walls, hardscape design and synthetic turf in Lafayette, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/lafayette',
   telephone: '+1-510-650-0080',
-  email: 'contac@tppavers.com',
+  email: 'contact@tppavers.com',
   image: 'https://tppavers.com/images/P1.webp',
   address: {
     '@type': 'PostalAddress',

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'TP Pavers - Larkspur',
   description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in Larkspur, California. 20+ years experience with 10-year warranty.',
-  url: 'https://tppavers.com/larkspur', telephone: '+1-510-650-0080', email: 'contac@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
+  url: 'https://tppavers.com/larkspur', telephone: '+1-510-650-0080', email: 'contact@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'Larkspur', addressRegion: 'CA', postalCode: '94939', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 37.9341, longitude: -122.5353 },
   areaServed: { '@type': 'City', name: 'Larkspur' }, priceRange: '$$',

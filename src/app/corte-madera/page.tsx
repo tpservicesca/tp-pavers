@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'TP Pavers - Corte Madera',
   description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in Corte Madera, California. 20+ years experience with 10-year warranty.',
-  url: 'https://tppavers.com/corte-madera', telephone: '+1-510-650-0080', email: 'contac@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
+  url: 'https://tppavers.com/corte-madera', telephone: '+1-510-650-0080', email: 'contact@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'Corte Madera', addressRegion: 'CA', postalCode: '94925', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 37.9255, longitude: -122.5275 },
   areaServed: { '@type': 'City', name: 'Corte Madera' }, priceRange: '$$',
