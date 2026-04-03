@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import CallNowStrip from '@/components/CallNowStrip';
 import FloatingButtons from '@/components/FloatingButtons';
 import Image from 'next/image';
-import Link from 'next/link';
+
 import { ArrowRight, CheckCircle, Phone, Shield, Star, Clock, Ruler } from 'lucide-react';
 
 /* ───────── SEO METADATA ───────── */
@@ -185,28 +185,7 @@ const allServices = [
   },
 ];
 
-const whyUs = [
-  {
-    icon: Shield,
-    title: 'Lifetime Guarantee',
-    desc: 'We stand behind every project. Our work is guaranteed for the lifetime of your installation.',
-  },
-  {
-    icon: Star,
-    title: '20+ Years Experience',
-    desc: 'Family-owned business with two decades of expert craftsmanship across California.',
-  },
-  {
-    icon: Clock,
-    title: 'Free Estimates',
-    desc: 'No pressure, no obligation. We provide detailed quotes so you know exactly what to expect.',
-  },
-  {
-    icon: Ruler,
-    title: 'Custom Designs',
-    desc: 'Every project is unique. We work with you to create the perfect design for your space.',
-  },
-];
+/* whyUs rendered inline to avoid dynamic component pattern */
 
 export default function ServicesPage() {
   return (
@@ -254,10 +233,10 @@ export default function ServicesPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {allServices.map((service) => (
-              <Link
+              <a
                 key={service.slug}
                 href={service.slug}
-                className="group bg-white rounded-2xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] overflow-hidden flex flex-col transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(234,88,12,0.15)]"
+                className="group bg-white rounded-2xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] overflow-hidden flex flex-col transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_15px_35px_rgba(234,88,12,0.15)] no-underline"
               >
                 <div className="relative overflow-hidden">
                   <Image
@@ -289,7 +268,7 @@ export default function ServicesPage() {
                     Learn more <ArrowRight className="w-4 h-4" />
                   </span>
                 </div>
-              </Link>
+              </a>
             ))}
           </div>
         </section>
@@ -307,15 +286,34 @@ export default function ServicesPage() {
             </div>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-              {whyUs.map((item) => (
-                <div key={item.title} className="text-center">
-                  <div className="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center mx-auto mb-4">
-                    <item.icon className="text-brand-orange w-7 h-7" />
-                  </div>
-                  <h3 className="font-bold text-brand-black mb-2">{item.title}</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <Shield className="text-brand-orange w-7 h-7" />
                 </div>
-              ))}
+                <h3 className="font-bold text-brand-black mb-2">Lifetime Guarantee</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">We stand behind every project. Our work is guaranteed for the lifetime of your installation.</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <Star className="text-brand-orange w-7 h-7" />
+                </div>
+                <h3 className="font-bold text-brand-black mb-2">20+ Years Experience</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">Family-owned business with two decades of expert craftsmanship across California.</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <Clock className="text-brand-orange w-7 h-7" />
+                </div>
+                <h3 className="font-bold text-brand-black mb-2">Free Estimates</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">No pressure, no obligation. We provide detailed quotes so you know exactly what to expect.</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <Ruler className="text-brand-orange w-7 h-7" />
+                </div>
+                <h3 className="font-bold text-brand-black mb-2">Custom Designs</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">Every project is unique. We work with you to create the perfect design for your space.</p>
+              </div>
             </div>
           </div>
         </section>
