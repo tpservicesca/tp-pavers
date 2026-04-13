@@ -100,6 +100,7 @@ const cities = [
 ];
 
 const servicePages = [
+  'services',
   'paver-driveways',
   'paver-patios',
   'retaining-walls',
