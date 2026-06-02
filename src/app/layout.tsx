@@ -108,19 +108,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5Z63X662');`}
         </Script>
-        {/* Google tag (gtag.js) */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-K1L67NNNQV"
-          strategy="afterInteractive"
-        />
-        <Script id="gtag-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-K1L67NNNQV');
-          `}
-        </Script>
+        {/* GA4 (G-K1L67NNNQV) is now configured inside GTM via the
+            "GA4 - Config" Google Tag (All Pages), so the direct gtag config
+            was removed here to stop double-counting pageviews. */}
         {/* Google Ads conversion tag — add when Pavers campaigns go live
         <Script id="gtag-conversion" strategy="afterInteractive">
           {${'`'}
