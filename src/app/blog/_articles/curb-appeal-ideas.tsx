@@ -184,10 +184,10 @@ export default function CurbAppealIdeas() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href="tel:+15106500080"
+              href="tel:+15108041550"
               className="inline-flex items-center justify-center gap-2 bg-brand-orange text-white font-bold px-6 py-3.5 rounded-full hover:bg-brand-orange-dark transition-all text-lg"
             >
-              <Phone size={20} /> (510) 650-0080
+              <Phone size={20} /> (510) 804-1550
             </a>
             <Link
               href="/#contact"

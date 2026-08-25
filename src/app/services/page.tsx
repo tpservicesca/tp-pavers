@@ -65,7 +65,7 @@ const jsonLd = {
   provider: {
     '@type': 'LocalBusiness',
     name: 'TP Pavers',
-    telephone: '+1-510-650-0080',
+    telephone: '+1-510-804-1550',
     url: 'https://tppavers.com',
     address: {
       '@type': 'PostalAddress',
@@ -381,10 +381,10 @@ export default function ServicesPage() {
                 Get Your Free Estimate
               </a>
               <a
-                href="tel:+15106500080"
+                href="tel:+15108041550"
                 className="inline-flex items-center justify-center gap-2 border-2 border-white hover:bg-white hover:text-brand-orange font-bold px-8 py-4 rounded-lg text-lg transition-colors"
               >
-                <Phone className="w-5 h-5" /> (510) 650-0080
+                <Phone className="w-5 h-5" /> (510) 804-1550
               </a>
             </div>
           </div>
@@ -413,7 +413,7 @@ export default function ServicesPage() {
             </p>
             <p>
               Ready to get started? Contact us today for a free on-site consultation and estimate.
-              Call <a href="tel:+15106500080" className="text-brand-orange font-semibold hover:underline">(510) 650-0080</a> or
+              Call <a href="tel:+15108041550" className="text-brand-orange font-semibold hover:underline">(510) 804-1550</a> or
               fill out our online form. We look forward to transforming your outdoor space.
             </p>
           </div>

@@ -28,13 +28,13 @@ export default function Footer() {
         <div>
           <h3 className="text-brand-orange text-[1.15rem] font-bold mb-[18px]">Contact Info</h3>
           <TrackLink
-            href="tel:510-650-0080"
+            href="tel:510-804-1550"
             event="phone_call"
             category="Contact"
-            label="tel:510-650-0080"
+            label="tel:510-804-1550"
             className="block mb-2 text-[0.9rem] text-white/80 hover:text-brand-orange transition-colors"
           >
-            &#x1F4DE; (510) 650-0080
+            &#x1F4DE; (510) 804-1550
           </TrackLink>
           <TrackLink
             href="mailto:contact@tppavers.com"

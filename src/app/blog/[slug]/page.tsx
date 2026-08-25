@@ -38,7 +38,7 @@ function CallNowMobile() {
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-brand-orange p-3 shadow-[0_-4px_20px_rgba(0,0,0,0.15)]">
       <a
-        href="tel:+15106500080"
+        href="tel:+15108041550"
         className="flex items-center justify-center gap-2 bg-white text-brand-orange font-bold py-3 rounded-full text-lg"
       >
         <Phone size={20} /> Call Now — Free Estimate
@@ -59,7 +59,7 @@ function InlineCTA({ variant = 'primary' }: { variant?: 'primary' | 'secondary' 
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <a
-            href="tel:+15106500080"
+            href="tel:+15108041550"
             className="inline-flex items-center justify-center gap-2 bg-brand-orange text-white font-bold px-6 py-3 rounded-full hover:bg-brand-orange-dark transition-all"
           >
             <Phone size={18} /> Call for Free Estimate
@@ -85,10 +85,10 @@ function InlineCTA({ variant = 'primary' }: { variant?: 'primary' | 'secondary' 
       </p>
       <div className="flex flex-col sm:flex-row gap-3 justify-center">
         <a
-          href="tel:+15106500080"
+          href="tel:+15108041550"
           className="inline-flex items-center justify-center gap-2 bg-white text-brand-orange font-bold px-6 py-3 rounded-full hover:bg-gray-100 transition-all"
         >
-          <Phone size={18} /> (510) 650-0080
+          <Phone size={18} /> (510) 804-1550
         </a>
         <Link
           href="/#contact"
