@@ -102,7 +102,7 @@ const allServices = [
   {
     slug: '/paver-driveways',
     name: 'Paver Driveways',
-    image: '/images/projects/driveway-multicolor.webp',
+    image: '/images/gallery/sel-05.webp',
     alt: 'Paver driveway installation in California',
     description:
       'Transform your home\'s entrance with a stunning paver driveway. Choose from interlocking, natural stone, or permeable pavers designed for California driveways.',
@@ -116,8 +116,8 @@ const allServices = [
   {
     slug: '/paver-patios',
     name: 'Paver Patios',
-    image: '/images/projects/patio-curved-seatwall.webp',
-    alt: 'Custom paver patio with seatwall',
+    image: '/images/gallery/sel-02.webp',
+    alt: 'Custom circular paver patio',
     description:
       'Create the perfect outdoor living space with a custom paver patio. From cozy fire pit areas to full outdoor kitchens — we build patios that become the heart of your home.',
     highlights: [
@@ -130,7 +130,7 @@ const allServices = [
   {
     slug: '/paver-walkways',
     name: 'Paver Walkways',
-    image: '/images/P5.webp',
+    image: '/images/gallery/sel-01.webp',
     alt: 'Paver walkway installation',
     description:
       'Guide guests to your front door with elegant paver walkways. We build curved, straight, and garden paths with premium materials that last a lifetime.',
@@ -144,7 +144,7 @@ const allServices = [
   {
     slug: '/retaining-walls',
     name: 'Retaining Walls',
-    image: '/images/R1.webp',
+    image: '/images/gallery/sel-03.webp',
     alt: 'Retaining wall construction',
     description:
       'Protect your property and create stunning landscape features with professionally engineered retaining walls. Functional, beautiful, and built to last decades.',
@@ -158,7 +158,7 @@ const allServices = [
   {
     slug: '/synthetic-turf',
     name: 'Synthetic Turf',
-    image: '/images/S1.webp',
+    image: '/images/gallery/sel-04.webp',
     alt: 'Synthetic turf installation',
     description:
       'Enjoy a lush, green lawn year-round without watering, mowing, or maintenance. Our premium synthetic turf is perfect for families, pets, and play areas.',
@@ -172,7 +172,7 @@ const allServices = [
   {
     slug: '#contact',
     name: 'Concrete Work',
-    image: '/images/P3.webp',
+    image: '/images/gallery/sel-41.webp',
     alt: 'Professional concrete work',
     description:
       'From driveways to foundations, we deliver clean, strong concrete work. Stamped, stained, and decorative finishes available for a polished look.',
