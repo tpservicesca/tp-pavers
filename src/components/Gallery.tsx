@@ -4,10 +4,18 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import Image from 'next/image';
 import { galleryData } from '@/data/gallery';
 
-// Flatten all images with their category name
-const allSlides = Object.values(galleryData).flatMap((cat) =>
+// Interleave categories round-robin so the carousel alternates between
+// pavers, walls, turf and concrete instead of long same-category runs
+const cats = Object.values(galleryData).map((cat) =>
   cat.images.map((src) => ({ src, category: cat.name }))
 );
+const maxLen = Math.max(...cats.map((c) => c.length));
+const allSlides: { src: string; category: string }[] = [];
+for (let i = 0; i < maxLen; i++) {
+  for (const cat of cats) {
+    if (i < cat.length) allSlides.push(cat[i]);
+  }
+}
 
 export default function Gallery() {
   const [current, setCurrent] = useState(0);
