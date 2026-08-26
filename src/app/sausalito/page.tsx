@@ -106,8 +106,8 @@ export default function SausalitoPage() {
           <h2 className="text-[1.8rem] md:text-[2.4rem] font-bold text-brand-black text-center mb-10 leading-[1.2]">Recent Paver Projects</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { src: '/images/projects/walkway-brick-curved.webp', alt: 'Curved red brick paver walkway' },
-              { src: '/images/projects/walkway-brick-wide.webp', alt: 'Red brick walkway with landscaping' },
+              { src: '/images/P5.webp', alt: 'Paver walkway to front entry' },
+              { src: '/images/P2.webp', alt: 'Paver patio with fire pit' },
               { src: '/images/projects/patio-retaining-wall.webp', alt: 'Paver patio with retaining wall' },
               { src: '/images/projects/patio-raised-house.webp', alt: 'Raised paver patio with seat wall' },
               { src: '/images/projects/walkway-herringbone.webp', alt: 'Herringbone pattern paver walkway' },

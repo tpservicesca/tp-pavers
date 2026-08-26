@@ -8,8 +8,6 @@ export const galleryData: Record<string, GalleryCategory> = {
     name: 'Pavers',
     images: [
       '/images/projects/driveway-multicolor.webp',
-      '/images/projects/walkway-brick-curved.webp',
-      '/images/projects/walkway-brick-wide.webp',
       '/images/projects/walkway-herringbone.webp',
       '/images/projects/patio-curved-seatwall.webp',
       '/images/P1.webp',

@@ -130,8 +130,8 @@ const allServices = [
   {
     slug: '/paver-walkways',
     name: 'Paver Walkways',
-    image: '/images/projects/walkway-brick-curved.webp',
-    alt: 'Brick paver walkway installation',
+    image: '/images/P5.webp',
+    alt: 'Paver walkway installation',
     description:
       'Guide guests to your front door with elegant paver walkways. We build curved, straight, and garden paths with premium materials that last a lifetime.',
     highlights: [

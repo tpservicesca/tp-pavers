@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://tppavers.com/images/projects/walkway-brick-curved.webp',
+        url: 'https://tppavers.com/images/P5.webp',
         width: 1200,
         height: 630,
         alt: 'Beautiful Paver Walkway Installation in California',
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Paver Walkway Installation | TP Pavers California',
     description: 'Beautiful paver walkways — curved paths, garden walkways, stepping stones. Free estimates.',
-    images: ['https://tppavers.com/images/projects/walkway-brick-curved.webp'],
+    images: ['https://tppavers.com/images/P5.webp'],
   },
   alternates: {
     canonical: 'https://tppavers.com/paver-walkways',
@@ -65,7 +65,7 @@ const jsonLd = {
     name: 'TP Pavers',
     telephone: '+1-510-804-1550',
     url: 'https://tppavers.com',
-    image: 'https://tppavers.com/images/projects/walkway-brick-curved.webp',
+    image: 'https://tppavers.com/images/P5.webp',
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '5',
@@ -86,12 +86,12 @@ const jsonLd = {
 const designIdeas = [
   {
     title: 'Curved Walkways',
-    image: '/images/projects/walkway-brick-curved.webp',
+    image: '/images/P5.webp',
     description: 'Graceful curves add elegance and visual interest to your landscape. Curved paver walkways guide visitors naturally through your yard while creating a softer, more inviting feel than straight paths.',
   },
   {
     title: 'Straight & Formal Paths',
-    image: '/images/projects/walkway-brick-wide.webp',
+    image: '/images/P2.webp',
     description: 'Clean, straight walkways create a formal, sophisticated entrance to your home. Perfect for front yard paths, connecting the driveway to the front door with a polished, architectural look.',
   },
   {
@@ -190,7 +190,7 @@ export default function PaverWalkwaysPage() {
       <section className="relative min-h-[70vh] flex flex-col justify-center items-center pt-[100px] px-5 pb-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/projects/walkway-brick-curved.webp"
+            src="/images/P5.webp"
             alt="Beautiful paver walkway installation in California"
             fill
             className="object-cover"
@@ -331,8 +331,8 @@ export default function PaverWalkwaysPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { src: '/images/projects/walkway-brick-curved.webp', alt: 'Curved brick paver walkway' },
-              { src: '/images/projects/walkway-brick-wide.webp', alt: 'Wide brick walkway with landscaping' },
+              { src: '/images/P5.webp', alt: 'Curved brick paver walkway' },
+              { src: '/images/P2.webp', alt: 'Wide brick walkway with landscaping' },
               { src: '/images/projects/walkway-herringbone.webp', alt: 'Herringbone pattern paver walkway' },
             ].map((photo, i) => (
               <div key={i} className="relative h-[280px] rounded-xl overflow-hidden group">

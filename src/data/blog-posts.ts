@@ -45,7 +45,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Everything you need to know about sealing your pavers — types of sealers, when to apply, and how to maintain that fresh-installed look.',
     category: 'Tips & Guides',
-    image: '/images/projects/walkway-brick-curved.webp',
+    image: '/images/P5.webp',
     date: '2026-03-20',
     readTime: '6 min read',
   },
@@ -85,7 +85,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'Keep your pavers looking new for decades. Learn the essential maintenance tips for cleaning, sealing, and repairing paver surfaces.',
     category: 'Tips & Guides',
-    image: '/images/projects/walkway-brick-wide.webp',
+    image: '/images/P2.webp',
     date: '2026-03-16',
     readTime: '6 min read',
   },
