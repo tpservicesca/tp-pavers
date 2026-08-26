@@ -111,18 +111,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         {/* GA4 (G-K1L67NNNQV) is now configured inside GTM via the
             "GA4 - Config" Google Tag (All Pages), so the direct gtag config
             was removed here to stop double-counting pageviews. */}
-        {/* Google Ads conversion tag — add when Pavers campaigns go live
-        <Script id="gtag-conversion" strategy="afterInteractive">
-          {${'`'}
-            gtag('config', 'AW-XXXXXXXXXX');
-            gtag('event', 'conversion', {
-              'send_to': 'AW-XXXXXXXXXX/CONVERSION_LABEL',
-              'value': 1.0,
-              'currency': 'USD'
-            });
-          ${'`'}}
+        {/* Google Ads tag (defines window.gtag; GA4 stays inside GTM) */}
+        <Script
+          id="gtag-aw-src"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18276139527"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-aw-config" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', 'AW-18276139527');`}
         </Script>
-        */}
       </head>
       <body className="text-[#333] bg-white leading-[1.7] antialiased">
         {/* Google Tag Manager (noscript) */}

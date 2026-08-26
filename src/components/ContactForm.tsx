@@ -9,9 +9,31 @@ declare global {
 }
 
 export default function ContactForm() {
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    const form = e.target as HTMLFormElement;
+    const data = Object.fromEntries(new FormData(form).entries());
+    let ok = false;
+    try {
+      const res = await fetch('/api/lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      ok = res.ok;
+    } catch {
+      ok = false;
+    }
+    if (!ok) {
+      alert('Something went wrong sending your message. Please call us at (510) 804-1550.');
+      return;
+    }
     if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'conversion', {
+        send_to: 'AW-18276139527/uD6xCOLB8cocEIeE34pE',
+        value: 1.0,
+        currency: 'USD',
+      });
       window.gtag('event', 'form_submit', {
         event_category: 'Contact',
         event_label: 'Contact Form',
@@ -19,7 +41,7 @@ export default function ContactForm() {
       });
     }
     alert('Thank you for your message! We will get back to you soon.');
-    (e.target as HTMLFormElement).reset();
+    form.reset();
   };
 
   return (
