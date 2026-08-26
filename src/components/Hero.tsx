@@ -1,4 +1,4 @@
-import DynamicBeforeAfterSlider from './DynamicBeforeAfterSlider';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
@@ -6,15 +6,16 @@ export default function Hero() {
       id="home"
       className="relative min-h-[90vh] flex flex-col justify-center items-center pt-[100px] px-5 pb-0 overflow-hidden"
     >
-      {/* Before/After Slider as background */}
+      {/* Hero background photo */}
       <div className="absolute inset-0 z-0">
-        <DynamicBeforeAfterSlider
-          beforeSrc="/images/hero-before.jpg"
-          afterSrc="/images/hero-after.jpg"
-          beforeSrcMobile="/images/hero-before-mobile.jpg"
-          afterSrcMobile="/images/hero-after-mobile.jpg"
-          beforeAlt="Backyard before paver installation - bare dirt and construction"
-          afterAlt="Backyard after paver installation - beautiful patio with fire pit"
+        <Image
+          src="/images/hero-main.webp"
+          alt="Paver patio with pergola and outdoor lighting at sunset"
+          fill
+          className="object-cover"
+          sizes="100vw"
+          priority
+          unoptimized
         />
       </div>
 
@@ -35,10 +36,7 @@ export default function Hero() {
 
       </div>
 
-      {/* Drag hint */}
-      <div className="relative z-[2] mb-2 sm:mb-4 text-white/70 text-xs sm:text-sm font-medium animate-pulse pointer-events-none">
-        ← Drag to compare Before &amp; After →
-      </div>
+
 
       {/* Features Bar */}
       <div className="relative z-[2] flex flex-col lg:flex-row gap-4 lg:gap-10 bg-[rgba(30,30,30,0.6)] backdrop-blur-[8px] rounded-xl py-5 sm:py-[35px] px-4 sm:px-5 lg:px-[50px] mt-0.5 mb-6 sm:mb-10 max-w-[1000px] w-full">

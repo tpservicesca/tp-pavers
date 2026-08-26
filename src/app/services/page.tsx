@@ -172,7 +172,7 @@ const allServices = [
   {
     slug: '#contact',
     name: 'Concrete Work',
-    image: '/images/gallery/sel-41.webp',
+    image: '/images/gallery/gen3-08.webp',
     alt: 'Professional concrete work',
     description:
       'From driveways to foundations, we deliver clean, strong concrete work. Stamped, stained, and decorative finishes available for a polished look.',
