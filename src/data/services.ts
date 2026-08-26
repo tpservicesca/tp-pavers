@@ -11,7 +11,7 @@ export const services: Service[] = [
   {
     id: 'pavers',
     name: 'Paver Installation',
-    image: '/images/P1.webp',
+    image: '/images/svc-pavers.webp',
     alt: 'Paver Installation',
     description: 'Upgrade your outdoors with custom paver designs built to last — durable, stylish, and made to boost your home\'s curb appeal.',
     features: [
@@ -26,7 +26,7 @@ export const services: Service[] = [
   {
     id: 'concrete',
     name: 'Concrete Work',
-    image: '/images/P3.webp',
+    image: '/images/svc-concrete.webp',
     alt: 'Concrete Work',
     description: 'From driveways to patios, we deliver strong, clean concrete work that stands the test of time — built right, the first time.',
     features: [
@@ -40,7 +40,7 @@ export const services: Service[] = [
   {
     id: 'retaining-walls',
     name: 'Retaining Walls',
-    image: '/images/R1.webp',
+    image: '/images/svc-walls.webp',
     alt: 'Retaining Walls',
     description: 'Strong, stylish, and built to protect your property — our retaining walls combine durability with design to transform any landscape.',
     features: [
@@ -54,7 +54,7 @@ export const services: Service[] = [
   {
     id: 'synthetic-turf',
     name: 'Synthetic Turf Installation',
-    image: '/images/S1.webp',
+    image: '/images/svc-turf.webp',
     alt: 'Synthetic Turf Installation',
     description: 'Enjoy a lush, green lawn all year long — without the hassle of mowing, watering, or maintenance. Perfect for families, pets, and outdoor play.',
     features: [
