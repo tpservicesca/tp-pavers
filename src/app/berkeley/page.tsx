@@ -135,7 +135,7 @@ const faqs = [
   {
     question: 'Are pavers a good choice for Berkeley\'s older homes?',
     answer:
-      'Absolutely. Pavers complement Berkeley\'s Craftsman bungalows, Tudors, and mid-century homes beautifully. We offer a wide range of styles from classic brick patterns to modern designs that enhance your home\'s architectural character while adding lasting value.',
+      'Absolutely. Pavers complement Berkeley\'s Craftsman bungalows, Tudors, and mid-century homes beautifully. We offer a wide range of styles from classic patterns to modern designs that enhance your home\'s architectural character while adding lasting value.',
   },
   {
     question: 'Do you offer a warranty on Berkeley paver installations?',

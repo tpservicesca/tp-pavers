@@ -125,7 +125,7 @@ const faqs = [
   },
   {
     question: 'What materials do you use for Livermore paver projects?',
-    answer: 'We use high-quality materials including concrete pavers, natural stone, brick, and premium artificial turf — all designed for durability and long-lasting performance in Livermore\'s climate.',
+    answer: 'We use high-quality materials including concrete pavers, natural stone, and premium artificial turf — all designed for durability and long-lasting performance in Livermore\'s climate.',
   },
   {
     question: 'Do you offer a warranty on paver installation in Livermore?',

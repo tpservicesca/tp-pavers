@@ -46,7 +46,7 @@ export default function PaverPatioDesignIdeas() {
       <h2>Running Bond: Clean and Contemporary</h2>
 
       <p>
-        Running bond (also called a stretcher bond) is a simple, linear pattern where pavers are offset by half their length — think of a classic brick wall laid on the ground. This is one of the most versatile <strong>paver patio ideas</strong> because it works with any architectural style, from cottage charm to ultra-modern minimalism.
+        Running bond (also called a stretcher bond) is a simple, linear pattern where pavers are offset by half their length — think of a classic staggered wall pattern laid on the ground. This is one of the most versatile <strong>paver patio ideas</strong> because it works with any architectural style, from cottage charm to ultra-modern minimalism.
       </p>
 
       <p>

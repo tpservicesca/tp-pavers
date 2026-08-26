@@ -135,7 +135,7 @@ const faqs = [
   {
     question: 'Are pavers a good choice for Alameda\'s Victorian homes?',
     answer:
-      'Absolutely. Pavers complement Alameda\'s historic Victorian and Craftsman architecture beautifully. We offer classic brick patterns, tumbled stone, and heritage-style designs that enhance your home\'s period charm while providing modern durability and low maintenance.',
+      'Absolutely. Pavers complement Alameda\'s historic Victorian and Craftsman architecture beautifully. We offer classic heritage patterns, tumbled stone, and heritage-style designs that enhance your home\'s period charm while providing modern durability and low maintenance.',
   },
   {
     question: 'Do you offer a warranty on Alameda paver installations?',

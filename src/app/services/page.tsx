@@ -105,7 +105,7 @@ const allServices = [
     image: '/images/projects/driveway-multicolor.webp',
     alt: 'Paver driveway installation in California',
     description:
-      'Transform your home\'s entrance with a stunning paver driveway. Choose from interlocking, brick, natural stone, or permeable pavers designed for California driveways.',
+      'Transform your home\'s entrance with a stunning paver driveway. Choose from interlocking, natural stone, or permeable pavers designed for California driveways.',
     highlights: [
       'Interlocking & natural stone options',
       'Permeable pavers for drainage',
@@ -136,7 +136,7 @@ const allServices = [
       'Guide guests to your front door with elegant paver walkways. We build curved, straight, and garden paths with premium materials that last a lifetime.',
     highlights: [
       'Curved & straight designs',
-      'Brick, stone & concrete options',
+      'Stone & concrete options',
       'Non-slip surfaces for safety',
       'Integrates with landscaping',
     ],
@@ -405,7 +405,7 @@ export default function ServicesPage() {
             </p>
             <p>
               Our team of expert installers works directly with you to design custom outdoor spaces that
-              match your vision and budget. Whether you want a classic brick driveway, a modern patio with
+              match your vision and budget. Whether you want a classic paver driveway, a modern patio with
               a built-in fire pit, a curved garden walkway, or a maintenance-free synthetic lawn, we have
               the skills and experience to deliver exceptional results. We serve cities throughout the
               Bay Area including San Ramon, Dublin, Pleasanton, Livermore, Danville, Alamo, Walnut Creek,

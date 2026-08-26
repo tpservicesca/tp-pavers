@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'stone walkway installation',
     'walkway pavers',
     'paver path installation',
-    'brick walkway installation',
+    'stone walkway installation',
     'garden path pavers',
     'stepping stone walkway',
     'front walkway pavers',
@@ -113,7 +113,7 @@ const patterns = [
   },
   {
     title: 'Running Bond',
-    description: 'A simple offset pattern similar to brick walls. Running bond is clean, versatile, and works beautifully with both modern and traditional home styles. Easy to follow curves.',
+    description: 'A simple offset pattern with a timeless staggered look. Running bond is clean, versatile, and works beautifully with both modern and traditional home styles. Easy to follow curves.',
   },
   {
     title: 'Basketweave',
@@ -148,7 +148,7 @@ const faqs = [
   },
   {
     question: 'What materials work best for walkway pavers?',
-    answer: 'Concrete interlocking pavers are the most popular for their durability, slip-resistance, and variety of styles. Brick pavers offer classic charm. Natural stone (flagstone, bluestone, travertine) provides a premium, one-of-a-kind look. All materials we install are rated for outdoor foot traffic.',
+    answer: 'Concrete interlocking pavers are the most popular for their durability, slip-resistance, and variety of styles. Natural stone (flagstone, bluestone, travertine) provides a premium, one-of-a-kind look. All materials we install are rated for outdoor foot traffic.',
   },
   {
     question: 'How long does a paver walkway last?',
@@ -331,8 +331,8 @@ export default function PaverWalkwaysPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              { src: '/images/P5.webp', alt: 'Curved brick paver walkway' },
-              { src: '/images/P2.webp', alt: 'Wide brick walkway with landscaping' },
+              { src: '/images/P5.webp', alt: 'Curved paver walkway' },
+              { src: '/images/P2.webp', alt: 'Paver patio with fire pit' },
               { src: '/images/projects/walkway-herringbone.webp', alt: 'Herringbone pattern paver walkway' },
             ].map((photo, i) => (
               <div key={i} className="relative h-[280px] rounded-xl overflow-hidden group">

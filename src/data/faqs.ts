@@ -20,7 +20,7 @@ export const faqsColumn1: FAQ[] = [
   },
   {
     question: 'What materials do you use for paver installation and hardscape projects?',
-    answer: 'We use high-quality materials including concrete pavers, natural stone, brick, and premium artificial turf, all designed for durability and long-lasting outdoor performance.',
+    answer: 'We use high-quality materials including concrete pavers, natural stone, and premium artificial turf, all designed for durability and long-lasting outdoor performance.',
   },
   {
     question: 'Do you offer a warranty on paver installation?',

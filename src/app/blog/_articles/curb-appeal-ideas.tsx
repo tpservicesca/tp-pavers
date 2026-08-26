@@ -50,7 +50,7 @@ export default function CurbAppealIdeas() {
       </p>
 
       <p>
-        A <Link href="/paver-driveways">paver driveway</Link> offers a premium, high-end look that concrete and asphalt simply cannot match. With options ranging from classic brick-look pavers to natural stone and modern large-format tiles, there&apos;s a paver style for every home. The interlocking design means your driveway won&apos;t crack like concrete, and individual pavers can be replaced if damaged — protecting your investment for decades.
+        A <Link href="/paver-driveways">paver driveway</Link> offers a premium, high-end look that concrete and asphalt simply cannot match. With options ranging from classic clay-tone pavers to natural stone and modern large-format tiles, there&apos;s a paver style for every home. The interlocking design means your driveway won&apos;t crack like concrete, and individual pavers can be replaced if damaged — protecting your investment for decades.
       </p>
 
       <div className="bg-orange-50 border-l-4 border-brand-orange p-5 rounded-r-xl my-8 not-prose">

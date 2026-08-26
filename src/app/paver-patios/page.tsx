@@ -113,7 +113,7 @@ const patterns = [
   },
   {
     title: 'Running Bond',
-    description: 'Simple and elegant, this offset brick-like pattern creates a clean, modern look. Versatile enough for any patio style from contemporary to traditional.',
+    description: 'Simple and elegant, this offset running-bond pattern creates a clean, modern look. Versatile enough for any patio style from contemporary to traditional.',
   },
   {
     title: 'Basketweave',
@@ -156,7 +156,7 @@ const faqs = [
   },
   {
     question: 'What materials are best for patio pavers?',
-    answer: 'Concrete interlocking pavers are the most popular for their durability and value. Natural stone (travertine, bluestone, flagstone) offers a premium look. Brick pavers provide classic charm. We help you choose based on your style preference and budget.',
+    answer: 'Concrete interlocking pavers are the most popular for their durability and value. Natural stone (travertine, bluestone, flagstone) offers a premium look. We help you choose based on your style preference and budget.',
   },
   {
     question: 'Do paver patios need maintenance?',

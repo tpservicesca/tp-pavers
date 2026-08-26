@@ -11,7 +11,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Paver Driveway Installation in California | Expert Contractors | TP Pavers',
   description:
-    'Professional paver driveway installation in California. Interlocking pavers, brick, natural stone & permeable driveways. 20+ years experience. Free estimates. Lifetime guarantee.',
+    'Professional paver driveway installation in California. Interlocking pavers, natural stone & permeable driveways. 20+ years experience. Free estimates. Lifetime guarantee.',
   keywords: [
     'paver driveway installation',
     'paver driveway cost',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'stone paver driveway',
     'driveway pavers near me',
     'paver driveway contractors',
-    'brick driveway installation',
+    'stone driveway installation',
     'permeable paver driveway',
     'driveway paver design',
     'concrete paver driveway',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Paver Driveway Installation in California | TP Pavers',
     description:
-      'Expert paver driveway installation. Interlocking, brick, natural stone & permeable driveways. 20+ years experience. Free estimates.',
+      'Expert paver driveway installation. Interlocking, natural stone & permeable driveways. 20+ years experience. Free estimates.',
     url: 'https://tppavers.com/paver-driveways',
     siteName: 'TP Pavers',
     locale: 'en_US',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Paver Driveway Installation | TP Pavers California',
-    description: 'Expert paver driveway installation. Interlocking, brick & stone pavers. Free estimates.',
+    description: 'Expert paver driveway installation. Interlocking & stone pavers. Free estimates.',
     images: ['https://tppavers.com/images/projects/driveway-multicolor.webp'],
   },
   alternates: {
@@ -74,7 +74,7 @@ const jsonLd = {
     },
   },
   description:
-    'Professional paver driveway installation in California. Interlocking pavers, brick, natural stone, and permeable driveways with lifetime guarantee.',
+    'Professional paver driveway installation in California. Interlocking pavers, natural stone, and permeable driveways with lifetime guarantee.',
   areaServed: {
     '@type': 'State',
     name: 'California',
@@ -88,11 +88,6 @@ const paverTypes = [
     title: 'Interlocking Pavers',
     description: 'The most popular choice for driveways. Interlocking pavers create an incredibly strong surface that distributes weight evenly, preventing cracking and shifting. Available in dozens of shapes, colors, and patterns.',
     icon: <Shield size={28} className="text-brand-orange" />,
-  },
-  {
-    title: 'Brick Pavers',
-    description: 'Classic and timeless, brick pavers bring a warm, traditional aesthetic to your driveway. Extremely durable with natural color that won\'t fade over time. Perfect for colonial and craftsman-style homes.',
-    icon: <Ruler size={28} className="text-brand-orange" />,
   },
   {
     title: 'Natural Stone Pavers',
@@ -188,7 +183,7 @@ export default function PaverDrivewaysPage() {
             Expert Paver Driveway<br />Installation in California
           </h1>
           <p className="text-lg sm:text-xl text-white/90 mb-8 leading-relaxed max-w-[700px] mx-auto">
-            Transform your home&apos;s curb appeal with a stunning paver driveway. Interlocking, brick, natural stone &amp; permeable options. 20+ years experience &amp; lifetime guarantee.
+            Transform your home&apos;s curb appeal with a stunning paver driveway. Interlocking, natural stone &amp; permeable options. 20+ years experience &amp; lifetime guarantee.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -333,7 +328,6 @@ export default function PaverDrivewaysPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             {[
               { material: 'Interlocking Concrete Pavers', range: 'Contact for pricing', note: 'Most popular — great value and durability' },
-              { material: 'Brick Pavers', range: 'Contact for pricing', note: 'Classic look with lifetime color' },
               { material: 'Natural Stone Pavers', range: 'Contact for pricing', note: 'Premium luxury — travertine, bluestone, granite' },
             ].map((item, i) => (
               <div key={i} className="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-100">
