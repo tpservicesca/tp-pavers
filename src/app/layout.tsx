@@ -114,7 +114,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         {/* Google Ads tag (defines window.gtag; GA4 stays inside GTM) */}
         <Script
           id="gtag-aw-src"
-          src="https://www.googletagmanager.com/gtag/js?id=AW-18276139527"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18399837500"
           strategy="afterInteractive"
         />
         <Script id="gtag-aw-config" strategy="afterInteractive">
@@ -122,7 +122,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             function gtag(){dataLayer.push(arguments);}
             window.gtag = gtag;
             gtag('js', new Date());
-            gtag('config', 'AW-18276139527');`}
+            gtag('config', 'AW-18399837500');`}
         </Script>
       </head>
       <body className="text-[#333] bg-white leading-[1.7] antialiased">
