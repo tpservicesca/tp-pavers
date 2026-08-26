@@ -4,7 +4,7 @@ import nodemailer from "nodemailer";
 // SMTP creds live in a file on the Hostinger account (same pattern as
 // tpdumpsters-live: Hostinger does NOT inject env vars into the Node
 // process). Env vars are the local/dev fallback.
-const MAIL_KEYS_PATH = "/home/u781187371/mail-creds.json";
+const MAIL_KEYS_PATH = "/home/u781187371/pavers-mail-creds.json";
 
 interface MailConfig {
   host: string;
