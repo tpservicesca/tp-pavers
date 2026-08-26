@@ -46,31 +46,69 @@ export default function BeforeAfterSlider({
     updatePosition(e.clientX);
   }, [updatePosition]);
 
+  // Touch gesture: decide direction first so vertical swipes keep scrolling the page
+  const [touchActive, setTouchActive] = useState(false);
+  const touchState = useRef<{ x: number; y: number; phase: "pending" | "drag" | "scroll" }>({
+    x: 0,
+    y: 0,
+    phase: "pending",
+  });
+
   const handleTouchStart = useCallback((e: React.TouchEvent) => {
-    setIsDragging(true);
-    updatePosition(e.touches[0].clientX);
-  }, [updatePosition]);
+    const t = e.touches[0];
+    touchState.current = { x: t.clientX, y: t.clientY, phase: "pending" };
+    setTouchActive(true);
+  }, []);
+
+  useEffect(() => {
+    if (!touchActive) return;
+
+    const handleTouchMove = (e: TouchEvent) => {
+      const s = touchState.current;
+      const t = e.touches[0];
+      if (s.phase === "pending") {
+        const dx = Math.abs(t.clientX - s.x);
+        const dy = Math.abs(t.clientY - s.y);
+        if (dx < 8 && dy < 8) return;
+        s.phase = dx > dy ? "drag" : "scroll";
+      }
+      if (s.phase === "drag") {
+        e.preventDefault();
+        updatePosition(t.clientX);
+      }
+    };
+    const handleTouchEnd = () => {
+      if (touchState.current.phase === "pending") {
+        // Simple tap: move the divider to the tapped spot
+        updatePosition(touchState.current.x);
+      }
+      touchState.current.phase = "pending";
+      setTouchActive(false);
+    };
+
+    window.addEventListener("touchmove", handleTouchMove, { passive: false });
+    window.addEventListener("touchend", handleTouchEnd);
+    window.addEventListener("touchcancel", handleTouchEnd);
+
+    return () => {
+      window.removeEventListener("touchmove", handleTouchMove);
+      window.removeEventListener("touchend", handleTouchEnd);
+      window.removeEventListener("touchcancel", handleTouchEnd);
+    };
+  }, [touchActive, updatePosition]);
 
   useEffect(() => {
     if (!isDragging) return;
 
     const handleMouseMove = (e: MouseEvent) => updatePosition(e.clientX);
-    const handleTouchMove = (e: TouchEvent) => {
-      e.preventDefault();
-      updatePosition(e.touches[0].clientX);
-    };
     const handleEnd = () => setIsDragging(false);
 
     window.addEventListener("mousemove", handleMouseMove);
     window.addEventListener("mouseup", handleEnd);
-    window.addEventListener("touchmove", handleTouchMove, { passive: false });
-    window.addEventListener("touchend", handleEnd);
 
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
       window.removeEventListener("mouseup", handleEnd);
-      window.removeEventListener("touchmove", handleTouchMove);
-      window.removeEventListener("touchend", handleEnd);
     };
   }, [isDragging, updatePosition]);
 
@@ -78,6 +116,7 @@ export default function BeforeAfterSlider({
     <div
       ref={containerRef}
       className="relative w-full h-full overflow-hidden cursor-col-resize select-none"
+      style={{ touchAction: "pan-y" }}
       onMouseDown={handleMouseDown}
       onTouchStart={handleTouchStart}
       role="slider"
