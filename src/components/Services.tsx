@@ -43,7 +43,7 @@ export default function Services() {
                   ))}
                 </ul>
                 <a
-                  href="#contact"
+                  href="/#contact"
                   className="block bg-gradient-to-br from-brand-orange to-brand-orange-light text-white py-3.5 px-[25px] rounded-lg font-bold text-center transition-all duration-300 shadow-[0_4px_15px_rgba(234,88,12,0.2)] hover:-translate-y-[3px] hover:shadow-[0_6px_20px_rgba(234,88,12,0.3)]"
                 >
                   Get a quote

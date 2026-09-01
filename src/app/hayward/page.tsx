@@ -208,7 +208,7 @@ export default function HaywardPage() {
               <Phone size={20} /> Call for Free Estimate
             </a>
             <a
-              href="#contact"
+              href="/#contact"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-lg font-bold bg-white/10 text-white border-2 border-white/30 hover:bg-white/20 transition-all duration-300 backdrop-blur-sm"
             >
               Request a Quote <ArrowRight size={20} />

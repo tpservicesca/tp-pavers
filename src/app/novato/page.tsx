@@ -106,7 +106,7 @@ export default function NovatoPage() {
             <a href="tel:+15108041550" className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-lg font-bold bg-brand-orange text-white hover:bg-brand-orange-dark transition-all duration-300 shadow-lg hover:-translate-y-0.5">
               <Phone size={20} /> Call for Free Estimate
             </a>
-            <a href="#contact" className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-lg font-bold bg-white/10 text-white border-2 border-white/30 hover:bg-white/20 transition-all duration-300 backdrop-blur-sm">
+            <a href="/#contact" className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-lg font-bold bg-white/10 text-white border-2 border-white/30 hover:bg-white/20 transition-all duration-300 backdrop-blur-sm">
               Request a Quote <ArrowRight size={20} />
             </a>
           </div>

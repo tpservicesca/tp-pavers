@@ -23,7 +23,7 @@ export default function CallNowStrip() {
 
         {/* Desktop: Contact Us → scrolls to form */}
         <a
-          href="#contact"
+          href="/#contact"
           className="hidden sm:inline-flex items-center justify-center gap-2 px-8 py-3 rounded-full text-base font-bold bg-white text-brand-orange-dark hover:bg-gray-100 hover:-translate-y-0.5 transition-all duration-300 shadow-lg"
         >
           <MessageSquare size={18} /> Contact us

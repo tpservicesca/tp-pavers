@@ -170,7 +170,7 @@ const allServices = [
     ],
   },
   {
-    slug: '#contact',
+    slug: '/#contact',
     name: 'Concrete Work',
     image: '/images/gallery/gen3-08.webp',
     alt: 'Professional concrete work',
@@ -375,7 +375,7 @@ export default function ServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#contact"
+                href="/#contact"
                 className="inline-flex items-center justify-center gap-2 bg-white text-brand-orange hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
               >
                 Get Your Free Estimate

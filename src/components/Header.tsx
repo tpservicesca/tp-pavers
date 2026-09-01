@@ -10,7 +10,7 @@ const navLinks = [
   { href: '#gallery', label: 'GALLERY' },
   { href: '#faq', label: 'FAQ' },
   { href: '#map', label: 'SERVICE AREA' },
-  { href: '#contact', label: 'CONTACT' },
+  { href: '/#contact', label: 'CONTACT' },
   { href: '/blog', label: 'BLOG' },
 ];
 
