@@ -127,6 +127,11 @@ const allCities = Object.values(counties).flat();
 const totalCities = allCities.length;
 const countyNames = Object.keys(counties);
 
+// Llave de navegador restringida a tppavers.com/* + www y solo a Maps JavaScript API
+// (consola: proyecto "Maps Form", clave "tppavers-web"). Es publica por diseno:
+// una llave de navegador siempre viaja al cliente; lo que la protege es el candado de dominio.
+const MAPS_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY || 'AIzaSyDTuxtdLSnjTNKIKt0e7GGJWuxfCxMXEHw';
+
 export default function ServiceAreaMap() {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<any>(null);
@@ -142,7 +147,7 @@ export default function ServiceAreaMap() {
     }
 
     const script = document.createElement('script');
-    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBI6Vup5IKvfvlyvdhV_9nipF5FXaVnZ04&callback=initMap`;
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${MAPS_KEY}&callback=initMap`;
     script.async = true;
     script.defer = true;
 
