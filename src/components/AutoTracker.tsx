@@ -54,18 +54,13 @@ export default function AutoTracker() {
         });
       }
 
-      if (typeof window.gtag !== "function") return;
+      // Phone call clicks: already sent to GA4 via the dataLayer push above.
+      // Do NOT also send it through window.gtag — measured 20-sep-2026: the
+      // Google tag shares the dataLayer, so gtag("event") reached GA4 too and
+      // every call was counted twice.
+      if (href.startsWith("tel:")) return;
 
-      // Phone call clicks
-      if (href.startsWith("tel:")) {
-        window.gtag("event", "call_click", {
-          page,
-          button_location: location,
-          button_text: text,
-          phone_number: href.replace("tel:", ""),
-        });
-        return;
-      }
+      if (typeof window.gtag !== "function") return;
 
       // Email clicks
       if (href.startsWith("mailto:")) {
