@@ -39,6 +39,21 @@ export default function AutoTracker() {
       const text = clickable.textContent?.trim()?.substring(0, 60) || "unknown";
       const href = anchor?.href || anchor?.getAttribute("href") || "";
 
+      // GA4 lives inside GTM (GTM-5Z63X662), not in window.gtag (that one is the
+      // Google Ads tag). Push tel: clicks to the dataLayer too so the GTM trigger
+      // "CE - call_click" forwards them to GA4; otherwise tppavers.com never
+      // records a single call_click (verified 20-sep-2026: 0 in 30 days).
+      if (href.startsWith("tel:")) {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: "call_click",
+          page,
+          button_location: location,
+          button_text: text,
+          phone_number: href.replace("tel:", ""),
+        });
+      }
+
       if (typeof window.gtag !== "function") return;
 
       // Phone call clicks

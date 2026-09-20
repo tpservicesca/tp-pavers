@@ -1,6 +1,29 @@
 "use client";
 
+import { useEffect, useState } from "react";
+
+// Cris (20-sep-2026): the floating buttons must NOT show over the hero — the hero
+// already has its own call CTA (CallNowStrip) and the two "Call now" buttons
+// overlapped on mobile. They appear once the visitor scrolls past #home.
 export default function FloatingButtons() {
+  const [pastHero, setPastHero] = useState(false);
+
+  useEffect(() => {
+    const hero = document.getElementById("home");
+    if (!hero || typeof IntersectionObserver === "undefined") {
+      setPastHero(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      (entries) => setPastHero(!entries[0].isIntersecting),
+      { threshold: 0.05 }
+    );
+    io.observe(hero);
+    return () => io.disconnect();
+  }, []);
+
+  if (!pastHero) return null;
+
   return (
     <div className="fixed bottom-[15px] right-[15px] md:bottom-[30px] md:right-[30px] z-[99998] flex flex-col gap-3 items-end">
       <a
