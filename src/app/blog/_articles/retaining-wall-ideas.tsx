@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { CheckCircle, Phone, ChevronRight } from 'lucide-react';
-import { InlineCTA } from '../[slug]/page';
+import InlineCTA from '@/components/InlineCTA';
 
 function SectionImage({ src, alt }: { src: string; alt: string }) {
   return (
