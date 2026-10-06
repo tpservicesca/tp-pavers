@@ -235,7 +235,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               aggregateRating: {
                 "@type": "AggregateRating",
                 ratingValue: "5",
-                reviewCount: "50",
+                reviewCount: "10",
                 bestRating: "5",
               },
             }),

@@ -1,5 +1,5 @@
 import CounterAnimation from './CounterAnimation';
-import Reviews from './Reviews';
+import ReviewsBadge from './ReviewsBadge';
 
 export default function About() {
   return (
@@ -49,7 +49,7 @@ export default function About() {
               </p>
             </div>
             <CounterAnimation />
-            <Reviews />
+            <ReviewsBadge />
           </div>
         </div>
       </div>

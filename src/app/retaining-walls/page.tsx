@@ -2,6 +2,9 @@ import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CallNowStrip from '@/components/CallNowStrip';
+import ReviewsBadge from '@/components/ReviewsBadge';
+import ContactForm from '@/components/ContactForm';
+
 import DynamicServiceAreaMap from '@/components/DynamicServiceAreaMap';
 import DynamicGallery from '@/components/DynamicGallery';
 import { MapPin, Phone, CheckCircle, ArrowRight, Shield, Droplets, Timer, Ruler } from 'lucide-react';
@@ -217,7 +220,7 @@ export default function RetainingWallsPage() {
               <Phone size={20} /> Call for Free Estimate
             </a>
             <a
-              href="/#contact"
+              href="#contact"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-lg font-bold bg-white/10 text-white border-2 border-white/30 hover:bg-white/20 transition-all duration-300 backdrop-blur-sm"
             >
               Get a Quote <ArrowRight size={20} />
@@ -227,6 +230,7 @@ export default function RetainingWallsPage() {
       </section>
 
       <CallNowStrip />
+      <ReviewsBadge />
 
       {/* Types of Retaining Walls */}
       <section className="py-20 bg-white">
@@ -405,6 +409,7 @@ export default function RetainingWallsPage() {
         </div>
       </section>
 
+      <ContactForm />
       <DynamicServiceAreaMap />
       <Footer />
     </>

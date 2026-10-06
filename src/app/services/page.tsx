@@ -2,6 +2,9 @@ import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CallNowStrip from '@/components/CallNowStrip';
+import ReviewsBadge from '@/components/ReviewsBadge';
+import ContactForm from '@/components/ContactForm';
+
 import FloatingButtons from '@/components/FloatingButtons';
 import Image from 'next/image';
 
@@ -215,6 +218,7 @@ export default function ServicesPage() {
         </section>
 
         <CallNowStrip />
+      <ReviewsBadge />
 
         {/* ───── SERVICES GRID ───── */}
         <section className="max-w-6xl mx-auto px-4 py-16 md:py-24">
@@ -375,7 +379,7 @@ export default function ServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/#contact"
+                href="#contact"
                 className="inline-flex items-center justify-center gap-2 bg-white text-brand-orange hover:bg-gray-100 font-bold px-8 py-4 rounded-lg text-lg transition-colors"
               >
                 Get Your Free Estimate
@@ -420,6 +424,7 @@ export default function ServicesPage() {
         </section>
       </main>
 
+      <ContactForm />
       <Footer />
       <FloatingButtons />
     </>
