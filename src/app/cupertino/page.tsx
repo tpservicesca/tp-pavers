@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Cupertino, CA | TP Pavers',
   description:
-    'Professional paver installation in Cupertino, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Cupertino neighborhoods.',
+    'Professional paver installation in Cupertino, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Cupertino neighborhoods.',
   keywords: [
       "pavers cupertino",
       "cupertino pavers",
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Cupertino',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Cupertino, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Cupertino, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/cupertino',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       "Cupertino\'s varied terrain often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to properties throughout Garden Gate and beyond.",
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      "Save water and keep your Cupertino lawn green year-round. Our premium artificial turf is perfect for families, pets, and California\'s drought-conscious lifestyle.",
   },
 ];
 

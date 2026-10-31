@@ -20,7 +20,7 @@ export const faqsColumn1: FAQ[] = [
   },
   {
     question: 'What materials do you use for paver installation and hardscape projects?',
-    answer: 'We use high-quality materials including concrete pavers, natural stone, and premium artificial turf, all designed for durability and long-lasting outdoor performance.',
+    answer: 'We use high-quality materials including concrete pavers and natural stone, all designed for durability and long-lasting outdoor performance.',
   },
   {
     question: 'Do you offer a warranty on paver installation?',
@@ -41,10 +41,6 @@ export const faqsColumn2: FAQ[] = [
   {
     question: 'Do you offer financing for paver installation projects?',
     answer: 'Yes, we offer flexible financing options for qualified projects, making it easier to upgrade your outdoor space without large upfront costs.',
-  },
-  {
-    question: 'Is artificial turf safe for kids and pets?',
-    answer: 'Yes, our synthetic turf is non-toxic, durable, and safe for children and pets, designed to handle everyday use while maintaining a natural look.',
   },
   {
     question: 'Do you provide paver installation near me in Contra Costa County?',

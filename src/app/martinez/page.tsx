@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Martinez, CA | TP Pavers',
   description:
-    'Professional paver installation in Martinez, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Martinez neighborhoods.',
+    'Professional paver installation in Martinez, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Martinez neighborhoods.',
   keywords: [
     'pavers martinez',
     'martinez pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Martinez',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Martinez, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Martinez, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/martinez',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Martinez\'s terrain near the rolling hills of Alhambra Valley and the Carquinez shoreline often benefits from structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Martinez lawn green year-round. Our premium artificial turf is perfect for families, pets, and Martinez\'s warm Carquinez Strait climate with cooling bay breezes.',
   },
 ];
 

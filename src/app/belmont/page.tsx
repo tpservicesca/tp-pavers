@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Belmont, CA | TP Pavers',
   description:
-    'Professional paver installation in Belmont, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Belmont neighborhoods.',
+    'Professional paver installation in Belmont, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Belmont neighborhoods.',
   keywords: [
     'pavers belmont',
     'belmont pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Belmont',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Belmont, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Belmont, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/belmont',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Belmont&apos;s hillside terrain makes retaining walls essential for many properties. Our expertly engineered walls prevent erosion, create usable yard space, and add beauty to sloped lots throughout Belmont Hills and Homeview.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Keep your Belmont lawn lush and green year-round without the water bill. Our premium synthetic turf is ideal for families and pets, and perfectly suited to California&apos;s water-conscious lifestyle.',
   },
 ];
 

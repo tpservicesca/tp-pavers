@@ -12,7 +12,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Paver Installation in Alameda County, CA | TP Pavers',
   description:
-    'Professional paver installation across 15+ cities in Alameda County. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience, 10-year warranty. Serving Oakland, Berkeley, Fremont, Hayward, Livermore & more. Call (510) 804-1550.',
+    'Professional paver installation across 15+ cities in Alameda County. Driveways, patios, walkways & retaining walls. 20+ years experience, 10-year warranty. Serving Oakland, Berkeley, Fremont, Hayward, Livermore & more. Call (510) 804-1550.',
   keywords: [
     'pavers alameda county',
     'paver installation near me',
@@ -26,7 +26,6 @@ export const metadata: Metadata = {
     'patio pavers alameda county',
     'hardscape contractor alameda county',
     'retaining wall alameda county',
-    'synthetic turf alameda county',
     'concrete pavers alameda county',
   ],
   openGraph: {
@@ -110,12 +109,6 @@ const services = [
     description:
       'Alameda County\'s diverse terrain — from the Oakland Hills to the flatlands of Newark — often requires structural solutions. Our retaining walls prevent erosion, add usable space, and enhance your landscape.',
   },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your lawn green year-round across Alameda County. Our premium artificial turf is perfect for families, pets, and California\'s drought-conscious lifestyle in every neighborhood from Piedmont to Pleasanton.',
-  },
 ];
 
 // ── FAQs ────────────────────────────────────────────────────────────────────
@@ -158,7 +151,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Alameda County',
   description:
-    'Professional paver installation across 15+ cities in Alameda County. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience.',
+    'Professional paver installation across 15+ cities in Alameda County. Driveways, patios, walkways & retaining walls. 20+ years experience.',
   url: 'https://tppavers.com/alameda-county',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -204,10 +197,6 @@ const jsonLd = {
         '@type': 'Offer',
         itemOffered: { '@type': 'Service', name: 'Retaining Wall Construction', description: 'Structural and decorative retaining walls for sloped properties.' },
       },
-      {
-        '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'Synthetic Turf Installation', description: 'Premium artificial turf for water-efficient, low-maintenance lawns.' },
-      },
     ],
   },
 };
@@ -247,7 +236,7 @@ export default function AlamedaCountyPage() {
           </h1>
           <p className="text-lg sm:text-xl text-white/90 mb-8 leading-relaxed max-w-[700px] mx-auto">
             Serving 15+ cities across Alameda County.<br />
-            Driveways, patios, walkways, retaining walls &amp; synthetic turf.
+            Driveways, patios, walkways &amp; retaining walls.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

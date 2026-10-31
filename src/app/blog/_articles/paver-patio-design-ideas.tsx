@@ -146,7 +146,7 @@ export default function PaverPatioDesignIdeas() {
       <h2>Integrating Your Patio with the Landscape</h2>
 
       <p>
-        The best <strong>paver patio ideas</strong> don&apos;t exist in isolation — they connect seamlessly with the surrounding landscape. Consider how your patio relates to <Link href="/paver-walkways">walkways</Link>, garden beds, <Link href="/retaining-walls">retaining walls</Link>, and <Link href="/synthetic-turf">turf areas</Link>. Curved patio edges that flow into planting beds feel more organic than sharp 90° corners. A matching paver walkway connecting your patio to the driveway or side yard creates visual continuity throughout your property.
+        The best <strong>paver patio ideas</strong> don&apos;t exist in isolation — they connect seamlessly with the surrounding landscape. Consider how your patio relates to <Link href="/paver-walkways">walkways</Link>, garden beds, and <Link href="/retaining-walls">retaining walls</Link>. Curved patio edges that flow into planting beds feel more organic than sharp 90° corners. A matching paver walkway connecting your patio to the driveway or side yard creates visual continuity throughout your property.
       </p>
 
       <p>
@@ -163,7 +163,7 @@ export default function PaverPatioDesignIdeas() {
         <li><strong>Lifetime guarantee</strong> on all patio installations</li>
         <li><strong>Free design consultation</strong> — we create a custom layout tailored to your space</li>
         <li><strong>Expert pattern installation</strong> — precision cuts and perfect alignment on every project</li>
-        <li><strong>Full-service team</strong> — pavers, retaining walls, turf, drainage, and lighting</li>
+        <li><strong>Full-service team</strong> — pavers, retaining walls, concrete, drainage, and lighting</li>
         <li><strong>Family-owned for 20+ years</strong> — Bay Area roots, Bay Area pride</li>
       </ul>
 

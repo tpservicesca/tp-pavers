@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Dixon, CA | TP Pavers',
   description:
-    'Professional paver installation in Dixon, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving Downtown, Southwest Dixon, Northeast Dixon & Homestead neighborhoods.',
+    'Professional paver installation in Dixon, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving Downtown, Southwest Dixon, Northeast Dixon & Homestead neighborhoods.',
   keywords: [
     'pavers dixon',
     'dixon pavers',
@@ -62,7 +62,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Dixon',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Dixon, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Dixon, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/dixon',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -110,12 +110,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Whether you need to create landscape tiers or manage grading on your Dixon property, our retaining walls provide structural integrity and stunning visual appeal.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Dixon lawn green year-round. Our premium artificial turf is perfect for families, pets, and Dixon\'s hot summers — no mowing, no watering.',
   },
 ];
 

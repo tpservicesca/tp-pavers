@@ -12,16 +12,15 @@ import { ArrowRight, CheckCircle, Phone, Shield, Star, Clock, Ruler } from 'luci
 
 /* ───────── SEO METADATA ───────── */
 export const metadata: Metadata = {
-  title: 'Our Services | Pavers, Retaining Walls, Turf & More | TP Pavers',
+  title: 'Our Services | Pavers, Retaining Walls & Concrete | TP Pavers',
   description:
-    'Explore all TP Pavers services: paver driveways, patios, walkways, retaining walls, synthetic turf, and concrete work. 20+ years experience in California. Free estimates & lifetime guarantee.',
+    'Explore all TP Pavers services: paver driveways, patios, walkways, retaining walls, and concrete work. 20+ years experience in California. Free estimates & lifetime guarantee.',
   keywords: [
     'paver installation services',
     'paver driveway installation',
     'patio pavers',
     'walkway pavers',
     'retaining wall installation',
-    'synthetic turf installation',
     'concrete work california',
     'outdoor construction services',
     'hardscape contractor california',
@@ -30,9 +29,9 @@ export const metadata: Metadata = {
     'outdoor living california',
   ],
   openGraph: {
-    title: 'Our Services | Pavers, Retaining Walls, Turf & More | TP Pavers',
+    title: 'Our Services | Pavers, Retaining Walls & Concrete | TP Pavers',
     description:
-      'Professional paver installation, retaining walls, synthetic turf & concrete work. 20+ years experience. Free estimates.',
+      'Professional paver installation, retaining walls & concrete work. 20+ years experience. Free estimates.',
     url: 'https://tppavers.com/services',
     siteName: 'TP Pavers',
     locale: 'en_US',
@@ -50,7 +49,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Our Services | TP Pavers California',
     description:
-      'Paver driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. Free estimates.',
+      'Paver driveways, patios, walkways, retaining walls & concrete. 20+ years experience. Free estimates.',
     images: ['https://tppavers.com/images/P1.webp'],
   },
   alternates: {
@@ -64,7 +63,7 @@ const jsonLd = {
   '@type': 'Service',
   name: 'Outdoor Construction & Paver Installation Services',
   description:
-    'Full-service outdoor construction including paver driveways, patios, walkways, retaining walls, synthetic turf, and concrete work across California.',
+    'Full-service outdoor construction including paver driveways, patios, walkways, retaining walls, and concrete work across California.',
   provider: {
     '@type': 'LocalBusiness',
     name: 'TP Pavers',
@@ -94,7 +93,6 @@ const jsonLd = {
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Paver Patio Installation' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Paver Walkway Installation' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Retaining Wall Construction' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Synthetic Turf Installation' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Concrete Work' } },
     ],
   },
@@ -159,20 +157,6 @@ const allServices = [
     ],
   },
   {
-    slug: '/synthetic-turf',
-    name: 'Synthetic Turf',
-    image: '/images/gallery/sel-04.webp',
-    alt: 'Synthetic turf installation',
-    description:
-      'Enjoy a lush, green lawn year-round without watering, mowing, or maintenance. Our premium synthetic turf is perfect for families, pets, and play areas.',
-    highlights: [
-      'Zero maintenance lawn',
-      'Pet & child friendly',
-      'Saves water & money',
-      'Looks green all year',
-    ],
-  },
-  {
     slug: '/#contact',
     name: 'Concrete Work',
     image: '/images/gallery/gen3-08.webp',
@@ -211,7 +195,7 @@ export default function ServicesPage() {
               Our Services
             </h1>
             <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              From paver driveways and patios to retaining walls and synthetic turf — we build
+              From paver driveways and patios to retaining walls and concrete work — we build
               beautiful, durable outdoor spaces that transform your property and increase its value.
             </p>
           </div>
@@ -403,14 +387,14 @@ export default function ServicesPage() {
             <p>
               TP Pavers is a family-owned outdoor construction company with over 20 years of experience
               serving homeowners across California. We specialize in paver installation for driveways,
-              patios, and walkways, as well as retaining wall construction, synthetic turf installation,
+              patios, and walkways, as well as retaining wall construction,
               and professional concrete work. Every project is backed by our lifetime guarantee and built
               with premium materials sourced from the industry&apos;s top manufacturers.
             </p>
             <p>
               Our team of expert installers works directly with you to design custom outdoor spaces that
               match your vision and budget. Whether you want a classic paver driveway, a modern patio with
-              a built-in fire pit, a curved garden walkway, or a maintenance-free synthetic lawn, we have
+              a built-in fire pit, a curved garden walkway, or a sturdy retaining wall, we have
               the skills and experience to deliver exceptional results. We serve cities throughout the
               Bay Area including San Ramon, Dublin, Pleasanton, Livermore, Danville, Alamo, Walnut Creek,
               Concord, and many more across Contra Costa, Alameda, and surrounding counties.

@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Gilroy, CA | TP Pavers',
   description:
-    'Professional paver installation in Gilroy, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Gilroy neighborhoods.',
+    'Professional paver installation in Gilroy, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Gilroy neighborhoods.',
   keywords: [
     'pavers gilroy',
     'gilroy pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Gilroy',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Gilroy, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Gilroy, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/gilroy',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Gilroy&apos;s diverse terrain — from valley floor to hillside lots near Eagle Ridge — often calls for retaining walls. We build durable, attractive walls that manage grades, prevent erosion, and add dimension to your landscape.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Gilroy&apos;s hot summers make synthetic turf a smart choice. Save water, eliminate mowing, and enjoy a lush green lawn year-round. Perfect for families, pets, and anyone who wants to spend less time on yard work and more time enjoying it.',
   },
 ];
 

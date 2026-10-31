@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Alameda, CA | TP Pavers',
   description:
-    'Professional paver installation in Alameda, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Alameda neighborhoods.',
+    'Professional paver installation in Alameda, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Alameda neighborhoods.',
   keywords: [
     'pavers alameda',
     'alameda pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Alameda',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Alameda, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Alameda, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/alameda',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Alameda\'s unique island landscape benefits from well-designed retaining walls. We build structural and decorative walls that define outdoor spaces, add garden tiers, and enhance your property\'s functionality and beauty.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and enjoy a lush green lawn year-round in Alameda. Our premium artificial turf is perfect for families and pets across the island, from Central Alameda to Fernside — a smart choice for water-conscious island living.',
   },
 ];
 

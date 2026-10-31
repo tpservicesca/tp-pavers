@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Suisun City, CA | TP Pavers',
   description:
-    'Professional paver installation in Suisun City, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving Downtown Waterfront, Lawler Ranch & all Suisun City neighborhoods.',
+    'Professional paver installation in Suisun City, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving Downtown Waterfront, Lawler Ranch & all Suisun City neighborhoods.',
   keywords: [
     'pavers suisun city',
     'suisun city pavers',
@@ -62,7 +62,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Suisun City',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Suisun City, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Suisun City, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/suisun-city',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -110,12 +110,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Suisun City\'s varied terrain near the marshlands and newer developments often requires structural solutions. Our retaining walls prevent erosion and create beautiful landscape tiers.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Suisun City lawn green year-round. Our premium artificial turf is perfect for families, pets, and Solano County\'s warm climate.',
   },
 ];
 

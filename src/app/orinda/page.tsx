@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Orinda, CA | TP Pavers',
   description:
-    'Professional paver installation in Orinda, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Orinda neighborhoods.',
+    'Professional paver installation in Orinda, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Orinda neighborhoods.',
   keywords: [
     'pavers orinda',
     'orinda pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Orinda',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Orinda, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Orinda, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/orinda',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Orinda\'s terrain near the steep, wooded hillsides and scenic ravines of Orinda often benefits from structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Orinda lawn green year-round. Our premium artificial turf is perfect for families, pets, and Orinda\'s sheltered microclimate with warm summers and mild winters.',
   },
 ];
 

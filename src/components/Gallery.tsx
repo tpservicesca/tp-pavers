@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { galleryData } from '@/data/gallery';
 
 // Interleave categories round-robin so the carousel alternates between
-// pavers, walls, turf and concrete instead of long same-category runs
+// pavers, walls and concrete instead of long same-category runs
 const cats = Object.values(galleryData).map((cat) =>
   cat.images.map((src) => ({ src, category: cat.name }))
 );

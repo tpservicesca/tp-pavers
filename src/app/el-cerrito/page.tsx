@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in El Cerrito, CA | TP Pavers',
   description:
-    'Professional paver installation in El Cerrito, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all El Cerrito neighborhoods.',
+    'Professional paver installation in El Cerrito, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all El Cerrito neighborhoods.',
   keywords: [
     'pavers el cerrito',
     'el cerrito pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - El Cerrito',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in El Cerrito, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in El Cerrito, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/el-cerrito',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'El Cerrito\'s terrain near the steep hillside terrain with bay views throughout El Cerrito often benefits from structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your El Cerrito lawn green year-round. Our premium artificial turf is perfect for families, pets, and El Cerrito\'s mild coastal climate moderated by San Francisco Bay breezes.',
   },
 ];
 

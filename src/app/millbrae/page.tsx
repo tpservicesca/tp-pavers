@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Millbrae, CA | TP Pavers',
   description:
-    'Professional paver installation in Millbrae, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Millbrae neighborhoods.',
+    'Professional paver installation in Millbrae, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Millbrae neighborhoods.',
   keywords: [
     'pavers millbrae',
     'millbrae pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Millbrae',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Millbrae, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Millbrae, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/millbrae',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Millbrae&apos;s hillside neighborhoods like Millbrae Highlands and Green Hills often benefit from retaining walls. We engineer walls that solve drainage issues while adding stunning landscape tiers to your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Keep your Millbrae lawn green and maintenance-free all year long. Our premium synthetic turf saves water and looks great, ideal for families and pets in this transit-friendly Peninsula city.',
   },
 ];
 

@@ -12,7 +12,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Paver Installation in Marin County, CA | TP Pavers',
   description:
-    'Professional paver installation across 9+ cities in Marin County. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience, 10-year warranty. Serving San Rafael, Novato, Mill Valley, Sausalito & more. Call (510) 804-1550.',
+    'Professional paver installation across 9+ cities in Marin County. Driveways, patios, walkways & retaining walls. 20+ years experience, 10-year warranty. Serving San Rafael, Novato, Mill Valley, Sausalito & more. Call (510) 804-1550.',
   keywords: [
     'pavers marin county',
     'paver contractor marin county',
@@ -21,7 +21,6 @@ export const metadata: Metadata = {
     'patio pavers marin county',
     'hardscape contractor marin county',
     'retaining wall marin county',
-    'synthetic turf marin county',
     'concrete pavers marin county',
     'walkway pavers marin county ca',
     'outdoor pavers marin county ca',
@@ -102,12 +101,6 @@ const services = [
     description:
       'Marin County\'s hilly terrain and stunning hillside properties often require structural solutions. Our retaining walls prevent erosion, add usable space, and create stunning landscape tiers.',
   },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your lawn green year-round. Our premium artificial turf is perfect for Marin families, pets, and California\'s drought-conscious lifestyle.',
-  },
 ];
 
 // ── FAQs ────────────────────────────────────────────────────────────────────
@@ -150,7 +143,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Marin County',
   description:
-    'Professional paver installation across 9+ cities in Marin County. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience.',
+    'Professional paver installation across 9+ cities in Marin County. Driveways, patios, walkways & retaining walls. 20+ years experience.',
   url: 'https://tppavers.com/marin-county',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -196,10 +189,6 @@ const jsonLd = {
         '@type': 'Offer',
         itemOffered: { '@type': 'Service', name: 'Retaining Wall Construction', description: 'Structural and decorative retaining walls for sloped properties.' },
       },
-      {
-        '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'Synthetic Turf Installation', description: 'Premium artificial turf for water-efficient, low-maintenance lawns.' },
-      },
     ],
   },
 };
@@ -239,7 +228,7 @@ export default function MarinCountyPage() {
           </h1>
           <p className="text-lg sm:text-xl text-white/90 mb-8 leading-relaxed max-w-[700px] mx-auto">
             Serving 9+ cities across Marin County.<br />
-            Driveways, patios, walkways, retaining walls &amp; synthetic turf.
+            Driveways, patios, walkways &amp; retaining walls.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

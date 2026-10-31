@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Clayton, CA | TP Pavers',
   description:
-    'Professional paver installation in Clayton, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Clayton neighborhoods.',
+    'Professional paver installation in Clayton, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Clayton neighborhoods.',
   keywords: [
     'pavers clayton',
     'clayton pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Clayton',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Clayton, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Clayton, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/clayton',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Clayton\'s terrain near the sloped terrain at the base of Mount Diablo often benefits from structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Clayton lawn green year-round. Our premium artificial turf is perfect for families, pets, and Clayton\'s Mediterranean climate with warm summers moderated by mountain breezes.',
   },
 ];
 

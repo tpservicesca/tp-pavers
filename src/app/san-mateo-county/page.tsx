@@ -11,7 +11,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Paver Installation in San Mateo County, CA | TP Pavers',
   description:
-    'Professional paver installation across 10+ cities in San Mateo County. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience, 10-year warranty. Serving Redwood City, San Mateo, Burlingame, Foster City & more. Call (510) 804-1550.',
+    'Professional paver installation across 10+ cities in San Mateo County. Driveways, patios, walkways & retaining walls. 20+ years experience, 10-year warranty. Serving Redwood City, San Mateo, Burlingame, Foster City & more. Call (510) 804-1550.',
   keywords: [
     'pavers san mateo county',
     'paver contractor san mateo county',
@@ -20,7 +20,6 @@ export const metadata: Metadata = {
     'patio pavers san mateo county',
     'hardscape contractor san mateo county',
     'retaining wall san mateo county',
-    'synthetic turf san mateo county',
     'concrete pavers san mateo county',
     'walkway pavers san mateo county ca',
     'outdoor pavers san mateo county ca',
@@ -99,12 +98,6 @@ const services = [
     description:
       'San Mateo County\'s hilly terrain from the coast to the bay often requires structural solutions. Our retaining walls prevent erosion, add usable space, and create stunning landscape tiers.',
   },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your lawn green year-round. Our premium artificial turf is perfect for families, pets, and California\'s drought-conscious lifestyle.',
-  },
 ];
 
 const faqs = [
@@ -145,7 +138,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - San Mateo County',
   description:
-    'Professional paver installation across 10+ cities in San Mateo County. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience.',
+    'Professional paver installation across 10+ cities in San Mateo County. Driveways, patios, walkways & retaining walls. 20+ years experience.',
   url: 'https://tppavers.com/san-mateo-county',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -191,10 +184,6 @@ const jsonLd = {
         '@type': 'Offer',
         itemOffered: { '@type': 'Service', name: 'Retaining Wall Construction', description: 'Structural and decorative retaining walls for sloped properties.' },
       },
-      {
-        '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'Synthetic Turf Installation', description: 'Premium artificial turf for water-efficient, low-maintenance lawns.' },
-      },
     ],
   },
 };
@@ -233,7 +222,7 @@ export default function SanMateoCountyPage() {
           </h1>
           <p className="text-lg sm:text-xl text-white/90 mb-8 leading-relaxed max-w-[700px] mx-auto">
             Serving 10+ cities across San Mateo County&apos;s Peninsula.<br />
-            Driveways, patios, walkways, retaining walls &amp; synthetic turf.
+            Driveways, patios, walkways &amp; retaining walls.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

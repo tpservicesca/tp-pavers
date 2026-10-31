@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Paver Installation in Larkspur, CA | TP Pavers',
-  description: 'Professional paver installation in Larkspur, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates.',
+  description: 'Professional paver installation in Larkspur, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates.',
   keywords: ['pavers larkspur', 'larkspur pavers', 'paver installation larkspur', 'paver contractor larkspur', 'driveway pavers larkspur ca', 'patio pavers larkspur', 'retaining wall larkspur', 'hardscape larkspur ca', 'paver driveway larkspur california', 'outdoor pavers larkspur'],
   openGraph: { title: 'Paver Installation in Larkspur, CA | TP Pavers', description: 'Expert paver installation in Larkspur. Driveways, patios, walkways & retaining walls. 20+ years experience. Free estimates.', url: 'https://tppavers.com/larkspur', siteName: 'TP Pavers', locale: 'en_US', type: 'website', images: [{ url: 'https://tppavers.com/images/P1.webp', width: 1200, height: 630, alt: 'Professional Paver Installation in Larkspur, California' }] },
   twitter: { card: 'summary_large_image', title: 'Paver Installation in Larkspur | TP Pavers', description: 'Expert paver installation in Larkspur, CA. Free estimates. 10-year warranty.', images: ['https://tppavers.com/images/P1.webp'] },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'TP Pavers - Larkspur',
-  description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in Larkspur, California. 20+ years experience with 10-year warranty.',
+  description: 'Professional paver installation, retaining walls and hardscape design in Larkspur, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/larkspur', telephone: '+1-510-804-1550', email: 'contact@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'Larkspur', addressRegion: 'CA', postalCode: '94939', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 37.9341, longitude: -122.5353 },
@@ -31,7 +31,6 @@ const services = [
   { image: '/images/projects/driveway-multicolor.webp', title: 'Paver Driveways', description: 'Upgrade your Larkspur home with a custom interlocking paver driveway. Built to enhance curb appeal in neighborhoods like Downtown, Bon Air, and Baltimore Park.' },
   { image: '/images/projects/patio-raised-house.webp', title: 'Patios & Walkways', description: 'Design the perfect outdoor living space for Larkspur\'s charming character. From backyard patios to front walkways, we create durable and beautiful hardscapes for every home.' },
   { image: '/images/projects/patio-retaining-wall.webp', title: 'Retaining Walls', description: 'Larkspur\'s hillside properties and creek-side lots often require structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to your property.' },
-  { image: '/images/S1.webp', title: 'Synthetic Turf', description: 'Save water and keep your Larkspur lawn green year-round. Our premium artificial turf is perfect for families, pets, and Marin County\'s eco-conscious lifestyle.' },
 ];
 
 const faqs = [

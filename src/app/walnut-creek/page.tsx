@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Walnut Creek, CA | TP Pavers',
   description:
-    'Professional paver installation in Walnut Creek, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving Rossmoor, Northgate & all Walnut Creek neighborhoods.',
+    'Professional paver installation in Walnut Creek, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving Rossmoor, Northgate & all Walnut Creek neighborhoods.',
   keywords: [
     'pavers walnut creek',
     'walnut creek pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Walnut Creek',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Walnut Creek, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Walnut Creek, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/walnut-creek',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Walnut Creek\'s hilly terrain near Indian Valley and the Iron Horse Trail corridor often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Walnut Creek lawn green year-round. Our premium artificial turf is perfect for Rossmoor residents, busy professionals, and anyone who wants a pristine yard without the maintenance.',
   },
 ];
 

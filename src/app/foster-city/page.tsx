@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Foster City, CA | TP Pavers',
   description:
-    'Professional paver installation in Foster City, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Foster City neighborhoods.',
+    'Professional paver installation in Foster City, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Foster City neighborhoods.',
   keywords: [
       "pavers foster city",
       "foster city pavers",
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Foster City',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Foster City, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Foster City, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/foster-city',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       "Foster City\'s varied terrain often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to properties throughout Flying Cloud and beyond.",
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      "Save water and keep your Foster City lawn green year-round. Our premium artificial turf is perfect for families, pets, and California\'s drought-conscious lifestyle.",
   },
 ];
 

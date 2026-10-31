@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Berkeley, CA | TP Pavers',
   description:
-    'Professional paver installation in Berkeley, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Berkeley neighborhoods.',
+    'Professional paver installation in Berkeley, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Berkeley neighborhoods.',
   keywords: [
     'pavers berkeley',
     'berkeley pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Berkeley',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Berkeley, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Berkeley, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/berkeley',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Berkeley\'s hilly terrain in neighborhoods like Berkeley Hills and Claremont often requires expert retaining wall solutions. We build structural walls that prevent erosion and create beautiful tiered landscapes.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and enjoy a lush green lawn year-round in Berkeley. Our premium artificial turf is eco-friendly and low-maintenance — perfect for environmentally conscious Berkeley homeowners and families.',
   },
 ];
 

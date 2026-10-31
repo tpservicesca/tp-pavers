@@ -21,7 +21,6 @@ export default function Footer() {
           <a href="#services" className="block mb-2 text-[0.9rem] text-white/80 hover:text-brand-orange transition-colors">Retaining Walls</a>
           <a href="#services" className="block mb-2 text-[0.9rem] text-white/80 hover:text-brand-orange transition-colors">Drainage Systems</a>
           <a href="#services" className="block mb-2 text-[0.9rem] text-white/80 hover:text-brand-orange transition-colors">Demolition &amp; Excavation</a>
-          <a href="#services" className="block mb-2 text-[0.9rem] text-white/80 hover:text-brand-orange transition-colors">Synthetic Turf</a>
         </div>
 
         {/* Contact Info */}

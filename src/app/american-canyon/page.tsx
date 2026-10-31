@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in American Canyon, CA | TP Pavers',
   description:
-    'Professional paver installation in American Canyon, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving Canyon Estates, Eucalyptus & Napa Junction.',
+    'Professional paver installation in American Canyon, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving Canyon Estates, Eucalyptus & Napa Junction.',
   keywords: [
     'pavers american canyon',
     'american canyon pavers',
@@ -62,7 +62,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - American Canyon',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in American Canyon, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in American Canyon, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/american-canyon',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -110,12 +110,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'American Canyon\'s rolling hills and canyon terrain often require structural solutions. Our retaining walls prevent erosion, add usable yard space, and create stunning landscape tiers.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your American Canyon lawn green year-round. Our premium artificial turf is perfect for families, pets, and the warm Napa Valley climate.',
   },
 ];
 

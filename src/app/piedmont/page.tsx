@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Piedmont, CA | TP Pavers',
   description:
-    'Professional paver installation in Piedmont, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Piedmont neighborhoods.',
+    'Professional paver installation in Piedmont, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Piedmont neighborhoods.',
   keywords: [
     'pavers piedmont',
     'piedmont pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Piedmont',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Piedmont, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Piedmont, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/piedmont',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Piedmont\'s hilly terrain and elevated properties demand expert structural solutions. Our retaining walls prevent erosion, create usable tiered gardens, and add lasting value to your distinguished Piedmont property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Piedmont lawn green year-round. Our premium artificial turf is perfect for families and pets, ideal for California\'s drought-conscious lifestyle while maintaining the manicured look Piedmont homeowners expect.',
   },
 ];
 

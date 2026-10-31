@@ -13,7 +13,6 @@ export const metadata: Metadata = {
     'paver maintenance',
     'pavers vs concrete',
     'paver cost california',
-    'artificial turf pros cons',
     'permeable pavers',
     'paver sealer guide',
     'outdoor living blog',

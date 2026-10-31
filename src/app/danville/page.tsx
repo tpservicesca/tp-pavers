@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Danville, CA | TP Pavers',
   description:
-    'Professional paver installation in Danville, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving Blackhawk, Tassajara & all Danville neighborhoods.',
+    'Professional paver installation in Danville, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving Blackhawk, Tassajara & all Danville neighborhoods.',
   keywords: [
     'pavers danville',
     'danville pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Danville',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Danville, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Danville, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/danville',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Danville\'s hillside properties along Mt. Diablo and Green Valley often require structural solutions. Our retaining walls prevent erosion and create stunning tiered landscapes that maximize your usable outdoor space.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Danville lawn green year-round. Our premium artificial turf is perfect for the warm San Ramon Valley climate and complements the luxury aesthetic of Blackhawk and Diablo communities.',
   },
 ];
 

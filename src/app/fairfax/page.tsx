@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Paver Installation in Fairfax, CA | TP Pavers',
-  description: 'Professional paver installation in Fairfax, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates.',
+  description: 'Professional paver installation in Fairfax, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates.',
   keywords: ['pavers fairfax', 'fairfax pavers', 'paver installation fairfax', 'paver contractor fairfax', 'driveway pavers fairfax ca', 'patio pavers fairfax', 'retaining wall fairfax', 'hardscape fairfax ca', 'paver driveway fairfax california', 'outdoor pavers fairfax'],
   openGraph: { title: 'Paver Installation in Fairfax, CA | TP Pavers', description: 'Expert paver installation in Fairfax. Driveways, patios, walkways & retaining walls. 20+ years experience. Free estimates.', url: 'https://tppavers.com/fairfax', siteName: 'TP Pavers', locale: 'en_US', type: 'website', images: [{ url: 'https://tppavers.com/images/P1.webp', width: 1200, height: 630, alt: 'Professional Paver Installation in Fairfax, California' }] },
   twitter: { card: 'summary_large_image', title: 'Paver Installation in Fairfax | TP Pavers', description: 'Expert paver installation in Fairfax, CA. Free estimates. 10-year warranty.', images: ['https://tppavers.com/images/P1.webp'] },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'TP Pavers - Fairfax',
-  description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in Fairfax, California. 20+ years experience with 10-year warranty.',
+  description: 'Professional paver installation, retaining walls and hardscape design in Fairfax, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/fairfax', telephone: '+1-510-804-1550', email: 'contact@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'Fairfax', addressRegion: 'CA', postalCode: '94930', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 37.9871, longitude: -122.5889 },
@@ -31,7 +31,6 @@ const services = [
   { image: '/images/projects/driveway-multicolor.webp', title: 'Paver Driveways', description: 'Upgrade your Fairfax home with a custom interlocking paver driveway. Built to enhance curb appeal in neighborhoods like Manor, Downtown, and Cascade Canyon.' },
   { image: '/images/projects/patio-raised-house.webp', title: 'Patios & Walkways', description: 'Design the perfect outdoor living space for Fairfax\'s natural, wooded setting. From backyard patios to garden walkways, we create hardscapes that blend beautifully with nature.' },
   { image: '/images/projects/patio-retaining-wall.webp', title: 'Retaining Walls', description: 'Fairfax\'s canyon and hillside properties often require structural solutions. Our retaining walls prevent erosion and create stunning, usable outdoor terraces on sloped lots.' },
-  { image: '/images/S1.webp', title: 'Synthetic Turf', description: 'Save water and keep your Fairfax lawn green year-round. Our premium artificial turf is perfect for families, pets, and Marin County\'s eco-conscious lifestyle.' },
 ];
 
 const faqs = [

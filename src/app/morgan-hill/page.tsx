@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Morgan Hill, CA | TP Pavers',
   description:
-    'Professional paver installation in Morgan Hill, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Morgan Hill neighborhoods.',
+    'Professional paver installation in Morgan Hill, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Morgan Hill neighborhoods.',
   keywords: [
     'pavers morgan hill',
     'morgan hill pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Morgan Hill',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Morgan Hill, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Morgan Hill, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/morgan-hill',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Morgan Hill&apos;s rolling terrain and ranch-style properties often benefit from retaining walls. We build walls that manage slopes, create usable terraces, and add visual appeal to properties throughout Paradise Valley and Madrone.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Beat Morgan Hill&apos;s hot summers with premium synthetic turf that stays green without constant watering. Perfect for families, pets, and the South Valley&apos;s warm climate — save water and enjoy a beautiful lawn year-round.',
   },
 ];
 

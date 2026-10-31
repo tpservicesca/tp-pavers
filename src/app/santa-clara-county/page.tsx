@@ -11,7 +11,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Paver Installation in Santa Clara County, CA | TP Pavers',
   description:
-    'Professional paver installation across 8+ cities in Santa Clara County. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience, 10-year warranty. Serving San Jose, Sunnyvale, Cupertino, Mountain View & more. Call (510) 804-1550.',
+    'Professional paver installation across 8+ cities in Santa Clara County. Driveways, patios, walkways & retaining walls. 20+ years experience, 10-year warranty. Serving San Jose, Sunnyvale, Cupertino, Mountain View & more. Call (510) 804-1550.',
   keywords: [
     'pavers santa clara county',
     'paver contractor santa clara county',
@@ -20,7 +20,6 @@ export const metadata: Metadata = {
     'patio pavers santa clara county',
     'hardscape contractor santa clara county',
     'retaining wall santa clara county',
-    'synthetic turf santa clara county',
     'concrete pavers santa clara county',
     'walkway pavers santa clara county ca',
     'outdoor pavers santa clara county ca',
@@ -101,12 +100,6 @@ const services = [
     description:
       'Santa Clara County\'s varied terrain — from valley floors to foothill properties — often requires structural solutions. Our retaining walls prevent erosion, add usable space, and create stunning landscape tiers.',
   },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your lawn green year-round. Our premium artificial turf is perfect for families, pets, and California\'s drought-conscious lifestyle throughout Silicon Valley.',
-  },
 ];
 
 const faqs = [
@@ -147,7 +140,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Santa Clara County',
   description:
-    'Professional paver installation across 8+ cities in Santa Clara County & Silicon Valley. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience.',
+    'Professional paver installation across 8+ cities in Santa Clara County & Silicon Valley. Driveways, patios, walkways & retaining walls. 20+ years experience.',
   url: 'https://tppavers.com/santa-clara-county',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -193,10 +186,6 @@ const jsonLd = {
         '@type': 'Offer',
         itemOffered: { '@type': 'Service', name: 'Retaining Wall Construction', description: 'Structural and decorative retaining walls for sloped properties.' },
       },
-      {
-        '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'Synthetic Turf Installation', description: 'Premium artificial turf for water-efficient, low-maintenance lawns.' },
-      },
     ],
   },
 };
@@ -235,7 +224,7 @@ export default function SantaClaraCountyPage() {
           </h1>
           <p className="text-lg sm:text-xl text-white/90 mb-8 leading-relaxed max-w-[700px] mx-auto">
             Serving 8+ cities across Santa Clara County &amp; Silicon Valley.<br />
-            Driveways, patios, walkways, retaining walls &amp; synthetic turf.
+            Driveways, patios, walkways &amp; retaining walls.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

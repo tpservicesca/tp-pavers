@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Menlo Park, CA | TP Pavers',
   description:
-    'Professional paver installation in Menlo Park, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Menlo Park neighborhoods.',
+    'Professional paver installation in Menlo Park, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Menlo Park neighborhoods.',
   keywords: [
     'pavers menlo park',
     'menlo park pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Menlo Park',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Menlo Park, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Menlo Park, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/menlo-park',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'From the gentle slopes of Felton Gables to the varied terrain throughout Menlo Park, our retaining walls provide structural integrity while adding architectural beauty to your landscape.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Maintain a pristine lawn in Menlo Park without the water waste. Our premium synthetic turf is perfect for the eco-conscious homeowner and provides a beautiful, low-maintenance alternative year-round.',
   },
 ];
 

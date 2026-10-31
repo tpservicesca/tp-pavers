@@ -14,7 +14,6 @@ const categories = [
   'Driveways',
   'Patios',
   'Retaining Walls',
-  'Synthetic Turf',
   'Tips & Guides',
 ];
 

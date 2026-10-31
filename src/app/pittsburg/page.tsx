@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Pittsburg, CA | TP Pavers',
   description:
-    'Professional paver installation in Pittsburg, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Pittsburg neighborhoods.',
+    'Professional paver installation in Pittsburg, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Pittsburg neighborhoods.',
   keywords: [
     'pavers pittsburg',
     'pittsburg pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Pittsburg',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Pittsburg, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Pittsburg, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/pittsburg',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Pittsburg\'s terrain near the areas near the waterfront and Highlands Ranch often benefits from structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Pittsburg lawn green year-round. Our premium artificial turf is perfect for families, pets, and Pittsburg\'s warm inland climate with hot summers perfect for outdoor living.',
   },
 ];
 

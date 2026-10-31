@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Vallejo, CA | TP Pavers',
   description:
-    'Professional paver installation in Vallejo, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Vallejo neighborhoods including Glen Cove, Hiddenbrooke & South Vallejo.',
+    'Professional paver installation in Vallejo, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Vallejo neighborhoods including Glen Cove, Hiddenbrooke & South Vallejo.',
   keywords: [
     'pavers vallejo',
     'vallejo pavers',
@@ -62,7 +62,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Vallejo',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Vallejo, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Vallejo, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/vallejo',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -110,12 +110,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Vallejo\'s hilly terrain from South Vallejo to Country Club Crest often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Vallejo lawn green year-round. Our premium artificial turf is perfect for families, pets, and Solano County\'s warm climate.',
   },
 ];
 

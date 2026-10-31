@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Newark, CA | TP Pavers',
   description:
-    'Professional paver installation in Newark, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Newark neighborhoods.',
+    'Professional paver installation in Newark, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Newark neighborhoods.',
   keywords: [
     'pavers newark',
     'newark pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Newark',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Newark, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Newark, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/newark',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Newark properties benefit from well-designed retaining walls that define spaces, add garden tiers, and enhance landscape beauty. We build structural and decorative walls that complement your home and outdoor living areas.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Newark lawn green year-round. Our premium artificial turf is ideal for families and pets across Newark, from Heritage Park to Stevenson Park neighborhoods — a smart choice for water-conscious California living.',
   },
 ];
 

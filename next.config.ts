@@ -12,6 +12,14 @@ const nextConfig: NextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256],
   },
 
+  // Turf oculto (Thiago, 31-oct-2026): temporal (307) para poder regresarlo
+  async redirects() {
+    return [
+      { source: "/synthetic-turf", destination: "/services", permanent: false },
+      { source: "/blog/artificial-turf-pros-cons", destination: "/blog", permanent: false },
+    ];
+  },
+
   // Prevent Hostinger CDN from caching HTML pages
   // Static assets (JS/CSS) keep immutable cache, but HTML must revalidate
   async headers() {

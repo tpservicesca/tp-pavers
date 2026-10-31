@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Fairfield, CA | TP Pavers',
   description:
-    'Professional paver installation in Fairfield, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving Green Valley, Cordelia, Rancho Solano & all Fairfield neighborhoods.',
+    'Professional paver installation in Fairfield, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving Green Valley, Cordelia, Rancho Solano & all Fairfield neighborhoods.',
   keywords: [
     'pavers fairfield',
     'fairfield pavers',
@@ -62,7 +62,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Fairfield',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Fairfield, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Fairfield, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/fairfield',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -110,12 +110,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Fairfield\'s rolling terrain in areas like Suisun Valley and Green Valley often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Fairfield lawn green year-round. Our premium artificial turf is perfect for families, pets, and Solano County\'s hot summer climate.',
   },
 ];
 

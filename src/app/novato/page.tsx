@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Novato, CA | TP Pavers',
   description:
-    'Professional paver installation in Novato, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Novato neighborhoods.',
+    'Professional paver installation in Novato, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Novato neighborhoods.',
   keywords: [
     'pavers novato',
     'novato pavers',
@@ -49,7 +49,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Novato',
-  description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in Novato, California. 20+ years experience with 10-year warranty.',
+  description: 'Professional paver installation, retaining walls and hardscape design in Novato, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/novato',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -65,7 +65,6 @@ const services = [
   { image: '/images/projects/driveway-multicolor.webp', title: 'Paver Driveways', description: 'Upgrade your Novato home with a custom interlocking paver driveway. Built to handle daily traffic and enhance curb appeal in neighborhoods like Hamilton, Bel Marin Keys, and Indian Valley.' },
   { image: '/images/projects/patio-raised-house.webp', title: 'Patios & Walkways', description: 'Design the perfect outdoor living space for Novato\'s warm summers. From backyard patios to front walkways, we create durable and beautiful hardscapes for every home.' },
   { image: '/images/projects/patio-retaining-wall.webp', title: 'Retaining Walls', description: 'Novato\'s rolling hills and varied terrain often require structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to your property.' },
-  { image: '/images/S1.webp', title: 'Synthetic Turf', description: 'Save water and keep your Novato lawn green year-round. Our premium artificial turf is perfect for families, pets, and Marin County\'s eco-conscious lifestyle.' },
 ];
 
 const faqs = [

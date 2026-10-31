@@ -12,7 +12,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Paver Installation in Contra Costa County, CA | TP Pavers',
   description:
-    'Professional paver installation across 25+ cities in Contra Costa County. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience, 10-year warranty. Serving Concord, Walnut Creek, Danville, San Ramon & more. Call (510) 804-1550.',
+    'Professional paver installation across 25+ cities in Contra Costa County. Driveways, patios, walkways & retaining walls. 20+ years experience, 10-year warranty. Serving Concord, Walnut Creek, Danville, San Ramon & more. Call (510) 804-1550.',
   keywords: [
     'pavers contra costa county',
     'paver contractor contra costa',
@@ -21,7 +21,6 @@ export const metadata: Metadata = {
     'patio pavers contra costa',
     'hardscape contractor contra costa county',
     'retaining wall contra costa county',
-    'synthetic turf contra costa county',
     'concrete pavers contra costa',
     'walkway pavers contra costa ca',
     'outdoor pavers contra costa county ca',
@@ -123,12 +122,6 @@ const services = [
     description:
       'Contra Costa County\'s hilly terrain often requires structural solutions. Our retaining walls prevent erosion, add usable space, and create stunning landscape tiers.',
   },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your lawn green year-round. Our premium artificial turf is perfect for families, pets, and California\'s drought-conscious lifestyle.',
-  },
 ];
 
 // ── FAQs ────────────────────────────────────────────────────────────────────
@@ -171,7 +164,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Contra Costa County',
   description:
-    'Professional paver installation across 25+ cities in Contra Costa County. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience.',
+    'Professional paver installation across 25+ cities in Contra Costa County. Driveways, patios, walkways & retaining walls. 20+ years experience.',
   url: 'https://tppavers.com/contra-costa-county',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -217,10 +210,6 @@ const jsonLd = {
         '@type': 'Offer',
         itemOffered: { '@type': 'Service', name: 'Retaining Wall Construction', description: 'Structural and decorative retaining walls for sloped properties.' },
       },
-      {
-        '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'Synthetic Turf Installation', description: 'Premium artificial turf for water-efficient, low-maintenance lawns.' },
-      },
     ],
   },
 };
@@ -262,7 +251,7 @@ export default function ContraCostaCountyPage() {
           </h1>
           <p className="text-lg sm:text-xl text-white/90 mb-8 leading-relaxed max-w-[700px] mx-auto">
             Serving 25+ cities across Contra Costa County.<br />
-            Driveways, patios, walkways, retaining walls &amp; synthetic turf.
+            Driveways, patios, walkways &amp; retaining walls.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

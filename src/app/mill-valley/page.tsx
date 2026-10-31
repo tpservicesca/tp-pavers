@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Mill Valley, CA | TP Pavers',
   description:
-    'Professional paver installation in Mill Valley, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Mill Valley neighborhoods.',
+    'Professional paver installation in Mill Valley, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Mill Valley neighborhoods.',
   keywords: [
     'pavers mill valley', 'mill valley pavers', 'paver installation mill valley', 'paver contractor mill valley',
     'driveway pavers mill valley ca', 'patio pavers mill valley', 'mill valley paver contractor',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'TP Pavers - Mill Valley',
-  description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in Mill Valley, California. 20+ years experience with 10-year warranty.',
+  description: 'Professional paver installation, retaining walls and hardscape design in Mill Valley, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/mill-valley', telephone: '+1-510-804-1550', email: 'contact@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'Mill Valley', addressRegion: 'CA', postalCode: '94941', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 37.9060, longitude: -122.5450 },
@@ -42,7 +42,6 @@ const services = [
   { image: '/images/projects/driveway-multicolor.webp', title: 'Paver Driveways', description: 'Upgrade your Mill Valley home with a custom interlocking paver driveway. Built to handle daily traffic and enhance curb appeal in neighborhoods like Tamalpais Valley and Homestead Valley.' },
   { image: '/images/projects/patio-raised-house.webp', title: 'Patios & Walkways', description: 'Design the perfect outdoor living space nestled at the base of Mt. Tamalpais. From backyard patios to front walkways, we create durable and beautiful hardscapes for Mill Valley homes.' },
   { image: '/images/projects/patio-retaining-wall.webp', title: 'Retaining Walls', description: 'Mill Valley\'s steep, wooded hillsides and canyon properties demand expert structural solutions. Our retaining walls prevent erosion and create usable outdoor spaces on sloped lots.' },
-  { image: '/images/S1.webp', title: 'Synthetic Turf', description: 'Save water and keep your Mill Valley lawn green year-round. Our premium artificial turf is perfect for families, pets, and Marin County\'s eco-conscious lifestyle.' },
 ];
 
 const faqs = [

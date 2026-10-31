@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Paver Installation in San Anselmo, CA | TP Pavers',
-  description: 'Professional paver installation in San Anselmo, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates.',
+  description: 'Professional paver installation in San Anselmo, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates.',
   keywords: ['pavers san anselmo', 'san anselmo pavers', 'paver installation san anselmo', 'paver contractor san anselmo', 'driveway pavers san anselmo ca', 'patio pavers san anselmo', 'retaining wall san anselmo', 'hardscape san anselmo ca', 'paver driveway san anselmo california', 'outdoor pavers san anselmo'],
   openGraph: { title: 'Paver Installation in San Anselmo, CA | TP Pavers', description: 'Expert paver installation in San Anselmo. Driveways, patios, walkways & retaining walls. 20+ years experience. Free estimates.', url: 'https://tppavers.com/san-anselmo', siteName: 'TP Pavers', locale: 'en_US', type: 'website', images: [{ url: 'https://tppavers.com/images/P1.webp', width: 1200, height: 630, alt: 'Professional Paver Installation in San Anselmo, California' }] },
   twitter: { card: 'summary_large_image', title: 'Paver Installation in San Anselmo | TP Pavers', description: 'Expert paver installation in San Anselmo, CA. Free estimates. 10-year warranty.', images: ['https://tppavers.com/images/P1.webp'] },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'TP Pavers - San Anselmo',
-  description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in San Anselmo, California. 20+ years experience with 10-year warranty.',
+  description: 'Professional paver installation, retaining walls and hardscape design in San Anselmo, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/san-anselmo', telephone: '+1-510-804-1550', email: 'contact@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'San Anselmo', addressRegion: 'CA', postalCode: '94960', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 37.9746, longitude: -122.5614 },
@@ -31,7 +31,6 @@ const services = [
   { image: '/images/projects/driveway-multicolor.webp', title: 'Paver Driveways', description: 'Upgrade your San Anselmo home with a custom interlocking paver driveway. Built to enhance curb appeal in neighborhoods like Sleepy Hollow, Seminary, and Red Hill.' },
   { image: '/images/projects/patio-raised-house.webp', title: 'Patios & Walkways', description: 'Design the perfect outdoor living space for San Anselmo\'s beautiful Ross Valley setting. From backyard patios to garden walkways, we create hardscapes that complement your home.' },
   { image: '/images/projects/patio-retaining-wall.webp', title: 'Retaining Walls', description: 'San Anselmo\'s creek-side and hillside properties often require structural solutions. Our retaining walls prevent erosion and create beautiful, usable outdoor spaces.' },
-  { image: '/images/S1.webp', title: 'Synthetic Turf', description: 'Save water and keep your San Anselmo lawn green year-round. Our premium artificial turf is perfect for families, pets, and Marin County\'s eco-conscious lifestyle.' },
 ];
 
 const faqs = [

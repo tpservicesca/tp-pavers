@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Alamo, CA | TP Pavers',
   description:
-    'Professional paver installation in Alamo, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving Round Hill, Alamo Oaks & all Alamo neighborhoods.',
+    'Professional paver installation in Alamo, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving Round Hill, Alamo Oaks & all Alamo neighborhoods.',
   keywords: [
     'pavers alamo',
     'alamo pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Alamo',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Alamo, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Alamo, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/alamo',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Alamo\'s rolling hills near Las Trampas Regional Wilderness often require structural solutions. Our retaining walls prevent erosion and create stunning tiered landscapes on large hillside lots.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Alamo lawn green year-round. Our premium artificial turf is ideal for horse properties, large yards, and families who want a pristine look with zero maintenance.',
   },
 ];
 

@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Pleasanton, CA | TP Pavers',
   description:
-    'Professional paver installation in Pleasanton, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Pleasanton neighborhoods including Ruby Hill, Vintage Hills & Stoneridge.',
+    'Professional paver installation in Pleasanton, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Pleasanton neighborhoods including Ruby Hill, Vintage Hills & Stoneridge.',
   keywords: [
     'pavers pleasanton',
     'pleasanton pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Pleasanton',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Pleasanton, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Pleasanton, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/pleasanton',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Pleasanton\'s hillside properties and wine country terrain often require structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to homes throughout the Tri-Valley.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Pleasanton lawn green year-round. Our premium artificial turf is perfect for families, pets, and the warm Tri-Valley climate — ideal for busy ACE train commuters who want a low-maintenance yard.',
   },
 ];
 

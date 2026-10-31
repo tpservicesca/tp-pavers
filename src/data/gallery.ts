@@ -62,21 +62,6 @@ export const galleryData: Record<string, GalleryCategory> = {
       '/images/gallery/gen2-06.webp',
     ],
   },
-  S: {
-    name: 'Synthetic Turf',
-    images: [
-      '/images/gallery/sel-04.webp',
-      '/images/gallery/sel-27.webp',
-      '/images/gallery/sel-42.webp',
-      '/images/gallery/gen-05.webp',
-      '/images/gallery/gen2-01.webp',
-      '/images/gallery/gen2-02.webp',
-      '/images/gallery/gen2-03.webp',
-      '/images/gallery/gen3-01.webp',
-      '/images/gallery/gen3-02.webp',
-      '/images/gallery/gen3-03.webp',
-    ],
-  },
   C: {
     name: 'Concrete Work',
     images: [

@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Paver Installation in Corte Madera, CA | TP Pavers',
-  description: 'Professional paver installation in Corte Madera, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates.',
+  description: 'Professional paver installation in Corte Madera, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates.',
   keywords: ['pavers corte madera', 'corte madera pavers', 'paver installation corte madera', 'paver contractor corte madera', 'driveway pavers corte madera ca', 'patio pavers corte madera', 'retaining wall corte madera', 'hardscape corte madera ca', 'paver driveway corte madera california', 'outdoor pavers corte madera'],
   openGraph: { title: 'Paver Installation in Corte Madera, CA | TP Pavers', description: 'Expert paver installation in Corte Madera. Driveways, patios, walkways & retaining walls. 20+ years experience. Free estimates.', url: 'https://tppavers.com/corte-madera', siteName: 'TP Pavers', locale: 'en_US', type: 'website', images: [{ url: 'https://tppavers.com/images/P1.webp', width: 1200, height: 630, alt: 'Professional Paver Installation in Corte Madera, California' }] },
   twitter: { card: 'summary_large_image', title: 'Paver Installation in Corte Madera | TP Pavers', description: 'Expert paver installation in Corte Madera, CA. Free estimates. 10-year warranty.', images: ['https://tppavers.com/images/P1.webp'] },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'TP Pavers - Corte Madera',
-  description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in Corte Madera, California. 20+ years experience with 10-year warranty.',
+  description: 'Professional paver installation, retaining walls and hardscape design in Corte Madera, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/corte-madera', telephone: '+1-510-804-1550', email: 'contact@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'Corte Madera', addressRegion: 'CA', postalCode: '94925', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 37.9255, longitude: -122.5275 },
@@ -31,7 +31,6 @@ const services = [
   { image: '/images/projects/driveway-multicolor.webp', title: 'Paver Driveways', description: 'Upgrade your Corte Madera home with a custom interlocking paver driveway. Built to enhance curb appeal in neighborhoods like Christmas Tree Hill, Town Center, and Mariner Cove.' },
   { image: '/images/projects/patio-raised-house.webp', title: 'Patios & Walkways', description: 'Design the perfect outdoor living space for Corte Madera\'s mild Mediterranean climate. From backyard patios to front walkways, we create durable and beautiful hardscapes for every home.' },
   { image: '/images/projects/patio-retaining-wall.webp', title: 'Retaining Walls', description: 'Corte Madera\'s hillside properties, especially on Christmas Tree Hill, often require structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers.' },
-  { image: '/images/S1.webp', title: 'Synthetic Turf', description: 'Save water and keep your Corte Madera lawn green year-round. Our premium artificial turf is perfect for families, pets, and Marin County\'s eco-conscious lifestyle.' },
 ];
 
 const faqs = [

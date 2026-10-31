@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Albany, CA | TP Pavers',
   description:
-    'Professional paver installation in Albany, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Albany neighborhoods.',
+    'Professional paver installation in Albany, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Albany neighborhoods.',
   keywords: [
     'pavers albany',
     'albany pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Albany',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Albany, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Albany, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/albany',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Albany\'s varied terrain, especially around Albany Hill, benefits from expert structural solutions. Our retaining walls prevent erosion, create usable tiered landscapes, and add lasting value to your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Albany lawn green year-round. Our premium artificial turf is perfect for families and pets throughout Albany\'s residential neighborhoods, ideal for California\'s drought-conscious lifestyle.',
   },
 ];
 

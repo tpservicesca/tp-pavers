@@ -51,18 +51,4 @@ export const services: Service[] = [
       'Low-maintenance, lifetime durability',
     ],
   },
-  {
-    id: 'synthetic-turf',
-    name: 'Synthetic Turf Installation',
-    image: '/images/svc-turf.webp',
-    alt: 'Synthetic Turf Installation',
-    description: 'Enjoy a lush, green lawn all year long — without the hassle of mowing, watering, or maintenance. Perfect for families, pets, and outdoor play.',
-    features: [
-      'Premium, next-generation turf',
-      'Safe & eco-friendly materials',
-      'Pet-friendly surfaces',
-      'Low maintenance, eco-friendly solution',
-      'Complete project management from start to finish',
-    ],
-  },
 ];

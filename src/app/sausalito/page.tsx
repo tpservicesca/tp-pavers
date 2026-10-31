@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Paver Installation in Sausalito, CA | TP Pavers',
-  description: 'Professional paver installation in Sausalito, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates.',
+  description: 'Professional paver installation in Sausalito, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates.',
   keywords: ['pavers sausalito', 'sausalito pavers', 'paver installation sausalito', 'paver contractor sausalito', 'driveway pavers sausalito ca', 'patio pavers sausalito', 'retaining wall sausalito', 'hardscape sausalito ca', 'paver driveway sausalito california', 'outdoor pavers sausalito'],
   openGraph: { title: 'Paver Installation in Sausalito, CA | TP Pavers', description: 'Expert paver installation in Sausalito. Driveways, patios, walkways & retaining walls. 20+ years experience. Free estimates.', url: 'https://tppavers.com/sausalito', siteName: 'TP Pavers', locale: 'en_US', type: 'website', images: [{ url: 'https://tppavers.com/images/P1.webp', width: 1200, height: 630, alt: 'Professional Paver Installation in Sausalito, California' }] },
   twitter: { card: 'summary_large_image', title: 'Paver Installation in Sausalito | TP Pavers', description: 'Expert paver installation in Sausalito, CA. Free estimates. 10-year warranty.', images: ['https://tppavers.com/images/P1.webp'] },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'TP Pavers - Sausalito',
-  description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in Sausalito, California. 20+ years experience with 10-year warranty.',
+  description: 'Professional paver installation, retaining walls and hardscape design in Sausalito, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/sausalito', telephone: '+1-510-804-1550', email: 'contact@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'Sausalito', addressRegion: 'CA', postalCode: '94965', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 37.8591, longitude: -122.4852 },
@@ -31,7 +31,6 @@ const services = [
   { image: '/images/projects/driveway-multicolor.webp', title: 'Paver Driveways', description: 'Upgrade your Sausalito home with a custom interlocking paver driveway. Built to handle daily traffic and enhance curb appeal in neighborhoods like Downtown, Marinship, and Monte Mar.' },
   { image: '/images/projects/patio-raised-house.webp', title: 'Patios & Walkways', description: 'Design the perfect outdoor living space with breathtaking bay views. From waterfront patios to hillside walkways, we create durable and beautiful hardscapes for Sausalito\'s unique properties.' },
   { image: '/images/projects/patio-retaining-wall.webp', title: 'Retaining Walls', description: 'Sausalito\'s steep hillsides overlooking the bay demand expert retaining wall solutions. Our walls prevent erosion, create usable terraces, and add stunning visual appeal to your property.' },
-  { image: '/images/S1.webp', title: 'Synthetic Turf', description: 'Save water and keep your Sausalito lawn green year-round. Our premium artificial turf is perfect for the coastal climate and Marin County\'s eco-conscious lifestyle.' },
 ];
 
 const faqs = [

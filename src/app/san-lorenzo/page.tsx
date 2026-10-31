@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in San Lorenzo, CA | TP Pavers',
   description:
-    'Professional paver installation in San Lorenzo, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all San Lorenzo neighborhoods.',
+    'Professional paver installation in San Lorenzo, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all San Lorenzo neighborhoods.',
   keywords: [
     'pavers san lorenzo',
     'san lorenzo pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - San Lorenzo',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in San Lorenzo, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in San Lorenzo, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/san-lorenzo',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'San Lorenzo\'s varied terrain, especially in the Hillside neighborhoods, benefits from expert structural solutions. Our retaining walls prevent erosion, create usable tiered landscapes, and add lasting value to your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your San Lorenzo lawn green year-round. Our premium artificial turf is perfect for families and pets throughout Bohannon Manor and San Lorenzo Village, ideal for California\'s drought-conscious lifestyle.',
   },
 ];
 

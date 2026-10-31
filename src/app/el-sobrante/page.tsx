@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in El Sobrante, CA | TP Pavers',
   description:
-    'Professional paver installation in El Sobrante, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all El Sobrante neighborhoods.',
+    'Professional paver installation in El Sobrante, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all El Sobrante neighborhoods.',
   keywords: [
     'pavers el sobrante',
     'el sobrante pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - El Sobrante',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in El Sobrante, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in El Sobrante, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/el-sobrante',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'El Sobrante\'s terrain near the hilly, semi-rural terrain throughout El Sobrante often benefits from structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your El Sobrante lawn green year-round. Our premium artificial turf is perfect for families, pets, and El Sobrante\'s warm inland microclimate with sunny summers.',
   },
 ];
 

@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Union City, CA | TP Pavers',
   description:
-    'Professional paver installation in Union City, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Union City neighborhoods.',
+    'Professional paver installation in Union City, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Union City neighborhoods.',
   keywords: [
     'pavers union city',
     'union city pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Union City',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Union City, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Union City, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/union-city',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Union City\'s hillside properties and sloped lots benefit from expertly constructed retaining walls. We build structural walls that maximize usable yard space, prevent erosion, and add elegant landscape tiers.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Union City lawn green year-round. Our premium artificial turf is perfect for families and pets in every neighborhood, from Searles to Holly Community — a smart, eco-friendly choice.',
   },
 ];
 

@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Fremont, CA | TP Pavers',
   description:
-    'Professional paver installation in Fremont, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Fremont neighborhoods.',
+    'Professional paver installation in Fremont, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Fremont neighborhoods.',
   keywords: [
     'pavers fremont',
     'fremont pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Fremont',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Fremont, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Fremont, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/fremont',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Fremont\'s terrain near the Mission Hills and east side foothills often requires structural retaining walls. We build walls that prevent erosion, add usable space, and enhance your landscape design.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Fremont lawn green year-round. Our premium artificial turf is perfect for families and pets in neighborhoods from Centerville to Glenmoor, ideal for California\'s water-conscious lifestyle.',
   },
 ];
 

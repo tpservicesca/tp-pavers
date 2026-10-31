@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in San Ramon, CA | TP Pavers',
   description:
-    'Professional paver installation in San Ramon, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving Dougherty Valley, Gale Ranch & all San Ramon neighborhoods.',
+    'Professional paver installation in San Ramon, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving Dougherty Valley, Gale Ranch & all San Ramon neighborhoods.',
   keywords: [
     'pavers san ramon',
     'san ramon pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - San Ramon',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in San Ramon, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in San Ramon, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/san-ramon',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'San Ramon\'s hillside properties along the Iron Horse Trail and Crow Canyon corridors often require structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your San Ramon lawn green year-round. Our premium artificial turf is perfect for families, pets, and the warm East Bay climate — ideal for busy professionals in the Bishop Ranch area.',
   },
 ];
 

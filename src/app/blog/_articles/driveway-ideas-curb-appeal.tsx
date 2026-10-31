@@ -128,7 +128,6 @@ export default function DrivewayIdeasCurbAppeal() {
       <ul>
         <li><strong>Contrasting apron:</strong> A different paver color or pattern at the street entrance creates a welcoming threshold</li>
         <li><strong>Center medallion:</strong> A circular or diamond pattern in the middle of a motor court makes a jaw-dropping focal point</li>
-        <li><strong>Paver-and-turf ribbons:</strong> Strips of <Link href="/synthetic-turf">synthetic turf</Link> between paver tracks create a European estate look while reducing impervious surface area</li>
         <li><strong>Heated driveway systems:</strong> Radiant heating under pavers eliminates ice and puddles — a premium feature for luxury homes</li>
         <li><strong>Matching address pillars:</strong> Stone or paver pillars at the driveway entrance with your house number add instant prestige</li>
       </ul>

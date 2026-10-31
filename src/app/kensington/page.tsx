@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Kensington, CA | TP Pavers',
   description:
-    'Professional paver installation in Kensington, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Kensington neighborhoods.',
+    'Professional paver installation in Kensington, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Kensington neighborhoods.',
   keywords: [
     'pavers kensington',
     'kensington pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Kensington',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Kensington, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Kensington, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/kensington',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Kensington\'s terrain near the steep hillside terrain with panoramic bay views often benefits from structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Kensington lawn green year-round. Our premium artificial turf is perfect for families, pets, and Kensington\'s mild, fog-moderated climate with comfortable year-round temperatures.',
   },
 ];
 

@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Bay Point, CA | TP Pavers',
   description:
-    'Professional paver installation in Bay Point, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Bay Point neighborhoods.',
+    'Professional paver installation in Bay Point, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Bay Point neighborhoods.',
   keywords: [
     'pavers bay point',
     'bay point pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Bay Point',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Bay Point, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Bay Point, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/bay-point',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Bay Point\'s terrain near the flat to gently rolling terrain near the Suisun Bay shoreline often benefits from structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Bay Point lawn green year-round. Our premium artificial turf is perfect for families, pets, and Bay Point\'s warm inland climate with hot summers great for outdoor living.',
   },
 ];
 

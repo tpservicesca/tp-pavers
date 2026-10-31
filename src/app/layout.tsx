@@ -28,14 +28,13 @@ const redHatDisplay = Red_Hat_Display({
 export const metadata: Metadata = {
   title: "Professional Paver Installation in California | TP Pavers",
   description:
-    "Expert paver installation, retaining walls, hardscape design & synthetic turf in the San Francisco Bay Area. 20+ years experience. 10-year warranty. Free estimates. Serving Contra Costa County & Tri-Valley.",
+    "Expert paver installation, retaining walls, hardscape design & concrete work in the San Francisco Bay Area. 20+ years experience. 10-year warranty. Free estimates. Serving Contra Costa County & Tri-Valley.",
   keywords: [
     "paver installation California",
     "Bay Area pavers",
     "patio pavers San Francisco",
     "retaining wall contractor",
     "hardscape design",
-    "synthetic turf installation",
     "driveway pavers",
     "TP Pavers",
     "Contra Costa County pavers",
@@ -143,7 +142,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               "@type": "LocalBusiness",
               name: "TP Pavers",
               description:
-                "Professional paver installation, retaining walls, hardscape design and synthetic turf in the San Francisco Bay Area. 20+ years experience with 10-year warranty.",
+                "Professional paver installation, retaining walls, hardscape design and concrete work in the San Francisco Bay Area. 20+ years experience with 10-year warranty.",
               url: "https://tppavers.com",
               telephone: "+1-510-804-1550",
               email: "contact@tppavers.com",
@@ -210,15 +209,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       name: "Retaining Walls",
                       description:
                         "Engineered retaining walls for stability, safety and landscape design.",
-                    },
-                  },
-                  {
-                    "@type": "Offer",
-                    itemOffered: {
-                      "@type": "Service",
-                      name: "Synthetic Turf Installation",
-                      description:
-                        "Premium artificial turf installation for lawns, pet areas and play spaces.",
                     },
                   },
                   {

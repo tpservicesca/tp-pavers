@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Crockett, CA | TP Pavers',
   description:
-    'Professional paver installation in Crockett, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Crockett neighborhoods.',
+    'Professional paver installation in Crockett, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Crockett neighborhoods.',
   keywords: [
     'pavers crockett',
     'crockett pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Crockett',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Crockett, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Crockett, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/crockett',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Crockett\'s terrain near the steep hillsides overlooking the Carquinez Strait often benefits from structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Crockett lawn green year-round. Our premium artificial turf is perfect for families, pets, and Crockett\'s mild strait-side climate with cooling bay breezes.',
   },
 ];
 

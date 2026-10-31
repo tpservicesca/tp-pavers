@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Emeryville, CA | TP Pavers',
   description:
-    'Professional paver installation in Emeryville, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Emeryville neighborhoods.',
+    'Professional paver installation in Emeryville, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Emeryville neighborhoods.',
   keywords: [
     'pavers emeryville',
     'emeryville pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Emeryville',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Emeryville, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Emeryville, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/emeryville',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Emeryville\'s compact urban landscape benefits from thoughtful structural solutions. Our retaining walls maximize usable outdoor space, add visual appeal, and provide lasting value for your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Emeryville lawn green year-round. Our premium artificial turf is perfect for families and pets in this vibrant city, ideal for California\'s drought-conscious lifestyle and Emeryville\'s compact yards.',
   },
 ];
 

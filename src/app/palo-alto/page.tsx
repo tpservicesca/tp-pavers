@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Palo Alto, CA | TP Pavers',
   description:
-    'Professional paver installation in Palo Alto, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Palo Alto neighborhoods.',
+    'Professional paver installation in Palo Alto, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Palo Alto neighborhoods.',
   keywords: [
     'pavers palo alto',
     'palo alto pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Palo Alto',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Palo Alto, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Palo Alto, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/palo-alto',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Whether you&apos;re managing grade changes near the Foothills or adding landscape tiers in Barron Park, our retaining walls combine structural excellence with beautiful design to transform your outdoor space.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Join Palo Alto&apos;s sustainability movement with premium synthetic turf. Save thousands of gallons of water annually while maintaining a lush, green lawn that looks perfect in every season — ideal for tech-forward, eco-conscious homeowners.',
   },
 ];
 

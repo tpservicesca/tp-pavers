@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in San Francisco, CA | TP Pavers',
   description:
-    'Professional paver installation in San Francisco, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all San Francisco neighborhoods.',
+    'Professional paver installation in San Francisco, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all San Francisco neighborhoods.',
   keywords: [
     'pavers san francisco',
     'san francisco pavers',
@@ -61,7 +61,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - San Francisco',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in San Francisco, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in San Francisco, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/san-francisco',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -109,12 +109,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'San Francisco\'s iconic steep hills and varied terrain demand expert structural solutions. Our retaining walls prevent erosion, create usable terraced spaces, and add stunning landscape tiers to hillside properties throughout the city.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your San Francisco yard green year-round with premium artificial turf. An eco-friendly, drought-resistant solution perfect for the city\'s sustainability-minded homeowners — ideal for families, pets, and compact spaces.',
   },
 ];
 

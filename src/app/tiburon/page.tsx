@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Paver Installation in Tiburon, CA | TP Pavers',
-  description: 'Professional paver installation in Tiburon, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates.',
+  description: 'Professional paver installation in Tiburon, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates.',
   keywords: ['pavers tiburon', 'tiburon pavers', 'paver installation tiburon', 'paver contractor tiburon', 'driveway pavers tiburon ca', 'patio pavers tiburon', 'retaining wall tiburon', 'hardscape tiburon ca', 'paver driveway tiburon california', 'outdoor pavers tiburon'],
   openGraph: { title: 'Paver Installation in Tiburon, CA | TP Pavers', description: 'Expert paver installation in Tiburon. Driveways, patios, walkways & retaining walls. 20+ years experience. Free estimates.', url: 'https://tppavers.com/tiburon', siteName: 'TP Pavers', locale: 'en_US', type: 'website', images: [{ url: 'https://tppavers.com/images/P1.webp', width: 1200, height: 630, alt: 'Professional Paver Installation in Tiburon, California' }] },
   twitter: { card: 'summary_large_image', title: 'Paver Installation in Tiburon | TP Pavers', description: 'Expert paver installation in Tiburon, CA. Free estimates. 10-year warranty.', images: ['https://tppavers.com/images/P1.webp'] },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'TP Pavers - Tiburon',
-  description: 'Professional paver installation, retaining walls, hardscape design and synthetic turf in Tiburon, California. 20+ years experience with 10-year warranty.',
+  description: 'Professional paver installation, retaining walls and hardscape design in Tiburon, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/tiburon', telephone: '+1-510-804-1550', email: 'contact@tppavers.com', image: 'https://tppavers.com/images/P1.webp',
   address: { '@type': 'PostalAddress', addressLocality: 'Tiburon', addressRegion: 'CA', postalCode: '94920', addressCountry: 'US' },
   geo: { '@type': 'GeoCoordinates', latitude: 37.8735, longitude: -122.4567 },
@@ -31,7 +31,6 @@ const services = [
   { image: '/images/projects/driveway-multicolor.webp', title: 'Paver Driveways', description: 'Upgrade your Tiburon home with a custom interlocking paver driveway. Built to complement the peninsula\'s elegant homes in neighborhoods like Reed Heights, Bel Aire, and Paradise Cay.' },
   { image: '/images/projects/patio-raised-house.webp', title: 'Patios & Walkways', description: 'Design the perfect outdoor living space with panoramic bay and San Francisco views. From waterfront patios to garden walkways, we create hardscapes worthy of Tiburon\'s stunning setting.' },
   { image: '/images/projects/patio-retaining-wall.webp', title: 'Retaining Walls', description: 'Tiburon\'s hillside peninsula properties often require expert retaining wall solutions. Our walls prevent erosion, create terraced spaces, and maximize your outdoor living area with views.' },
-  { image: '/images/S1.webp', title: 'Synthetic Turf', description: 'Save water and keep your Tiburon lawn green year-round. Our premium artificial turf is perfect for the coastal climate and Marin County\'s eco-conscious lifestyle.' },
 ];
 
 const faqs = [

@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Los Gatos, CA | TP Pavers',
   description:
-    'Professional paver installation in Los Gatos, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Los Gatos neighborhoods.',
+    'Professional paver installation in Los Gatos, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Los Gatos neighborhoods.',
   keywords: [
       "pavers los gatos",
       "los gatos pavers",
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Los Gatos',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Los Gatos, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Los Gatos, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/los-gatos',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       "Los Gatos\'s varied terrain often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to properties throughout Shannon and beyond.",
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      "Save water and keep your Los Gatos lawn green year-round. Our premium artificial turf is perfect for families, pets, and California\'s drought-conscious lifestyle.",
   },
 ];
 

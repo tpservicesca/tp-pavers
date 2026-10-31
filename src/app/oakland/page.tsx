@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Oakland, CA | TP Pavers',
   description:
-    'Professional paver installation in Oakland, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Oakland neighborhoods.',
+    'Professional paver installation in Oakland, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Oakland neighborhoods.',
   keywords: [
     'pavers oakland',
     'oakland pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Oakland',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Oakland, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Oakland, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/oakland',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Oakland\'s hilly terrain in neighborhoods like Montclair and the Oakland Hills demands expert structural solutions. Our retaining walls prevent erosion, create usable tiered landscapes, and add lasting value.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Oakland lawn green year-round. Our premium artificial turf is perfect for families and pets in neighborhoods from Temescal to Piedmont Avenue, ideal for California\'s drought-conscious lifestyle.',
   },
 ];
 

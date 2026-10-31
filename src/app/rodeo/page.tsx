@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Rodeo, CA | TP Pavers',
   description:
-    'Professional paver installation in Rodeo, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Rodeo neighborhoods.',
+    'Professional paver installation in Rodeo, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Rodeo neighborhoods.',
   keywords: [
     'pavers rodeo',
     'rodeo pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Rodeo',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Rodeo, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Rodeo, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/rodeo',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Rodeo\'s terrain near the hilly terrain rising from the Carquinez Strait shoreline often benefits from structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to your property.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Rodeo lawn green year-round. Our premium artificial turf is perfect for families, pets, and Rodeo\'s mild bayside climate with cooling strait breezes.',
   },
 ];
 

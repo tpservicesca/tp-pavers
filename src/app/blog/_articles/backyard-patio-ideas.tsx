@@ -98,28 +98,6 @@ export default function BackyardPatioIdeas() {
         Multi-level <strong>backyard patio ideas</strong> also work on flat lots where you want to create visual interest and separation between activity zones. A raised dining area feels more intimate, while a sunken lounge space creates a cozy, sheltered atmosphere. Steps with integrated LED lighting connect the levels and add drama after dark.
       </p>
 
-      <h2>California-Style Patio with Synthetic Turf</h2>
-
-      <p>
-        One of the most uniquely California <strong>backyard patio ideas</strong> is combining pavers with <Link href="/synthetic-turf">synthetic turf</Link>. This combination gives you the best of both worlds — a durable, beautiful patio surface for furniture and foot traffic, surrounded by lush green turf that never needs watering, mowing, or fertilizing.
-      </p>
-
-      <SectionImage
-        src="/images/E2.webp"
-        alt="Paver patio combined with synthetic turf in California backyard"
-      />
-
-      <p>
-        This design is especially popular for families with kids and pets. The turf provides a soft play area while the pavers create a clean, stable surface for dining tables, grills, and seating. We install both the pavers and the turf as one integrated project — ensuring perfect transitions and proper drainage between surfaces.
-      </p>
-
-      <div className="bg-orange-50 border-l-4 border-brand-orange p-5 rounded-r-xl my-8 not-prose">
-        <p className="font-bold text-gray-900 mb-2">💡 Pro Tip from Our Team</p>
-        <p className="text-gray-700">
-          When combining pavers with synthetic turf, the transition edge is critical. We use a hidden aluminum edge restraint that creates a perfectly clean line between the paver surface and the turf — no gaps, no shifting, no visible hardware. This detail makes the difference between a DIY look and a professional installation.
-        </p>
-      </div>
-
       {/* CTA handled by page wrapper */}
 
       <h2>Patio Design Tips for California Homes</h2>
@@ -157,7 +135,7 @@ export default function BackyardPatioIdeas() {
         <li><strong>Lifetime guarantee</strong> on all patio installations</li>
         <li><strong>Full-service design and build</strong> — from concept to completion</li>
         <li><strong>Expert knowledge</strong> of California climate, soils, and building codes</li>
-        <li><strong>One team for everything</strong> — pavers, retaining walls, turf, and landscaping</li>
+        <li><strong>One team for everything</strong> — pavers, retaining walls, concrete, and landscaping</li>
         <li><strong>Family-owned values</strong> — we treat your home like our own</li>
       </ul>
 

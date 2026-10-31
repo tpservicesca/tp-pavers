@@ -104,7 +104,6 @@ const servicePages = [
   'paver-driveways',
   'paver-patios',
   'retaining-walls',
-  'synthetic-turf',
   'paver-walkways',
 ];
 

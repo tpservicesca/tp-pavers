@@ -99,14 +99,4 @@ export const blogPosts: BlogPost[] = [
     date: '2026-03-15',
     readTime: '7 min read',
   },
-  {
-    slug: 'artificial-turf-pros-cons',
-    title: 'Artificial Turf Pros and Cons: Is It Worth It?',
-    excerpt:
-      'Considering artificial turf? We break down all the advantages and disadvantages to help you make the right decision for your yard.',
-    category: 'Synthetic Turf',
-    image: '/images/S1.webp',
-    date: '2026-03-14',
-    readTime: '8 min read',
-  },
 ];

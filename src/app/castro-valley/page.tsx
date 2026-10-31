@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Castro Valley, CA | TP Pavers',
   description:
-    'Professional paver installation in Castro Valley, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Castro Valley neighborhoods.',
+    'Professional paver installation in Castro Valley, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Castro Valley neighborhoods.',
   keywords: [
     'pavers castro valley',
     'castro valley pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Castro Valley',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Castro Valley, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Castro Valley, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/castro-valley',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Castro Valley\'s rolling hills and canyon terrain in neighborhoods like Five Canyons and Palomares Hills demand expert structural solutions. Our retaining walls prevent erosion, create usable tiered landscapes, and add lasting value.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Save water and keep your Castro Valley lawn green year-round. Our premium artificial turf is perfect for families and pets in neighborhoods from Proctor to Greenridge, ideal for California\'s drought-conscious lifestyle.',
   },
 ];
 

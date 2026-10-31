@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Saratoga, CA | TP Pavers',
   description:
-    'Professional paver installation in Saratoga, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Saratoga neighborhoods.',
+    'Professional paver installation in Saratoga, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Saratoga neighborhoods.',
   keywords: [
     'pavers saratoga',
     'saratoga pavers',
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Saratoga',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Saratoga, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Saratoga, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/saratoga',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       'Saratoga&apos;s hillside terrain and generous lot sizes often call for retaining walls. We build structurally sound, visually stunning walls that manage slopes, create terraced gardens, and maximize usable outdoor space.',
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      'Maintain a picture-perfect lawn on your Saratoga estate without the water consumption. Our premium synthetic turf blends seamlessly with the natural beauty of the surrounding foothills and is perfect for families and outdoor entertaining.',
   },
 ];
 

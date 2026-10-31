@@ -159,7 +159,7 @@ export default function CurbAppealIdeas() {
 
       <ul>
         <li><strong>Lifetime guarantee</strong> on all installations</li>
-        <li><strong>One team for everything</strong> — pavers, walls, turf, drainage, and lighting</li>
+        <li><strong>One team for everything</strong> — pavers, walls, concrete, drainage, and lighting</li>
         <li><strong>20+ years of Bay Area experience</strong></li>
         <li><strong>Licensed, insured, and family-owned</strong></li>
         <li><strong>Free on-site design consultation</strong></li>

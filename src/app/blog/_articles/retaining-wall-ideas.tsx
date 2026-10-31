@@ -206,7 +206,7 @@ export default function RetainingWallIdeas() {
         <li><strong>Licensed and fully insured</strong> — your property is protected</li>
         <li><strong>Expert drainage design</strong> — we prevent water problems before they start</li>
         <li><strong>Permit handling</strong> — we manage the entire process for walls over 4 feet</li>
-        <li><strong>One team, one warranty</strong> — we do walls, pavers, turf, and landscaping in-house</li>
+        <li><strong>One team, one warranty</strong> — we do walls, pavers, concrete, and landscaping in-house</li>
       </ul>
 
       <p>

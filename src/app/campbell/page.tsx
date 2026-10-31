@@ -11,7 +11,7 @@ import Image from 'next/image';
 export const metadata: Metadata = {
   title: 'Paver Installation in Campbell, CA | TP Pavers',
   description:
-    'Professional paver installation in Campbell, California. Driveways, patios, walkways, retaining walls & synthetic turf. 20+ years experience. 10-year warranty. Free estimates. Serving all Campbell neighborhoods.',
+    'Professional paver installation in Campbell, California. Driveways, patios, walkways & retaining walls. 20+ years experience. 10-year warranty. Free estimates. Serving all Campbell neighborhoods.',
   keywords: [
       "pavers campbell",
       "campbell pavers",
@@ -59,7 +59,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'TP Pavers - Campbell',
   description:
-    'Professional paver installation, retaining walls, hardscape design and synthetic turf in Campbell, California. 20+ years experience with 10-year warranty.',
+    'Professional paver installation, retaining walls and hardscape design in Campbell, California. 20+ years experience with 10-year warranty.',
   url: 'https://tppavers.com/campbell',
   telephone: '+1-510-804-1550',
   email: 'contact@tppavers.com',
@@ -107,12 +107,6 @@ const services = [
     title: 'Retaining Walls',
     description:
       "Campbell\'s varied terrain often requires structural solutions. Our retaining walls prevent erosion and add stunning landscape tiers to properties throughout Hacienda and beyond.",
-  },
-  {
-    image: '/images/S1.webp',
-    title: 'Synthetic Turf',
-    description:
-      "Save water and keep your Campbell lawn green year-round. Our premium artificial turf is perfect for families, pets, and California\'s drought-conscious lifestyle.",
   },
 ];
 
