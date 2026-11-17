@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import * as fs from "fs";
 import * as path from "path";
 import { sendEmail } from "@/lib/mailer";
+import { notifyTelegram } from "@/lib/telegram";
 
 const LEAD_TO = process.env.LEAD_TO_EMAIL || "tppaver@gmail.com";
 // If SMTP ever fails the lead still lands in this file so it can be recovered.
@@ -42,6 +43,23 @@ export async function POST(req: NextRequest) {
     replyTo: email || undefined,
   });
 
+  // Instant alert to the team's Telegram group, so a lead never sits unseen in an inbox
+  // (17-nov-2026: one lead fell into Gmail's Promotions tab and was never opened).
+  const tg = await notifyTelegram(
+    [
+      `🧱 Nuevo interesado — TP Pavers (formulario web)`,
+      ``,
+      `Nombre: ${name}`,
+      `Tel: ${phone}`,
+      `Ciudad: ${city || "—"}`,
+      `Correo: ${email || "—"}`,
+      ``,
+      `Qué pide: ${message.slice(0, 1500) || "—"}`,
+      ``,
+      sent.ok ? `(También llegó al correo ${LEAD_TO})` : `⚠️ El correo NO salió: revisar leads-fallback.log`,
+    ].join("\n")
+  );
+
   if (!sent.ok) {
     try {
       fs.appendFileSync(
@@ -53,5 +71,5 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  return NextResponse.json({ ok: true, delivered: sent.ok });
+  return NextResponse.json({ ok: true, delivered: sent.ok, alerted: tg.sent > 0 });
 }
