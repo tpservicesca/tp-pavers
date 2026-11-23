@@ -7,7 +7,8 @@ const nextConfig: NextConfig = {
 
   // Optimize images
   images: {
-    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './h5g/image-loader.ts',
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 31536000, // 1 year cache for optimized images
     deviceSizes: [640, 750, 828, 1080, 1200],
